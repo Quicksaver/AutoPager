@@ -1,0 +1,235 @@
+<!ENTITY autopager-workshop.button.modifyXPath.label "…">
+<!ENTITY autopager-workshop.label.value "Frames">
+<!ENTITY autopager.label.value "AutoPager">
+<!ENTITY autopager.menu.autopager-hidden-panel-menu.label "Paginahouder">
+<!ENTITY autopager.menu.autopager-immedialate-load.key "L">
+<!ENTITY autopager.menu.autopager-immedialate-load.label "Direct laden:">
+<!ENTITY autopager.menuitem.autopager-hidden.label "verborgen">
+<!ENTITY autopager.menuitem.autopager-load-10.key "0">
+<!ENTITY autopager.menuitem.autopager-load-10.label "10 pagina’s">
+<!ENTITY autopager.menuitem.autopager-load-3.key "3">
+<!ENTITY autopager.menuitem.autopager-load-3.label "3 pagina’s">
+<!ENTITY autopager.menuitem.autopager-load-5.key "5">
+<!ENTITY autopager.menuitem.autopager-load-5.label "5 pagina’s">
+<!ENTITY autopager.menuitem.autopager-load-all.key "A">
+<!ENTITY autopager.menuitem.autopager-load-all.label "Alle  pagina’s">
+<!ENTITY autopager.menuitem.autopager-load.modifiers "accel,alt">
+<!ENTITY autopager.menuitem.autopager-pause-load.key "Q">
+<!ENTITY autopager.menuitem.autopager-pause-load.label "Pauzeren">
+<!ENTITY autopager.menuitem.autopager-show.label "weergeven">
+<!ENTITY autopager.sanitizer.entry "AutoPager websitebevestiging">
+<!ENTITY autopager.sanitizer.entry.accesskey "A">
+<!ENTITY autopager.sanitizer.entry.confirm "Wilt u de AutoPager websitebevestiging wissen?">
+<!ENTITY autopager.sidebarTitle "AutoPager site-instellingen workshop">
+<!ENTITY autopager.status.createXPath "XPath aanmaken">
+<!ENTITY autopager.status.createXPathTip "XPath aanmaken door een node op de pagina te selecteren.">
+<!ENTITY autopager.status.disableOnSite "Op website uitschakelen">
+<!ENTITY autopager.status.disableOnSiteTip "Op website uitschakelen">
+<!ENTITY autopager.status.enabled "AutoPager inschakelen">
+<!ENTITY autopager.status.enabledTip "AutoPager in-/uitschakelen">
+<!ENTITY autopager.status.export "Instellingen exporteren">
+<!ENTITY autopager.status.exportTip "AutoPager-instellingen exporteren.">
+<!ENTITY autopager.status.exportclip "Naar Klembord exporteren">
+<!ENTITY autopager.status.exportclipTip "AutoPager-instellingen naar Klembord exporteren.">
+<!ENTITY autopager.status.exportfile "Naar bestand exporteren">
+<!ENTITY autopager.status.exportfileTip "AutoPager-instellingen naar bestand exporteren.">
+<!ENTITY autopager.status.importclip "Van Klembord importeren">
+<!ENTITY autopager.status.importclipTip "AutoPager-instellingen van Klembord importeren.">
+<!ENTITY autopager.status.importexport "Importeren/exporteren">
+<!ENTITY autopager.status.importfile "Uit bestand importeren">
+<!ENTITY autopager.status.importfileTip "AutoPager -nstellingen uit bestand importeren.">
+<!ENTITY autopager.status.importurl "Van URL importeren">
+<!ENTITY autopager.status.importurlTip "AutoPager-instellingen importeren van URL.">
+<!ENTITY autopager.status.myname "Mijn naam:">
+<!ENTITY autopager.status.mynameTip "Uw naam; deze wordt aan de door u aangemaakte configuratie toegevoegd.">
+<!ENTITY autopager.status.reportSite "Probleem met website rapporteren">
+<!ENTITY autopager.status.reportSiteTip "Probleem met website rapporteren">
+<!ENTITY autopager.status.requestHelp "Hulp met website aanvragen">
+<!ENTITY autopager.status.requestHelpTip "Hulp met website aanvragen">
+<!ENTITY autopager.status.setting "Instellingen beheren">
+<!ENTITY autopager.status.settingTip "AutoPager-instellingen beheren">
+<!ENTITY autopager.status.showabout "Over">
+<!ENTITY autopager.status.showaboutTip "‘Over’-venster van AutoPager weergeven.">
+<!ENTITY autopager.status.showoption "Paginaopties weergeven">
+<!ENTITY autopager.status.showoptionTip "Paginaopties voor deze pagina weergeven.">
+<!ENTITY autopager.status.sitewizard "Websitewizard">
+<!ENTITY autopager.status.sitewizardTip "Website-instelling in wizard maken">
+<!ENTITY autopager.status.testXPath "XPath testen">
+<!ENTITY autopager.status.testXPathTip "Een XPath op de pagina testen.">
+<!ENTITY autopager.status.update "Instellingen online bijwerken">
+<!ENTITY autopager.status.updateTip "AutoPager-instellingen bijwerken van Rules Repositories.">
+<!ENTITY autopager.status.xpathUtils "XPath-hulpmiddelen">
+<!ENTITY autopager.toolbarLabel "AutoPager website-instellingen workshop">
+<!ENTITY autopager.tooltip "AutoPager website-instellingen workshop">
+<!ENTITY button.modifyContainerXPath.label "…">
+<!ENTITY button.modifyLinkXPath.label "…">
+<!ENTITY caption.results-caption.label "Resultaten">
+<!ENTITY caption.results-caption2.label "Resultaten">
+<!ENTITY checkbox.chkForceJS.label "JavaScriptmodus forceren">
+<!ENTITY checkbox.ir.label "Aanbevolen regels opnemen">
+<!ENTITY label.Usages.value "Gebruik">
+<!ENTITY label.filterLabel.tooltiptext "Clear this filter to see all rules.">
+<!ENTITY label.filterLabel.value "Filter">
+<!ENTITY label.idsLabel.value "Geselecteerde regel-ID’s (gescheiden door komma’s)">
+<!ENTITY label.lazyLoad "Lui afbeeldingsbroneigenschap laden">
+<!ENTITY label.monitorXPathLbl.value "XPath volgen:">
+<!ENTITY label.value "Aantal">
+<!ENTITY openautopagerSidebar.commandkey "b">
+<!ENTITY openautopagerSidebar.modifiersKey "alt">
+<!ENTITY options.checkbox.ignoreFormatVersionCheck.label "Opmaakversiecontrole negeren">
+<!ENTITY options.checkbox.setAgent.label "AutoPager toevoegen aan User Agent van browser">
+<!ENTITY options.checkbox.tweakSession.label "Sessie tweaken, herstellen naar laatste zichtbare pagina na herstarten">
+<!ENTITY options.dialog.autopager-options.buttonlabelextra1 "Meer">
+<!ENTITY options.dialog.autopager-options.title "AutoPager-opties">
+<!ENTITY options.label.speedLabel.value "Aantal vooruitgeladen pagina’s:">
+<!ENTITY options.menuitem.label0 "0">
+<!ENTITY options.menuitem.label1 "1">
+<!ENTITY options.menuitem.label2 "2">
+<!ENTITY options.menuitem.label3 "3">
+<!ENTITY setting.appname "AutoPager">
+<!ENTITY setting.button.add "Toevoegen…">
+<!ENTITY setting.button.cloneToEdit "Kopiëren voor bewerking">
+<!ENTITY setting.button.cloneToEditTip "Dit onderdeel komt uit een afgeronde bron. U kunt zonodig de gekopieerde versie bewerken.">
+<!ENTITY setting.button.copy "Kopiëren">
+<!ENTITY setting.button.down "Omlaag">
+<!ENTITY setting.button.edit "Bewerken…">
+<!ENTITY setting.button.export "Exporteren">
+<!ENTITY setting.button.exportTip "Geselecteerde onderdelen exporteren">
+<!ENTITY setting.button.import "Importeren">
+<!ENTITY setting.button.pick "Kiezen…">
+<!ENTITY setting.button.public "Publiek">
+<!ENTITY setting.button.remove "Verwijderen">
+<!ENTITY setting.button.reset "Resetten">
+<!ENTITY setting.button.resetTip "Resetten naar online-instelling of vorige instelling (voor lokale regel)">
+<!ENTITY setting.button.up "Omhoog">
+<!ENTITY setting.buttonlabelextra1 "Toepassen">
+<!ENTITY setting.key "u">
+<!ENTITY setting.label.advanced "Geavanceerd">
+<!ENTITY setting.label.allwaysEnableJavaScript "Altijd JavaScript inschakelen bij laden van pagina">
+<!ENTITY setting.label.btnEdit "Bewerken">
+<!ENTITY setting.label.chkAjax "Dit is een AJAX-website. Niet geladen.">
+<!ENTITY setting.label.chkAlt "Alt">
+<!ENTITY setting.label.chkCtrl "Ctrl">
+<!ENTITY setting.label.chkEnableJS "Javascript inschakelen bij het laden van de pagina.">
+<!ENTITY setting.label.chkEnabled "Ingeschakeld">
+<!ENTITY setting.label.chkFixOverflow "Overflowinstelling van de geladen pagina uitschakelen.">
+<!ENTITY setting.label.chkIsRegex "Reguliere expressie?">
+<!ENTITY setting.label.chkQuickLoad "Snel laden (niet voor alle websites veilig).">
+<!ENTITY setting.label.chkShift "Shift">
+<!ENTITY setting.label.chkneedMouseDown "Muisbeweging naar beneden simuleren voor activeren koppeling">
+<!ENTITY setting.label.confirmstyle "Stijl bevestigen:">
+<!ENTITY setting.label.delaymsecs "Milliseconden vertraging voor overgang naar volgende pagina">
+<!ENTITY setting.label.disable-by-default "Uitgeschakeld voor individuele nieuwe website">
+<!ENTITY setting.label.discoverytext "Ontdekking">
+<!ENTITY setting.label.doubleclick "+dubbelklik">
+<!ENTITY setting.label.general "Algemeen">
+<!ENTITY setting.label.grpContentXPath "XPath naar inhoud:">
+<!ENTITY setting.label.grpDiscovery "Ontdekking">
+<!ENTITY setting.label.grpRemoveXPath "XPath filteren (onderdelen van de nieuwe pagina’s negeren):">
+<!ENTITY setting.label.grpSmart "Slim pagineren">
+<!ENTITY setting.label.hotkeys "Sneltoetsen in-/uitschakelen:">
+<!ENTITY setting.label.ignoresite "Websites negeren">
+<!ENTITY setting.label.lblContainerXPath "Container-XPath:">
+<!ENTITY setting.label.lblDesc "Beschrijving:">
+<!ENTITY setting.label.lblLinkXPath "Koppelings-XPath:">
+<!ENTITY setting.label.lblOwner "Gemaakt door:">
+<!ENTITY setting.label.lblSetting "AutoPager instellingenbron">
+<!ENTITY setting.label.lblSettingContext "Contexttype:">
+<!ENTITY setting.label.lblSettingDesc "Beschrijving:">
+<!ENTITY setting.label.lblSettingOwner "Onderhouden door:">
+<!ENTITY setting.label.lblSettingType "Type:">
+<!ENTITY setting.label.lblSettingUrl "URL:">
+<!ENTITY setting.label.lblSettingXPath "XPath:">
+<!ENTITY setting.label.lblURLPattern "URL-patroon:">
+<!ENTITY setting.label.lblUpdate "Websiteconfiguratie automatisch bijwerken:">
+<!ENTITY setting.label.loading "Stijl van laadbericht:">
+<!ENTITY setting.label.localrules "Local Rules">
+<!ENTITY setting.label.margin "Pagineren wanneer de ruimte minder is dan">
+<!ENTITY setting.label.marginEnd "vensterhoogte">
+<!ENTITY setting.label.minipages "Minimaal aantal vooraf geladen pagina’s">
+<!ENTITY setting.label.pagebreak "Stijl van pagina-afbreking:">
+<!ENTITY setting.label.showContextMenu "AutoPager-contextmenu weergeven">
+<!ENTITY setting.label.showHelpTips "Hulppictogram weergeven voor elke control, klik om de beschrijving te zien">
+<!ENTITY setting.label.showPrompt "Vragen voor individuele nieuwe website">
+<!ENTITY setting.label.showStatusBar "AutoPager-pictogram weergeven in statusbalk">
+<!ENTITY setting.label.showToolbarIcon "AutoPager-pictogram weergeven in werkbalk">
+<!ENTITY setting.label.simpleModalPrompt "Eenvoudig dialoogvenster laten zien voor individuele nieuwe website">
+<!ENTITY setting.label.sites "Websites">
+<!ENTITY setting.label.smartenable "Slim pagineren inschakelen">
+<!ENTITY setting.label.smartlinks "Koppeling volgen wanneer er niet meer dan">
+<!ENTITY setting.label.smartlinksEnd "koppelingen worden gevonden.">
+<!ENTITY setting.label.smartmatch "Exactly match only">
+<!ENTITY setting.label.smarttext "Volgende koppeling zoektekst/afbeeldingsbron/ID/Class (scheiden door ‘|’):">
+<!ENTITY setting.label.timeout "Timeout voor laden van pagina (seconden):">
+<!ENTITY setting.label.update "Bijwerken">
+<!ENTITY setting.text.tipContainerXPath "Wijzig dit niet als dit u niets zegt.\nDit helpt als de voornaamste inhoud van de site een container heeft met overflow-y en een schuifbalk. Kijk bijvoorbeeld op www.cuil.com.">
+<!ENTITY setting.title "AutoPager-instellingen">
+<!ENTITY setting.tree.Description "Beschrijving">
+<!ENTITY setting.tree.URLPattern "URL-patroon">
+<!ENTITY setting.type.autopager "AutoPager XML">
+<!ENTITY setting.type.autopagerize "Automatisch pagineren">
+<!ENTITY setting.type.autopagerizeJson "Automatisch pagineren josn">
+<!ENTITY setting.type.autopagerlite "autopager lite">
+<!ENTITY setting.type.autopagertext "AutoPager tekst">
+<!ENTITY setting.update.bidaily "Om de dag">
+<!ENTITY setting.update.daily "Elke dag">
+<!ENTITY setting.update.global "Algemene instelling gebruiken">
+<!ENTITY setting.update.monthly "Elke maand">
+<!ENTITY setting.update.never "Nooit">
+<!ENTITY setting.update.once "Eerste keer">
+<!ENTITY setting.update.startup "Bij elke keer opstarten">
+<!ENTITY setting.update.weekly "Elke week">
+<!ENTITY statusbar.image.autopager-close-toolbar.tooltiptext "AutoPager paginahouder sluiten">
+<!ENTITY statusbar.label.value "Klik om de pagineringsregels online te bekijken">
+<!ENTITY statusbar.menu.autopager-about.label "Help">
+<!ENTITY statusbar.menu.fix.label "Problemen repareren">
+<!ENTITY statusbar.menuitem.autoPagerAutoFix.label "Automatisch repareren">
+<!ENTITY statusbar.menuitem.autoPagerAutoFix.tooltiptext "Problemen automatisch repareren">
+<!ENTITY statusbar.menuitem.autoPagerReset.label "Standaardinstellingen terugzetten">
+<!ENTITY statusbar.menuitem.autoPagerReset.tooltiptext "Alle standaardinstellingen van AutoPager terugzetten">
+<!ENTITY statusbar.menuitem.autoPagerShoting.label "Problemen oplossen">
+<!ENTITY statusbar.menuitem.autoPagerShoting.tooltiptext "Problemen oplossen">
+<!ENTITY statusbar.menuitem.autopager-clean.label "Alles opruimen">
+<!ENTITY statusbar.menuitem.autopager-donation.label "Donatie">
+<!ENTITY statusbar.menuitem.autopager-donation.tooltiptext "Donatiepagina weergeven">
+<!ENTITY statusbar.menuitem.autopager-related-search.label "Contextgerelateerd zoeken">
+<!ENTITY statusbar.menuitem.autopager-showhelp.label "Help">
+<!ENTITY statusbar.menuitem.autopager-showhelp.tooltiptext "Helppagina weergeven">
+<!ENTITY statusbar.menuitem.autopager-showrules.label "Regels">
+<!ENTITY statusbar.menuitem.autopager-showrules.tooltiptext "Regels in de online repository weergeven">
+<!ENTITY statusbar.menuitem.autopager-showtutorials.label "Handleidingen">
+<!ENTITY statusbar.menuitem.autopager-showtutorials.tooltiptext "Pagina met handleidingen weergeven">
+<!ENTITY statusbar.menuitem.autopagerlite-discover.label "Regels online doorzoeken">
+<!ENTITY statusbar.menuitem.autopagerlite-discover.tooltiptext "Regels online doorzoeken">
+<!ENTITY statusbar.menuitem.autopagerlite-switchToLite.label "Naar Lite-modus omschakelen">
+<!ENTITY statusbar.menuitem.autopagerlite-switchToLite.tooltiptext "Naar AutoPager Lite-modus omschakelen">
+<!ENTITY statusbar.menuitem.autopagerlite-switchToNormal.label "Naar normale modus omschakelen">
+<!ENTITY statusbar.menuitem.autopagerlite-switchToNormal.tooltiptext "Naar normale AutoPager-modus omschakelen">
+<!ENTITY statusbar.menuitem.disable-on-default.label "Pagineren standaard uitschakelen">
+<!ENTITY statusbar.menuitem.discover.label "Overeenkomende regels online ontdekken">
+<!ENTITY statusbar.menuitem.highlightContents.label "Inhoud accentueren">
+<!ENTITY statusbar.menuitem.highlightContents.tooltiptext "Inhoud in het document accentueren">
+<!ENTITY statusbar.menuitem.highlightLinks.label "Volgende koppelingen accentueren">
+<!ENTITY statusbar.menuitem.highlightLinks.tooltiptext "Volgende koppelingen in het document accentueren">
+<!ENTITY statusbar.menuitem.label "Opties">
+<!ENTITY statusbar.menuitem.liteModel.label "Werkt in de Lite-modus">
+<!ENTITY statusbar.menuitem.noPrompt.label "Dit in nieuwe website weergeven">
+<!ENTITY statusbar.menuitem.showDiscoverPanel.label "Pictogram Ontdekken altijd weergeven">
+<!ENTITY statusbar.menuitem.tooltiptext "AutoPager hoofdopties">
+<!ENTITY statusbar.statusbarpanel.autopagerlite_status.label "?">
+<!ENTITY textbox.lazyImgSrc.tooltiptext "Afbeelding lui laden-eigenschap">
+<!ENTITY textbox.monitorXPath.tooltiptext "Geladen pagina’s opschonen wanneer elementen volgens dit xpath worden aangeklikt/gewijzigd">
+<!ENTITY toolbarbutton.addSite.tooltiptext "Website toevoegen">
+<!ENTITY toolbarbutton.clearAllPath.tooltiptext "Alles wissen">
+<!ENTITY toolbarbutton.discoverPath.tooltiptext "Ontdekking">
+<!ENTITY toolbarbutton.openInOwnWin.tooltiptext "In eigen venster openen">
+<!ENTITY toolbarbutton.openInSidebar.tooltiptext "In zijbalk openen">
+<!ENTITY toolbarbutton.pickupContentPath.tooltiptext "Inhoud oppikken">
+<!ENTITY toolbarbutton.pickupLinkPath.tooltiptext "Koppeling oppikken">
+<!ENTITY toolbarbutton.testSite.tooltiptext "Site testen">
+<!ENTITY treecol.authorityCol.label "Authorisatie">
+<!ENTITY treecol.contentXpathCol.label "Inhouds-XPath">
+<!ENTITY treecol.fileCol.label "Bestand">
+<!ENTITY treecol.linkXpathCol.label "Koppelings-XPath">
+<!ENTITY treecol.machedCol.label "Aantal matches">
+<!ENTITY treecol.xpathCol.label "XPath">

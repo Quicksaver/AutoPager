@@ -1,0 +1,235 @@
+<!ENTITY autopager-workshop.button.modifyXPath.label "...">
+<!ENTITY autopager-workshop.label.value "Frames">
+<!ENTITY autopager.label.value "Auto Pager">
+<!ENTITY autopager.menu.autopager-hidden-panel-menu.label "Page Holder">
+<!ENTITY autopager.menu.autopager-immedialate-load.key "L">
+<!ENTITY autopager.menu.autopager-immedialate-load.label "Töltsön be azonnal">
+<!ENTITY autopager.menuitem.autopager-hidden.label "rejtett">
+<!ENTITY autopager.menuitem.autopager-load-10.key "0">
+<!ENTITY autopager.menuitem.autopager-load-10.label "10 oldalt">
+<!ENTITY autopager.menuitem.autopager-load-3.key "3">
+<!ENTITY autopager.menuitem.autopager-load-3.label "3 oldalt">
+<!ENTITY autopager.menuitem.autopager-load-5.key "5">
+<!ENTITY autopager.menuitem.autopager-load-5.label "5 oldalt">
+<!ENTITY autopager.menuitem.autopager-load-all.key "Ö">
+<!ENTITY autopager.menuitem.autopager-load-all.label "Összes oldalt">
+<!ENTITY autopager.menuitem.autopager-load.modifiers "accel,alt">
+<!ENTITY autopager.menuitem.autopager-pause-load.key "Q">
+<!ENTITY autopager.menuitem.autopager-pause-load.label "Pause">
+<!ENTITY autopager.menuitem.autopager-show.label "mutatás">
+<!ENTITY autopager.sanitizer.entry "AutoPager Site Confirmation">
+<!ENTITY autopager.sanitizer.entry.accesskey "A">
+<!ENTITY autopager.sanitizer.entry.confirm "Do you want to clear autoPager site confirmation?">
+<!ENTITY autopager.sidebarTitle "AutoPager Site Setting Workshop">
+<!ENTITY autopager.status.createXPath "XPath készítése">
+<!ENTITY autopager.status.createXPathTip "Create XPath by select a node on the page.">
+<!ENTITY autopager.status.disableOnSite "Disable On Site">
+<!ENTITY autopager.status.disableOnSiteTip "Disable On Site">
+<!ENTITY autopager.status.enabled "AutoPager engedélyezése">
+<!ENTITY autopager.status.enabledTip "Auto Pager enabled or not.">
+<!ENTITY autopager.status.export "Export Setting">
+<!ENTITY autopager.status.exportTip "Export Auto Pager Settings.">
+<!ENTITY autopager.status.exportclip "Export To Clipboard">
+<!ENTITY autopager.status.exportclipTip "Export Auto Pager Settings To Clipboard.">
+<!ENTITY autopager.status.exportfile "Export To File">
+<!ENTITY autopager.status.exportfileTip "Export Auto Pager Settings To File.">
+<!ENTITY autopager.status.importclip "Import from Clipboard">
+<!ENTITY autopager.status.importclipTip "Import Auto Pager Settings from a Clipboard.">
+<!ENTITY autopager.status.importexport "Import/Export">
+<!ENTITY autopager.status.importfile "Import from File">
+<!ENTITY autopager.status.importfileTip "Import Auto Pager Settings from a File.">
+<!ENTITY autopager.status.importurl "Import from URL">
+<!ENTITY autopager.status.importurlTip "Import Auto Pager Settings from URL.">
+<!ENTITY autopager.status.myname "Nevem:">
+<!ENTITY autopager.status.mynameTip "Your Name, it will be added to the config your created.">
+<!ENTITY autopager.status.reportSite "Report Issue On Site">
+<!ENTITY autopager.status.reportSiteTip "Report Issue On Site">
+<!ENTITY autopager.status.requestHelp "Request Help On Site">
+<!ENTITY autopager.status.requestHelpTip "Request Help On Site">
+<!ENTITY autopager.status.setting "Manage Setting">
+<!ENTITY autopager.status.settingTip "Manage Auto Pager Setting.">
+<!ENTITY autopager.status.showabout "Névjegy">
+<!ENTITY autopager.status.showaboutTip "Show About Of AutoPager.">
+<!ENTITY autopager.status.showoption "Show Page Options">
+<!ENTITY autopager.status.showoptionTip "Show the Page Options for this page.">
+<!ENTITY autopager.status.sitewizard "Oldal varázsló">
+<!ENTITY autopager.status.sitewizardTip "Oldal beállítása a varázslóban">
+<!ENTITY autopager.status.testXPath "XPath tesztelése">
+<!ENTITY autopager.status.testXPathTip "Test XPath an XPath on the page.">
+<!ENTITY autopager.status.update "Update Setting Online">
+<!ENTITY autopager.status.updateTip "Update Auto Pager Setting From Rules Repositories.">
+<!ENTITY autopager.status.xpathUtils "XPath Utils">
+<!ENTITY autopager.toolbarLabel "AutoPager">
+<!ENTITY autopager.tooltip "AutoPager Site Setting Workshop">
+<!ENTITY button.modifyContainerXPath.label "...">
+<!ENTITY button.modifyLinkXPath.label "...">
+<!ENTITY caption.results-caption.label "Results">
+<!ENTITY caption.results-caption2.label "Results">
+<!ENTITY checkbox.chkForceJS.label "Force JavaScript Mode">
+<!ENTITY checkbox.ir.label "Include Recommended Rules">
+<!ENTITY label.Usages.value "Usages">
+<!ENTITY label.filterLabel.tooltiptext "Clear this filter to see all rules.">
+<!ENTITY label.filterLabel.value "Filter">
+<!ENTITY label.idsLabel.value "Selected Rule IDs(Seperate by ,)">
+<!ENTITY label.lazyLoad "Lazy load image src attribute">
+<!ENTITY label.monitorXPathLbl.value "Monitor XPath:">
+<!ENTITY label.value "Count">
+<!ENTITY openautopagerSidebar.commandkey "S">
+<!ENTITY openautopagerSidebar.modifiersKey "alt">
+<!ENTITY options.checkbox.ignoreFormatVersionCheck.label "Ignore Format Version Check">
+<!ENTITY options.checkbox.setAgent.label "Add AutoPager to browser User Agent">
+<!ENTITY options.checkbox.tweakSession.label "Tweak Session, restore to the last visible page after restart">
+<!ENTITY options.dialog.autopager-options.buttonlabelextra1 "More">
+<!ENTITY options.dialog.autopager-options.title "AutoPager Options">
+<!ENTITY options.label.speedLabel.value "Proload page count:">
+<!ENTITY options.menuitem.label0 "0">
+<!ENTITY options.menuitem.label1 "1">
+<!ENTITY options.menuitem.label2 "2">
+<!ENTITY options.menuitem.label3 "3">
+<!ENTITY setting.appname "Auto Pager">
+<!ENTITY setting.button.add "Hozzáadás...">
+<!ENTITY setting.button.cloneToEdit "Clone To Edit">
+<!ENTITY setting.button.cloneToEditTip "This item is from a ready source. You can only edit the cloned version if needed.">
+<!ENTITY setting.button.copy "Clone">
+<!ENTITY setting.button.down "Down">
+<!ENTITY setting.button.edit "Szerkesztés...">
+<!ENTITY setting.button.export "Exportálás">
+<!ENTITY setting.button.exportTip "Export Select Items">
+<!ENTITY setting.button.import "Importálás">
+<!ENTITY setting.button.pick "Pick...">
+<!ENTITY setting.button.public "Publish">
+<!ENTITY setting.button.remove "Remove">
+<!ENTITY setting.button.reset "Reset">
+<!ENTITY setting.button.resetTip "Reset to online setting or previous setting(for local rule)">
+<!ENTITY setting.button.up "Up">
+<!ENTITY setting.buttonlabelextra1 "Apply">
+<!ENTITY setting.key "u">
+<!ENTITY setting.label.advanced "Advanced">
+<!ENTITY setting.label.allwaysEnableJavaScript "Always Enable Java Script While Loading Page">
+<!ENTITY setting.label.btnEdit "Szerkesztés">
+<!ENTITY setting.label.chkAjax "This is an ajax site.No load event.">
+<!ENTITY setting.label.chkAlt "Alt">
+<!ENTITY setting.label.chkCtrl "Ctrl">
+<!ENTITY setting.label.chkEnableJS "Enable Javascript while loading page.">
+<!ENTITY setting.label.chkEnabled "Enabled">
+<!ENTITY setting.label.chkFixOverflow "Disable the overflow setting of loaded page.">
+<!ENTITY setting.label.chkIsRegex "Is RegExp?">
+<!ENTITY setting.label.chkQuickLoad "Quick Load(Not safe for all site).">
+<!ENTITY setting.label.chkShift "Shift">
+<!ENTITY setting.label.chkneedMouseDown "Need Trigger Mouse Down Event for the link">
+<!ENTITY setting.label.confirmstyle "confirm style:">
+<!ENTITY setting.label.delaymsecs "Milliseconds to delay before merge next page">
+<!ENTITY setting.label.disable-by-default "Disabled for individual new site">
+<!ENTITY setting.label.discoverytext "Discovery">
+<!ENTITY setting.label.doubleclick "+Double Click">
+<!ENTITY setting.label.general "General">
+<!ENTITY setting.label.grpContentXPath "Content XPath:">
+<!ENTITY setting.label.grpDiscovery "Discovery">
+<!ENTITY setting.label.grpRemoveXPath "Filter XPath(Ignore items from the new pages):">
+<!ENTITY setting.label.grpSmart "Smart Paging">
+<!ENTITY setting.label.hotkeys "Enable/Disable hotkeys:">
+<!ENTITY setting.label.ignoresite "Ignore Sites">
+<!ENTITY setting.label.lblContainerXPath "Container XPath:">
+<!ENTITY setting.label.lblDesc "Description:">
+<!ENTITY setting.label.lblLinkXPath "Link XPath:">
+<!ENTITY setting.label.lblOwner "Created By:">
+<!ENTITY setting.label.lblSetting "AutoPager setting source">
+<!ENTITY setting.label.lblSettingContext "Context Type:">
+<!ENTITY setting.label.lblSettingDesc "Desc:">
+<!ENTITY setting.label.lblSettingOwner "Maintained By:">
+<!ENTITY setting.label.lblSettingType "Type:">
+<!ENTITY setting.label.lblSettingUrl "URL:">
+<!ENTITY setting.label.lblSettingXPath "XPath:">
+<!ENTITY setting.label.lblURLPattern "URL Pattern:">
+<!ENTITY setting.label.lblUpdate "Auto Update Site Configurations:">
+<!ENTITY setting.label.loading "loading notification style:">
+<!ENTITY setting.label.localrules "Local Rules">
+<!ENTITY setting.label.margin "Paging when space is less then">
+<!ENTITY setting.label.marginEnd "window heights">
+<!ENTITY setting.label.minipages "Minimum preloaded page count">
+<!ENTITY setting.label.pagebreak "page break style:">
+<!ENTITY setting.label.showContextMenu "Show autopager context menu">
+<!ENTITY setting.label.showHelpTips "Show a help tip image for each controls, click to see the description for that control">
+<!ENTITY setting.label.showPrompt "Show prompt for individual new site">
+<!ENTITY setting.label.showStatusBar "Show autopager icon in status bar">
+<!ENTITY setting.label.showToolbarIcon "Show autopager icon in toolbar">
+<!ENTITY setting.label.simpleModalPrompt "Show simple modal prompt for individual new site">
+<!ENTITY setting.label.sites "Sites">
+<!ENTITY setting.label.smartenable "Enable Smart Paging">
+<!ENTITY setting.label.smartlinks "Follow link when there are no more then">
+<!ENTITY setting.label.smartlinksEnd "meet links.">
+<!ENTITY setting.label.smartmatch "Exactly match only">
+<!ENTITY setting.label.smarttext "Next Link Search Text/Image Src/ID/Class(Split by &apos;|&apos;):">
+<!ENTITY setting.label.timeout "page loading timeout(Seconds):">
+<!ENTITY setting.label.update "Update">
+<!ENTITY setting.text.tipContainerXPath "Don&apos;t change it if you don&apos;t know it.\nThis will help if the main content of the site have a container with overflow-y and scrollbar. Take www.cuil.com as an example.">
+<!ENTITY setting.title "Auto Pager Setting">
+<!ENTITY setting.tree.Description "Description">
+<!ENTITY setting.tree.URLPattern "URL Pattern">
+<!ENTITY setting.type.autopager "autopager xml">
+<!ENTITY setting.type.autopagerize "autopagerize">
+<!ENTITY setting.type.autopagerizeJson "autopagerize josn">
+<!ENTITY setting.type.autopagerlite "autopager lite">
+<!ENTITY setting.type.autopagertext "autopager text">
+<!ENTITY setting.update.bidaily "Every Other Day">
+<!ENTITY setting.update.daily "Mindennap">
+<!ENTITY setting.update.global "Use Global Setting">
+<!ENTITY setting.update.monthly "Minden hónapban">
+<!ENTITY setting.update.never "Soha">
+<!ENTITY setting.update.once "Első alkalommal">
+<!ENTITY setting.update.startup "Minden indításkor">
+<!ENTITY setting.update.weekly "Minden héten">
+<!ENTITY statusbar.image.autopager-close-toolbar.tooltiptext "Close AutoPager Page Holder">
+<!ENTITY statusbar.label.value "Click to view the paging rules online">
+<!ENTITY statusbar.menu.autopager-about.label "Help">
+<!ENTITY statusbar.menu.fix.label "Fix Issues">
+<!ENTITY statusbar.menuitem.autoPagerAutoFix.label "Auto Fix">
+<!ENTITY statusbar.menuitem.autoPagerAutoFix.tooltiptext "Auto Fix Issues">
+<!ENTITY statusbar.menuitem.autoPagerReset.label "Reset All Setting">
+<!ENTITY statusbar.menuitem.autoPagerReset.tooltiptext "Reset All AutoPager Setting">
+<!ENTITY statusbar.menuitem.autoPagerShoting.label "Trouble Shooting">
+<!ENTITY statusbar.menuitem.autoPagerShoting.tooltiptext "Trouble Shooting">
+<!ENTITY statusbar.menuitem.autopager-clean.label "Clean All">
+<!ENTITY statusbar.menuitem.autopager-donation.label "Donation">
+<!ENTITY statusbar.menuitem.autopager-donation.tooltiptext "Show Donation Page">
+<!ENTITY statusbar.menuitem.autopager-related-search.label "Show Related Search">
+<!ENTITY statusbar.menuitem.autopager-showhelp.label "Help">
+<!ENTITY statusbar.menuitem.autopager-showhelp.tooltiptext "Show Help Page">
+<!ENTITY statusbar.menuitem.autopager-showrules.label "Rules">
+<!ENTITY statusbar.menuitem.autopager-showrules.tooltiptext "Show Rules in the Online Repository">
+<!ENTITY statusbar.menuitem.autopager-showtutorials.label "Tutorials">
+<!ENTITY statusbar.menuitem.autopager-showtutorials.tooltiptext "Show Tutorials Page">
+<!ENTITY statusbar.menuitem.autopagerlite-discover.label "Search rules online">
+<!ENTITY statusbar.menuitem.autopagerlite-discover.tooltiptext "Search rules online">
+<!ENTITY statusbar.menuitem.autopagerlite-switchToLite.label "Switch To Lite Mode">
+<!ENTITY statusbar.menuitem.autopagerlite-switchToLite.tooltiptext "Switch To AutoPager Lite Mode">
+<!ENTITY statusbar.menuitem.autopagerlite-switchToNormal.label "Switch To Normal Mode">
+<!ENTITY statusbar.menuitem.autopagerlite-switchToNormal.tooltiptext "Switch To AutoPager Normal Mode">
+<!ENTITY statusbar.menuitem.disable-on-default.label "Disable Paging By Default">
+<!ENTITY statusbar.menuitem.discover.label "Discover matched rules online">
+<!ENTITY statusbar.menuitem.highlightContents.label "Highlight Contents">
+<!ENTITY statusbar.menuitem.highlightContents.tooltiptext "Highlight Contents in the document">
+<!ENTITY statusbar.menuitem.highlightLinks.label "Highlight Next Links">
+<!ENTITY statusbar.menuitem.highlightLinks.tooltiptext "Highlight Next Links in the document">
+<!ENTITY statusbar.menuitem.label "Options">
+<!ENTITY statusbar.menuitem.liteModel.label "Works in lite model">
+<!ENTITY statusbar.menuitem.noPrompt.label "Show This On New Site">
+<!ENTITY statusbar.menuitem.showDiscoverPanel.label "Always show discover icon">
+<!ENTITY statusbar.menuitem.tooltiptext "AutoPager Core Options">
+<!ENTITY statusbar.statusbarpanel.autopagerlite_status.label "?">
+<!ENTITY textbox.lazyImgSrc.tooltiptext "Image Lazy load Attribute">
+<!ENTITY textbox.monitorXPath.tooltiptext "Clean Loaded Pages when elements by following xpath clicked/changed">
+<!ENTITY toolbarbutton.addSite.tooltiptext "Oldal hozzáadása">
+<!ENTITY toolbarbutton.clearAllPath.tooltiptext "Clear All">
+<!ENTITY toolbarbutton.discoverPath.tooltiptext "Discovery">
+<!ENTITY toolbarbutton.openInOwnWin.tooltiptext "Open In Own Window">
+<!ENTITY toolbarbutton.openInSidebar.tooltiptext "Open In Sidebar">
+<!ENTITY toolbarbutton.pickupContentPath.tooltiptext "Pickup Content">
+<!ENTITY toolbarbutton.pickupLinkPath.tooltiptext "Pickup Link">
+<!ENTITY toolbarbutton.testSite.tooltiptext "Test Site">
+<!ENTITY treecol.authorityCol.label "Authority">
+<!ENTITY treecol.contentXpathCol.label "Content XPath">
+<!ENTITY treecol.fileCol.label "File">
+<!ENTITY treecol.linkXpathCol.label "Link XPath">
+<!ENTITY treecol.machedCol.label "Matched Count">
+<!ENTITY treecol.xpathCol.label "XPath">

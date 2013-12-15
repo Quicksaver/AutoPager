@@ -1,0 +1,73 @@
+<!ENTITY xpath-exprestion.button.reset.label "Återställ">
+<!ENTITY xpath-exprestion.descriptionBox.text "Uttrycksbeskrivning för XPath">
+<!ENTITY xpath-exprestion.dialog.xpath-expressions.title "XPath-uttryck">
+<!ENTITY xpath-exprestion.tab.boolean.label "Booleska funktioner">
+<!ENTITY xpath-exprestion.tab.location.label "Platser">
+<!ENTITY xpath-exprestion.tab.nodeset.label "Noduppsättningsfunktioner">
+<!ENTITY xpath-exprestion.tab.number.label "Talfunktioner">
+<!ENTITY xpath-exprestion.tab.string.label "Strängfunktioner">
+<!ENTITY xpath-exprestion.treecell.d_ancestor-or-self.label "Markerar överordnade element till kontextnoden och sig själv ">
+<!ENTITY xpath-exprestion.treecell.d_ancestor.label "Markerar överordnade element till kontextnoden">
+<!ENTITY xpath-exprestion.treecell.d_attribute.label "Markerar attribut hos kontextnoden">
+<!ENTITY xpath-exprestion.treecell.d_boolean.label "Returnerar den booleska representationen av objektargumentet.">
+<!ENTITY xpath-exprestion.treecell.d_ceiling.label "Returnerar det minsta heltalsvärdet som inte är mindre än argumentet.">
+<!ENTITY xpath-exprestion.treecell.d_child.label "Markerar underordnade objekt till kontextnoden">
+<!ENTITY xpath-exprestion.treecell.d_concat.label "Returnerar sammanlänkningen av dess argument.">
+<!ENTITY xpath-exprestion.treecell.d_contains.label "Returnerar SANT om den första argumentsträngen innehåller den andra argumentsträngen.">
+<!ENTITY xpath-exprestion.treecell.d_count.label "Returnerar antalet noder i noduppsättningen.">
+<!ENTITY xpath-exprestion.treecell.d_descendant-or-self.label "Markerar underordnade noder till kontextnoden och sig själv">
+<!ENTITY xpath-exprestion.treecell.d_descendant.label "Markerar underordnade noder till kontextnoden">
+<!ENTITY xpath-exprestion.treecell.d_false.label "Returnerar en boolesk med värdet FALSKT.">
+<!ENTITY xpath-exprestion.treecell.d_floor.label "Returnerar det största heltalsvärdet som inte är större än argumentet.">
+<!ENTITY xpath-exprestion.treecell.d_following-sibling.label "Markerar nästa kapitel på samma nivå som kontextnoden">
+<!ENTITY xpath-exprestion.treecell.d_following.label "Markerar efterföljare till kontextnoden">
+<!ENTITY xpath-exprestion.treecell.d_id.label "Returnerar ett element, som specificeras av sitt unika ID.">
+<!ENTITY xpath-exprestion.treecell.d_lang.label "Returnerar SANT om språket för kontextnoden är detsamma som språket som anges av argumentet.">
+<!ENTITY xpath-exprestion.treecell.d_last.label "Returnerar positionen för den sista noden i kontextlistan.">
+<!ENTITY xpath-exprestion.treecell.d_local-name.label "Returnerar det lokala namnet på kontextnoden.">
+<!ENTITY xpath-exprestion.treecell.d_local-name_N.label "Returnerar det lokala namnet på den första noden i noduppsättningen.">
+<!ENTITY xpath-exprestion.treecell.d_name.label "Returnerar namnet på kontextnoden.">
+<!ENTITY xpath-exprestion.treecell.d_name_N.label "Returnerar namnet på den första noden i noduppsättningen.">
+<!ENTITY xpath-exprestion.treecell.d_namespace-uri.label "Returnerar namnrymds-URI:n för kontextnoden.">
+<!ENTITY xpath-exprestion.treecell.d_namespace-uri_N.label "Returnerar namnrymds-URI:n för den första noden i noduppsättningen.">
+<!ENTITY xpath-exprestion.treecell.d_namespace.label "Markerar namnrymder för kontextnoden">
+<!ENTITY xpath-exprestion.treecell.d_normalize-space.label "Returnerar en blankteckennormaliserad sträng som anges av kontextnoden.">
+<!ENTITY xpath-exprestion.treecell.d_normalize-space_S.label "Returnerar en blankteckennormaliserad sträng som anges av argumentet.">
+<!ENTITY xpath-exprestion.treecell.d_not.label "Returnerar en boolesk med det motsatta värdet av sitt argument.">
+<!ENTITY xpath-exprestion.treecell.d_number.label "Returnerar talrepresentationen av kontextnoden.">
+<!ENTITY xpath-exprestion.treecell.d_number_O.label "Returnerar talrepresentationen av objektargumentet.">
+<!ENTITY xpath-exprestion.treecell.d_parent.label "Markerar överordnad nod till kontextnoden">
+<!ENTITY xpath-exprestion.treecell.d_position.label "Returnerar positionen för den aktuella kontextnoden.">
+<!ENTITY xpath-exprestion.treecell.d_preceding-sibling.label "Markerar det föregående kapitlet på samma nivå som kontextnoden">
+<!ENTITY xpath-exprestion.treecell.d_preceding.label "Markerar företrädare till kontextnoden">
+<!ENTITY xpath-exprestion.treecell.d_round.label "Returnerar heltalsvärdet som ligger närmast argumentet.">
+<!ENTITY xpath-exprestion.treecell.d_self.label "Markera kontextnoden">
+<!ENTITY xpath-exprestion.treecell.d_starts-with.label "Returnerar SANT om den första argumentsträngen startar med den andra argumentsträngen.">
+<!ENTITY xpath-exprestion.treecell.d_string-length.label "Returnerar längden på strängen som anges av kontextnoden.">
+<!ENTITY xpath-exprestion.treecell.d_string-length_S.label "Returnerar längden på strängen som anges av argumentet.">
+<!ENTITY xpath-exprestion.treecell.d_string.label "Returnerar en strängvärdesrepresentation av kontextnoden.">
+<!ENTITY xpath-exprestion.treecell.d_string_O.label "Returnerar strängrepresentationen av objektargumentet.">
+<!ENTITY xpath-exprestion.treecell.d_substring-after.label "Returnerar delsträngen av den första argumentsträng som följer på den första förekomsten av det andra argumentet.">
+<!ENTITY xpath-exprestion.treecell.d_substring-before.label "Returnerar delsträngen av den första argumentsträng som föregår den första förekomsten av det andra argumentet.">
+<!ENTITY xpath-exprestion.treecell.d_substring.label "Returnerar delsträngen av det första argumentet från positionen som anges av det andra argumentet.">
+<!ENTITY xpath-exprestion.treecell.d_substring_N.label "Returnerar delsträngen av det första argumentet, med början på positionen som anges av det andra argumentet och med längden som anges av det tredje argumentet.">
+<!ENTITY xpath-exprestion.treecell.d_sum.label "Returnerar summan av alla noder i noduppsättningen.">
+<!ENTITY xpath-exprestion.treecell.d_text.label "Returnerar textinnehållet av kontextnoden.">
+<!ENTITY xpath-exprestion.treecell.d_translate.label "Ersätter de tecken i strängen som anges av det andra argumentet med de tecken som anges av det tredje argumentet.">
+<!ENTITY xpath-exprestion.treecell.d_true.label "Returnerar en boolesk med värdet SANT.">
+<!ENTITY xpath-exprestion.treecell.s_ancestor-or-self.label "Överordnade element till kontextnoden och sig själv">
+<!ENTITY xpath-exprestion.treecell.s_ancestor.label "Överordnade element till kontextnoden">
+<!ENTITY xpath-exprestion.treecell.s_attribute.label "Attribut hos kontextnoden">
+<!ENTITY xpath-exprestion.treecell.s_child.label "Underordnade objekt till kontextnoden">
+<!ENTITY xpath-exprestion.treecell.s_descendant-or-self.label "Underordnade noder till kontextnoden och sig själv">
+<!ENTITY xpath-exprestion.treecell.s_descendant.label "Underordnade noder till kontextnoden">
+<!ENTITY xpath-exprestion.treecell.s_following-sibling.label "Nästa kapitel på samma nivå som kontextnoden">
+<!ENTITY xpath-exprestion.treecell.s_following.label "Efterföljare till kontextnoden">
+<!ENTITY xpath-exprestion.treecell.s_namespace.label "Namnrymder för kontextnoden">
+<!ENTITY xpath-exprestion.treecell.s_parent.label "Överordnad nod till kontextnoden">
+<!ENTITY xpath-exprestion.treecell.s_preceding-sibling.label "Det föregående kapitlet på samma nivå som kontextnoden">
+<!ENTITY xpath-exprestion.treecell.s_preceding.label "Företrädare till kontextnoden">
+<!ENTITY xpath-exprestion.treecell.s_self.label "Kontextnoden">
+<!ENTITY xpath-exprestion.treecol.description.label "Beskrivning">
+<!ENTITY xpath-exprestion.treecol.function.label "Funktion">
+<!ENTITY xpath-exprestion.treecol.shortdescription.label "Kort beskrivning">

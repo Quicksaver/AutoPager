@@ -1,0 +1,73 @@
+<!ENTITY xpath-exprestion.button.reset.label "Resetten">
+<!ENTITY xpath-exprestion.descriptionBox.text "XPath expressiebeschrijving">
+<!ENTITY xpath-exprestion.dialog.xpath-expressions.title "XPath expressie">
+<!ENTITY xpath-exprestion.tab.boolean.label "Boolean functies">
+<!ENTITY xpath-exprestion.tab.location.label "Locaties">
+<!ENTITY xpath-exprestion.tab.nodeset.label "Node-set functies">
+<!ENTITY xpath-exprestion.tab.number.label "Nummerfuncties">
+<!ENTITY xpath-exprestion.tab.string.label "Stringfuncties">
+<!ENTITY xpath-exprestion.treecell.d_ancestor-or-self.label "selecteert voorgangers van de contextnode en zichzelf">
+<!ENTITY xpath-exprestion.treecell.d_ancestor.label "selecteert voorgangers van de contextnode">
+<!ENTITY xpath-exprestion.treecell.d_attribute.label "selecteert attribuut van de contextnode">
+<!ENTITY xpath-exprestion.treecell.d_boolean.label "Geeft de boolean weergave van het objectargument.">
+<!ENTITY xpath-exprestion.treecell.d_ceiling.label "Geeft de kleinste integere waarde, ten minste het argument">
+<!ENTITY xpath-exprestion.treecell.d_child.label "selecteert kinderen van de contextnode">
+<!ENTITY xpath-exprestion.treecell.d_concat.label "Geeft de samenvatting van de argumenten">
+<!ENTITY xpath-exprestion.treecell.d_contains.label "Geeft ‘true’ als de eerste argumentregel de tweede argumentregel bevat.">
+<!ENTITY xpath-exprestion.treecell.d_count.label "Geeft het aantal nodes in de nodeset.">
+<!ENTITY xpath-exprestion.treecell.d_descendant-or-self.label "selecteert afstammelingen van de contextnode en zichzelf">
+<!ENTITY xpath-exprestion.treecell.d_descendant.label "selecteert afstammelingen van de contextnode">
+<!ENTITY xpath-exprestion.treecell.d_false.label "Geeft een boolean met de waarde ‘false’.">
+<!ENTITY xpath-exprestion.treecell.d_floor.label "Geeft de grootste integere waarde, ten hoogste het argument.">
+<!ENTITY xpath-exprestion.treecell.d_following-sibling.label "selecteert volgende hoofdstukverwant van de contextnode">
+<!ENTITY xpath-exprestion.treecell.d_following.label "selecteert volgelingen van de contextnode">
+<!ENTITY xpath-exprestion.treecell.d_id.label "Geeft het element dat is opgegeven door zijn unieke id.">
+<!ENTITY xpath-exprestion.treecell.d_lang.label "Geeft ‘true’ als de taal van de contextnode als de taal die is opgegeven in het argument.">
+<!ENTITY xpath-exprestion.treecell.d_last.label "Geeft de positie van de laatste node in de contextlijst.">
+<!ENTITY xpath-exprestion.treecell.d_local-name.label "Geeft de lokale naam voor de contextnode.">
+<!ENTITY xpath-exprestion.treecell.d_local-name_N.label "Geeft de lokale naam voor de eerste node in de nodeset.">
+<!ENTITY xpath-exprestion.treecell.d_name.label "Geeft de naam voor de contextnode.">
+<!ENTITY xpath-exprestion.treecell.d_name_N.label "Geeft de naam voor de eerste node in de nodeset.">
+<!ENTITY xpath-exprestion.treecell.d_namespace-uri.label "Geeft de namespace-URI voor de contextnode.">
+<!ENTITY xpath-exprestion.treecell.d_namespace-uri_N.label "Geeft de namespace-URI voor de eerste node in de nodeset.">
+<!ENTITY xpath-exprestion.treecell.d_namespace.label "selecteert namespaces van de contextnode.">
+<!ENTITY xpath-exprestion.treecell.d_normalize-space.label "Geeft een met witte ruimte genormaliseerde string zoals opgegeven door de contextnode.">
+<!ENTITY xpath-exprestion.treecell.d_normalize-space_S.label "Geeft een met witte ruimte genormaliseerde string zoals opgegeven door het argument.">
+<!ENTITY xpath-exprestion.treecell.d_not.label "Geeft een boolean met de tegengestelde waarde van het argument.">
+<!ENTITY xpath-exprestion.treecell.d_number.label "Geeft een numerieke weergave van de contextnode.">
+<!ENTITY xpath-exprestion.treecell.d_number_O.label "Geeft een numerieke weergave van het objectargument.">
+<!ENTITY xpath-exprestion.treecell.d_parent.label "selecteert het bovenliggend niveau van de contextnode">
+<!ENTITY xpath-exprestion.treecell.d_position.label "Geeft de positie van de huidige contextnode.">
+<!ENTITY xpath-exprestion.treecell.d_preceding-sibling.label "selecteert het voorgaande hoofdstukfamilielid van de contextnode.">
+<!ENTITY xpath-exprestion.treecell.d_preceding.label "selecteert voorgangers van de contextnode.">
+<!ENTITY xpath-exprestion.treecell.d_round.label "Geeft de dichtst bij het argument liggende integere waarde.">
+<!ENTITY xpath-exprestion.treecell.d_self.label "selecteert de contextnode">
+<!ENTITY xpath-exprestion.treecell.d_starts-with.label "Geeft ‘true’ als de eerste argumentstring begint met de tweede argumentstring.">
+<!ENTITY xpath-exprestion.treecell.d_string-length.label "Geeft de lengte van de string zoals opgegeven door de contextnode.">
+<!ENTITY xpath-exprestion.treecell.d_string-length_S.label "Geeft de lengte van de string zoals opgegeven door het argument.">
+<!ENTITY xpath-exprestion.treecell.d_string.label "Geeft een stringwaardeweergave van de contextnode.">
+<!ENTITY xpath-exprestion.treecell.d_string_O.label "Geeft de stringweergave van het objectargument.">
+<!ENTITY xpath-exprestion.treecell.d_substring-after.label "Geeft de substring van de eerste argumentstring die volgt op het eerste voorkomen van het tweede argument.">
+<!ENTITY xpath-exprestion.treecell.d_substring-before.label "Geeft de substring van de eerste argumentstring die voorafgaat aan het eerste voorkomen van het tweede argument.">
+<!ENTITY xpath-exprestion.treecell.d_substring.label "Geeft de substring van het eerste argument vanaf de door het tweede argument opgegeven positie.">
+<!ENTITY xpath-exprestion.treecell.d_substring_N.label "Geeft de substring van het eerste argument vanaf de door het tweede argument opgegeven positie en de door het derde argument opgegeven lengte.">
+<!ENTITY xpath-exprestion.treecell.d_sum.label "Geeft de som van alle nodes in de nodeset.">
+<!ENTITY xpath-exprestion.treecell.d_text.label "Geeft de tekstinhoud voor de contextnode.">
+<!ENTITY xpath-exprestion.treecell.d_translate.label "Vervangt karakters in de door het tweede argument opgegeven string door door het derde argument opgegeven karakters.">
+<!ENTITY xpath-exprestion.treecell.d_true.label "Geeft een boolean met de waarde ‘true’.">
+<!ENTITY xpath-exprestion.treecell.s_ancestor-or-self.label "voorgangers van de contextnode en zichzelf">
+<!ENTITY xpath-exprestion.treecell.s_ancestor.label "voorgangers van de contextnode">
+<!ENTITY xpath-exprestion.treecell.s_attribute.label "attribuut van de contextnode">
+<!ENTITY xpath-exprestion.treecell.s_child.label "kinderen van de contextnode">
+<!ENTITY xpath-exprestion.treecell.s_descendant-or-self.label "afstammelingen van de contextnode en zichzelf">
+<!ENTITY xpath-exprestion.treecell.s_descendant.label "afstammelingen van de contextnode">
+<!ENTITY xpath-exprestion.treecell.s_following-sibling.label "volgende hoogdstukfamilieleden van de contextnode">
+<!ENTITY xpath-exprestion.treecell.s_following.label "opvolgers van de contextnode">
+<!ENTITY xpath-exprestion.treecell.s_namespace.label "namespaces van de contextnode">
+<!ENTITY xpath-exprestion.treecell.s_parent.label "bovenliggend niveau van de contextnode">
+<!ENTITY xpath-exprestion.treecell.s_preceding-sibling.label "het voorgaande hoogdstukfamilielid van de contextnode">
+<!ENTITY xpath-exprestion.treecell.s_preceding.label "voorgangers van de contextnode">
+<!ENTITY xpath-exprestion.treecell.s_self.label "de contextnode">
+<!ENTITY xpath-exprestion.treecol.description.label "Beschrijving">
+<!ENTITY xpath-exprestion.treecol.function.label "Functie">
+<!ENTITY xpath-exprestion.treecol.shortdescription.label "Korte beschrijving">

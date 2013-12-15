@@ -1,0 +1,52 @@
+#helptip{
+    max-width: 48px !important;
+    max-height: 48px !important;
+}
+#helptip image{
+    max-width: 48px !important;
+    max-height: 48px !important;
+}
+
+.show-tip
+{
+    text-decoration:underline;
+    cursor: pointer;
+}
+.changed
+{
+color:blue;
+}
+
+treechildren:-moz-tree-row(selected) {
+   background-color: #FFFFAA;
+   border-bottom: 0px
+}
+treechildren:-moz-tree-cell-text(selected)
+{
+color:blue;
+}
+treechildren:-moz-tree-row(statusgreen) {
+background-color: green;
+}
+
+treechildren:-moz-tree-cell-text(status)
+{
+}
+treechildren:-moz-tree-cell-text(statusblue)
+{
+color:blue;
+}
+treechildren:-moz-tree-cell-text(statusgreen)
+{
+color:green;
+}
+
+treechildren:-moz-tree-cell-text(statusdarkgreen)
+{
+color: orange;
+}
+treechildren:-moz-tree-cell-text(statusgray)
+{
+color:gray;
+}
+

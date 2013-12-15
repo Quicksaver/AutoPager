@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <RDF:Description RDF:about="urn:mozilla:install-manifest"
+                     em:name="AutoPager"
+                     em:version="0.8.0.8"
+                     em:id="autopager@mozilla.org"
+                     em:description="AutoPager is a Firefox/Mozilla/Chrome/Opera/Safari/Fennec extension to autoload the next page(s) when you scroll pages."
+                     em:creator="Wind Li"
+                     em:optionsURL="chrome://autopager/content/mini-options.xul"
+                     em:homepageURL="http://www.teesoft.info/"
+                     em:iconURL="chrome://autopager/skin/autopager32.png"
+                     >
+        <em:contributor>skylove  at http://bbs.chinaunix.net</em:contributor>
+        <em:contributor>DLSQFLY  at http://forums.mozine.cn</em:contributor>
+        <em:contributor>Chris  atclbertelson2  at hotmail.com</em:contributor>
+        <em:contributor>ErkanYV at gmail.com</em:contributor>
+        <em:contributor>avro at http://www.teesoft.info</em:contributor>
+        <em:contributor>PageDown at http://www.teesoft.info</em:contributor>
+        <em:translator>[fr] myahoo at http://www.babelzilla.org</em:translator>
+        <em:translator>[nl] markh at http://www.babelzilla.org</em:translator>
+        <em:translator>[de] Team erweiterungen.de, Archaeopteryx, ChrisE at http://www.babelzilla.org</em:translator>
+        <em:translator>[ja-JP] drry at http://www.babelzilla.org</em:translator>
+        <em:translator>[pt-BR] pedsann at http://www.babelzilla.org</em:translator>
+        <em:translator>[zh-TW] Jose Sun @ moztw.org</em:translator>
+        <em:translator>[tr-TR] ErkanYV at gmail.com</em:translator>
+        <em:translator>[ro-RO] alexxed,x10firefox at http://www.babelzilla.org</em:translator>
+        <em:translator>[ru-RU] SeLarin at http://www.babelzilla.org</em:translator>
+        <em:translator>[it-IT]  at http://www.babelzilla.org</em:translator>
+        <em:translator>[tr-TR] ErkanYV at gmail.com, erkanyv at http://www.babelzilla.org</em:translator>
+        <em:translator>[hu-HU] gusztinrudolf at http://www.babelzilla.org</em:translator>
+        <em:translator>[he-IL] rugh at http://www.babelzilla.org</em:translator>
+        <em:translator>[vi] loveleeyoungae at http://www.babelzilla.org</em:translator>
+        <em:translator>[pl-PL] kbec at http://www.babelzilla.org</em:translator>
+        <em:translator>[es] dani186 at http://www.babelzilla.org</em:translator>
+        <em:translator>[fi-FI] Olli at http://www.babelzilla.org</em:translator>
+        <em:translator>[sq-AL] Mustafi at http://www.babelzilla.org</em:translator>
+<em:targetApplication>
+<!-- Mozilla Firefox -->
+	<RDF:Description>
+		<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+		<em:minVersion>3.0</em:minVersion>
+		<em:maxVersion>20.0a1</em:maxVersion>
+	</RDF:Description>
+</em:targetApplication>
+
+<em:targetApplication>
+<!-- Mozilla Suite 1.x -->
+	<RDF:Description>
+		<em:id>{86c18b42-e466-45a9-ae7a-9b95ba6f5640}</em:id>
+		<em:minVersion>1.7</em:minVersion>
+		<em:maxVersion>1.8+</em:maxVersion>
+	</RDF:Description>
+</em:targetApplication>
+
+<em:targetApplication>
+<!-- Seamonkey -->
+	<RDF:Description>
+		<em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
+		<em:minVersion>1.0</em:minVersion>
+		<em:maxVersion>2.3.*</em:maxVersion>
+	</RDF:Description>
+</em:targetApplication>
+
+<em:targetApplication>
+<!-- Flock -->
+	<RDF:Description>
+		<em:id>{a463f10c-3994-11da-9945-000d60ca027b}</em:id>
+		<em:minVersion>0.5</em:minVersion>
+		<em:maxVersion>2.5+</em:maxVersion>
+	</RDF:Description>
+</em:targetApplication>
+
+<em:targetApplication>
+<!-- Mozilla Fennec -->
+	<RDF:Description>
+		<em:id>{a23983c0-fd0e-11dc-95ff-0800200c9a66}</em:id>
+		<em:minVersion>4.0b1pre</em:minVersion>
+		<em:maxVersion>19.*</em:maxVersion>
+	</RDF:Description>
+</em:targetApplication>
+
+
+    </RDF:Description>
+</RDF:RDF>

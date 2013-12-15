@@ -1,0 +1,235 @@
+<!ENTITY autopager-workshop.button.modifyXPath.label "…">
+<!ENTITY autopager-workshop.label.value "Ramar">
+<!ENTITY autopager.label.value "AutoPager">
+<!ENTITY autopager.menu.autopager-hidden-panel-menu.label "Sidhållare">
+<!ENTITY autopager.menu.autopager-immedialate-load.key "L">
+<!ENTITY autopager.menu.autopager-immedialate-load.label "Läs omedelbart in">
+<!ENTITY autopager.menuitem.autopager-hidden.label "Gömt">
+<!ENTITY autopager.menuitem.autopager-load-10.key "0">
+<!ENTITY autopager.menuitem.autopager-load-10.label "10 sidor">
+<!ENTITY autopager.menuitem.autopager-load-3.key "3">
+<!ENTITY autopager.menuitem.autopager-load-3.label "3 sidor">
+<!ENTITY autopager.menuitem.autopager-load-5.key "5">
+<!ENTITY autopager.menuitem.autopager-load-5.label "5 sidor">
+<!ENTITY autopager.menuitem.autopager-load-all.key "A">
+<!ENTITY autopager.menuitem.autopager-load-all.label "Alla sidor">
+<!ENTITY autopager.menuitem.autopager-load.modifiers "kortkommando,alt">
+<!ENTITY autopager.menuitem.autopager-pause-load.key "Q">
+<!ENTITY autopager.menuitem.autopager-pause-load.label "Paus">
+<!ENTITY autopager.menuitem.autopager-show.label "Visa">
+<!ENTITY autopager.sanitizer.entry "AutoPagers webbplatsbekräftelser">
+<!ENTITY autopager.sanitizer.entry.accesskey "A">
+<!ENTITY autopager.sanitizer.entry.confirm "Vill du rensa AutoPagers webbplatsbekräftelser?">
+<!ENTITY autopager.sidebarTitle "AutoPagers webbplatsinställningar">
+<!ENTITY autopager.status.createXPath "Skapa XPath">
+<!ENTITY autopager.status.createXPathTip "Skapa en XPath genom att välja en nod på sidan.">
+<!ENTITY autopager.status.disableOnSite "Inaktivera på webbplatsen">
+<!ENTITY autopager.status.disableOnSiteTip "Inaktivera på webbplatsen">
+<!ENTITY autopager.status.enabled "Aktivera AutoPager">
+<!ENTITY autopager.status.enabledTip "Aktivera/Inaktivera AutoPager.">
+<!ENTITY autopager.status.export "Exportera inställningar">
+<!ENTITY autopager.status.exportTip "Exportera AutoPagers inställningar.">
+<!ENTITY autopager.status.exportclip "Exportera till Urklipp">
+<!ENTITY autopager.status.exportclipTip "Exportera AutoPagers inställningar till Urklipp.">
+<!ENTITY autopager.status.exportfile "Exportera till fil">
+<!ENTITY autopager.status.exportfileTip "Exportera AutoPagers inställningar till en fil.">
+<!ENTITY autopager.status.importclip "Importera från Urklipp">
+<!ENTITY autopager.status.importclipTip "Importera AutoPager-inställningar från Urklipp.">
+<!ENTITY autopager.status.importexport "Importera/Exportera">
+<!ENTITY autopager.status.importfile "Importera från fil">
+<!ENTITY autopager.status.importfileTip "Importera AutoPager-inställningar från en fil.">
+<!ENTITY autopager.status.importurl "Importera från URL">
+<!ENTITY autopager.status.importurlTip "Importera AutoPager-inställningar från en URL.">
+<!ENTITY autopager.status.myname "Mitt namn:">
+<!ENTITY autopager.status.mynameTip "Ditt namn, det läggs till i den konfiguration som du har skapat.">
+<!ENTITY autopager.status.reportSite "Rapportera problem med webbplatsen">
+<!ENTITY autopager.status.reportSiteTip "Rapportera problem med webbplatsen">
+<!ENTITY autopager.status.requestHelp "Begär hjälp med webbplatsen">
+<!ENTITY autopager.status.requestHelpTip "Begär hjälp med webbplatsen">
+<!ENTITY autopager.status.setting "Hantera inställningar">
+<!ENTITY autopager.status.settingTip "Hantera AutoPagers inställningar.">
+<!ENTITY autopager.status.showabout "Om">
+<!ENTITY autopager.status.showaboutTip "Visa Om-informationen för AutoPager.">
+<!ENTITY autopager.status.showoption "Visa sidinställningar">
+<!ENTITY autopager.status.showoptionTip "Visa sidinställningarna för den här sidan.">
+<!ENTITY autopager.status.sitewizard "Webbplatsguiden">
+<!ENTITY autopager.status.sitewizardTip "Skapa webbplatsinställningar i en guide">
+<!ENTITY autopager.status.testXPath "Testa XPath">
+<!ENTITY autopager.status.testXPathTip "Testa XPath och XPath på webbsidan.">
+<!ENTITY autopager.status.update "Uppdatera inställningar online">
+<!ENTITY autopager.status.updateTip "Uppdatera AutoPagers inställningar från Rules Repositories.">
+<!ENTITY autopager.status.xpathUtils "XPath-verktyg">
+<!ENTITY autopager.toolbarLabel "AutoPager">
+<!ENTITY autopager.tooltip "AutoPagers verkstad för webbplatsinställningar">
+<!ENTITY button.modifyContainerXPath.label "...">
+<!ENTITY button.modifyLinkXPath.label "...">
+<!ENTITY caption.results-caption.label "Resultat">
+<!ENTITY caption.results-caption2.label "Resultat">
+<!ENTITY checkbox.chkForceJS.label "Tvinga JavaScript-läge">
+<!ENTITY checkbox.ir.label "Inkludera rekommenderade regler">
+<!ENTITY label.Usages.value "Användning">
+<!ENTITY label.filterLabel.tooltiptext "Clear this filter to see all rules.">
+<!ENTITY label.filterLabel.value "Filter">
+<!ENTITY label.idsLabel.value "Valda regel-ID:n (separera med kommatecken &apos;,&apos;)">
+<!ENTITY label.lazyLoad "Uppskjuten inläsning av bildkällattribut">
+<!ENTITY label.monitorXPathLbl.value "Övervaka XPath:">
+<!ENTITY label.value "Antal">
+<!ENTITY openautopagerSidebar.commandkey "S">
+<!ENTITY openautopagerSidebar.modifiersKey "Alt">
+<!ENTITY options.checkbox.ignoreFormatVersionCheck.label "Ignorera kontroll av formatversion">
+<!ENTITY options.checkbox.setAgent.label "Lägg till AutoPager i webbläsarens användaragent">
+<!ENTITY options.checkbox.tweakSession.label "Återställ till den senast synliga sidan efter omstart">
+<!ENTITY options.dialog.autopager-options.buttonlabelextra1 "Mer">
+<!ENTITY options.dialog.autopager-options.title "Inställningar för AutoPager">
+<!ENTITY options.label.speedLabel.value "Antal förinlästa sidor:">
+<!ENTITY options.menuitem.label0 "0">
+<!ENTITY options.menuitem.label1 "1">
+<!ENTITY options.menuitem.label2 "2">
+<!ENTITY options.menuitem.label3 "3">
+<!ENTITY setting.appname "AutoPager">
+<!ENTITY setting.button.add "Lägg till...">
+<!ENTITY setting.button.cloneToEdit "Klona för redigering">
+<!ENTITY setting.button.cloneToEditTip "Det här objektet kommer från en ready source (källa för färdiga produkter). Om redigering blir nödvändigt kan du endast redigera den klonade versionen.">
+<!ENTITY setting.button.copy "Klona">
+<!ENTITY setting.button.down "Nedåt">
+<!ENTITY setting.button.edit "Redigera...">
+<!ENTITY setting.button.export "Exportera">
+<!ENTITY setting.button.exportTip "Exportera utvalda objekt">
+<!ENTITY setting.button.import "Importera">
+<!ENTITY setting.button.pick "Välj...">
+<!ENTITY setting.button.public "Publicera">
+<!ENTITY setting.button.remove "Ta bort">
+<!ENTITY setting.button.reset "Återställ">
+<!ENTITY setting.button.resetTip "Återställ till onlineinställningar eller tidigare inställningar (för lokal regel)">
+<!ENTITY setting.button.up "Uppåt">
+<!ENTITY setting.buttonlabelextra1 "Verkställ">
+<!ENTITY setting.key "u">
+<!ENTITY setting.label.advanced "Avancerat">
+<!ENTITY setting.label.allwaysEnableJavaScript "Aktivera alltid JavaScript när en sida läses in">
+<!ENTITY setting.label.btnEdit "Redigera">
+<!ENTITY setting.label.chkAjax "Det här är en AJAX-webbplats. Ingen inläsningshändelse.">
+<!ENTITY setting.label.chkAlt "Alt">
+<!ENTITY setting.label.chkCtrl "Ctrl">
+<!ENTITY setting.label.chkEnableJS "Aktivera JavaScript när en sida läses in.">
+<!ENTITY setting.label.chkEnabled "Aktiverat">
+<!ENTITY setting.label.chkFixOverflow "Inaktivera spillområdesinställningen för inläst sida.">
+<!ENTITY setting.label.chkIsRegex "Är det ett RegEx?">
+<!ENTITY setting.label.chkQuickLoad "Snabbinläsning (inte säkert på alla webbplatser).">
+<!ENTITY setting.label.chkShift "Skift">
+<!ENTITY setting.label.chkneedMouseDown "Kräver klickningsutlösare för länken">
+<!ENTITY setting.label.confirmstyle "Bekräftelsestil:">
+<!ENTITY setting.label.delaymsecs "Fördröjning innan nästa sida infogas (ms)">
+<!ENTITY setting.label.disable-by-default "Inaktiverat för enskilda nya webbplatser">
+<!ENTITY setting.label.discoverytext "Utforska">
+<!ENTITY setting.label.doubleclick "+Dubbelklick">
+<!ENTITY setting.label.general "Allmänt">
+<!ENTITY setting.label.grpContentXPath "Innehålls-XPath:">
+<!ENTITY setting.label.grpDiscovery "Utforska">
+<!ENTITY setting.label.grpRemoveXPath "Filter-XPath (ignorera objekt på de nya sidorna):">
+<!ENTITY setting.label.grpSmart "Smart sidväxling">
+<!ENTITY setting.label.hotkeys "Aktivera/Inaktivera kortkommandon:">
+<!ENTITY setting.label.ignoresite "Ignorera webbplatser">
+<!ENTITY setting.label.lblContainerXPath "Behållare-XPath:">
+<!ENTITY setting.label.lblDesc "Beskrivning:">
+<!ENTITY setting.label.lblLinkXPath "Länk-XPath:">
+<!ENTITY setting.label.lblOwner "Skapat av:">
+<!ENTITY setting.label.lblSetting "AutoPagers källa för inställningar">
+<!ENTITY setting.label.lblSettingContext "Kontexttyp:">
+<!ENTITY setting.label.lblSettingDesc "Beskr.:">
+<!ENTITY setting.label.lblSettingOwner "Underhålls av:">
+<!ENTITY setting.label.lblSettingType "Typ:">
+<!ENTITY setting.label.lblSettingUrl "URL:">
+<!ENTITY setting.label.lblSettingXPath "XPath:">
+<!ENTITY setting.label.lblURLPattern "URL-mönster:">
+<!ENTITY setting.label.lblUpdate "Uppdatera webbplatskonfigurationer automatiskt:">
+<!ENTITY setting.label.loading "Inläsningsmeddelande-stil:">
+<!ENTITY setting.label.localrules "Local Rules">
+<!ENTITY setting.label.margin "Sidväxla när utrymmet är mindre än motsvarande">
+<!ENTITY setting.label.marginEnd "fönsterhöjd(er)">
+<!ENTITY setting.label.minipages "Minsta antal förinlästa sidor">
+<!ENTITY setting.label.pagebreak "Sidbrytningsstil:">
+<!ENTITY setting.label.showContextMenu "Visa AutoPagers snabbmeny">
+<!ENTITY setting.label.showHelpTips "Visa en hjälptipsbild för varje kontroll, klicka för att se beskrivningen för en viss kontroll">
+<!ENTITY setting.label.showPrompt "Visa frågeruta för enskild ny webbplats">
+<!ENTITY setting.label.showStatusBar "Visa AutoPagers ikon i statusfältet">
+<!ENTITY setting.label.showToolbarIcon "Visa AutoPagers ikon i verktygsfältet">
+<!ENTITY setting.label.simpleModalPrompt "Visa enkel modal frågeruta för enskild ny webbplats">
+<!ENTITY setting.label.sites "Webbplatser">
+<!ENTITY setting.label.smartenable "Aktivera smart sidväxling">
+<!ENTITY setting.label.smartlinks "Använd denna länk, om inte fler än">
+<!ENTITY setting.label.smartlinksEnd "lämpliga länkar finns.">
+<!ENTITY setting.label.smartmatch "Exactly match only">
+<!ENTITY setting.label.smarttext "&apos;Nästa&apos;-länkar (länktext, bildkälla, ID, CSS-klass), separerade av vertikalstreck (&apos;|&apos;):">
+<!ENTITY setting.label.timeout "Tidsgräns för sidinläsning (s):">
+<!ENTITY setting.label.update "Uppdatera">
+<!ENTITY setting.text.tipContainerXPath "Ändra inte det här om du inte vet vad du gör.\nDet här är till hjälp om huvudinnehållet på webbplatsen är vertikalt inordnat i en behållare med rullningslist. Webbplatsen www.cuil.com är ett exempel.">
+<!ENTITY setting.title "AutoPagers inställningar">
+<!ENTITY setting.tree.Description "Beskrivning">
+<!ENTITY setting.tree.URLPattern "URL-mönster">
+<!ENTITY setting.type.autopager "AutoPager-XML">
+<!ENTITY setting.type.autopagerize "Autopagerisera">
+<!ENTITY setting.type.autopagerizeJson "Autopagerisera JSON">
+<!ENTITY setting.type.autopagerlite "AutoPager Lite">
+<!ENTITY setting.type.autopagertext "AutoPager-text">
+<!ENTITY setting.update.bidaily "Varannan dag">
+<!ENTITY setting.update.daily "Dagligen">
+<!ENTITY setting.update.global "Använd globala inställningar">
+<!ENTITY setting.update.monthly "Månatligen">
+<!ENTITY setting.update.never "Aldrig">
+<!ENTITY setting.update.once "Första gången">
+<!ENTITY setting.update.startup "Varje programstart">
+<!ENTITY setting.update.weekly "Veckovis">
+<!ENTITY statusbar.image.autopager-close-toolbar.tooltiptext "Stäng AutoPagers sidhållare">
+<!ENTITY statusbar.label.value "Klicka för att se sidväxlingsreglerna online">
+<!ENTITY statusbar.menu.autopager-about.label "Hjälp">
+<!ENTITY statusbar.menu.fix.label "Korrigera problem">
+<!ENTITY statusbar.menuitem.autoPagerAutoFix.label "Autokorrigera">
+<!ENTITY statusbar.menuitem.autoPagerAutoFix.tooltiptext "Korrigera problem automatiskt">
+<!ENTITY statusbar.menuitem.autoPagerReset.label "Återställ alla inställningar">
+<!ENTITY statusbar.menuitem.autoPagerReset.tooltiptext "Återställ alla AutoPagers inställningar">
+<!ENTITY statusbar.menuitem.autoPagerShoting.label "Felsökning">
+<!ENTITY statusbar.menuitem.autoPagerShoting.tooltiptext "Felsökning">
+<!ENTITY statusbar.menuitem.autopager-clean.label "Rensa alla">
+<!ENTITY statusbar.menuitem.autopager-donation.label "Donera">
+<!ENTITY statusbar.menuitem.autopager-donation.tooltiptext "Visa donationssidan">
+<!ENTITY statusbar.menuitem.autopager-related-search.label "Visa relaterad sökning">
+<!ENTITY statusbar.menuitem.autopager-showhelp.label "Hjälp">
+<!ENTITY statusbar.menuitem.autopager-showhelp.tooltiptext "Visa hjälpsidan">
+<!ENTITY statusbar.menuitem.autopager-showrules.label "Regler">
+<!ENTITY statusbar.menuitem.autopager-showrules.tooltiptext "Visa regler i onlinedatabasen">
+<!ENTITY statusbar.menuitem.autopager-showtutorials.label "Självstudier">
+<!ENTITY statusbar.menuitem.autopager-showtutorials.tooltiptext "Visa sidan med självstudieresurser">
+<!ENTITY statusbar.menuitem.autopagerlite-discover.label "Sök regler online">
+<!ENTITY statusbar.menuitem.autopagerlite-discover.tooltiptext "Sök efter regler online">
+<!ENTITY statusbar.menuitem.autopagerlite-switchToLite.label "Växla till Lite-läge">
+<!ENTITY statusbar.menuitem.autopagerlite-switchToLite.tooltiptext "Växla till AutoPagers Lite-läge">
+<!ENTITY statusbar.menuitem.autopagerlite-switchToNormal.label "Växla till normalläge">
+<!ENTITY statusbar.menuitem.autopagerlite-switchToNormal.tooltiptext "Växla till AutoPagers normalläge">
+<!ENTITY statusbar.menuitem.disable-on-default.label "Håll sidväxling inaktiverat som standard">
+<!ENTITY statusbar.menuitem.discover.label "Hitta matchande regler online">
+<!ENTITY statusbar.menuitem.highlightContents.label "Markera innehåll">
+<!ENTITY statusbar.menuitem.highlightContents.tooltiptext "Markera innehåll i dokumentet">
+<!ENTITY statusbar.menuitem.highlightLinks.label "Markera &apos;Nästa&apos;-länkar">
+<!ENTITY statusbar.menuitem.highlightLinks.tooltiptext "Markera &apos;Nästa&apos;-länkar i dokumentet">
+<!ENTITY statusbar.menuitem.label "Inställningar">
+<!ENTITY statusbar.menuitem.liteModel.label "Fungerar i Lite-versionen">
+<!ENTITY statusbar.menuitem.noPrompt.label "Visa det här på nya webbplatser">
+<!ENTITY statusbar.menuitem.showDiscoverPanel.label "Visa alltid Utforska-ikonen">
+<!ENTITY statusbar.menuitem.tooltiptext "AutoPagers kärninställningar">
+<!ENTITY statusbar.statusbarpanel.autopagerlite_status.label "?">
+<!ENTITY textbox.lazyImgSrc.tooltiptext "Attribut för uppskjuten inläsning av bild">
+<!ENTITY textbox.monitorXPath.tooltiptext "Rensa inlästa sidor när element kopplade till följande XPath klickas eller ändras">
+<!ENTITY toolbarbutton.addSite.tooltiptext "Lägg till webbplats">
+<!ENTITY toolbarbutton.clearAllPath.tooltiptext "Rensa alla">
+<!ENTITY toolbarbutton.discoverPath.tooltiptext "Utforska">
+<!ENTITY toolbarbutton.openInOwnWin.tooltiptext "Öppna i nytt fönster">
+<!ENTITY toolbarbutton.openInSidebar.tooltiptext "Öppna i sidofält">
+<!ENTITY toolbarbutton.pickupContentPath.tooltiptext "Hämta innehåll">
+<!ENTITY toolbarbutton.pickupLinkPath.tooltiptext "Hämtningslänk">
+<!ENTITY toolbarbutton.testSite.tooltiptext "Testa webbplats">
+<!ENTITY treecol.authorityCol.label "Relevans">
+<!ENTITY treecol.contentXpathCol.label "Innehålls-XPath">
+<!ENTITY treecol.fileCol.label "Fil">
+<!ENTITY treecol.linkXpathCol.label "Länk-XPath">
+<!ENTITY treecol.machedCol.label "Antal">
+<!ENTITY treecol.xpathCol.label "XPath">

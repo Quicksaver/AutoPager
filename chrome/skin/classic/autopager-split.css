@@ -1,0 +1,17 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+#autopager-split-splitter
+{
+    background-color: ThreeDFace !important;
+    border: 0px solid ThreeDDarkShadow !important;
+}
+
+#autopager-split-box
+{
+    -moz-appearance: dialog !important;
+}
+#autopager-split-box-box
+{
+    margin: 0 !important;
+    padding: 0 !important;
+    display: none !important;
+}

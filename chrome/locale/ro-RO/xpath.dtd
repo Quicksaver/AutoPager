@@ -1,0 +1,73 @@
+<!ENTITY xpath-exprestion.button.reset.label "Inițializează">
+<!ENTITY xpath-exprestion.descriptionBox.text "Descriere expresie XPath">
+<!ENTITY xpath-exprestion.dialog.xpath-expressions.title "Expresie XPath">
+<!ENTITY xpath-exprestion.tab.boolean.label "Funcții logice">
+<!ENTITY xpath-exprestion.tab.location.label "Localizări">
+<!ENTITY xpath-exprestion.tab.nodeset.label "Funcții pentru grupuri noduri">
+<!ENTITY xpath-exprestion.tab.number.label "Funcții numerice">
+<!ENTITY xpath-exprestion.tab.string.label "Funcții pentru șiruri de caractere">
+<!ENTITY xpath-exprestion.treecell.d_ancestor-or-self.label "Selectează strămoșii nodului curent, precum și nodul curent">
+<!ENTITY xpath-exprestion.treecell.d_ancestor.label "Selectează strămoșii nodului curent">
+<!ENTITY xpath-exprestion.treecell.d_attribute.label "Selectează atributele nodului curent">
+<!ENTITY xpath-exprestion.treecell.d_boolean.label "Returnează reprezentarea logică a argumentului">
+<!ENTITY xpath-exprestion.treecell.d_ceiling.label "Returnează întregul mai mic cel mai apropiat de argument">
+<!ENTITY xpath-exprestion.treecell.d_child.label "Selectează fiii nodului curent">
+<!ENTITY xpath-exprestion.treecell.d_concat.label "Returnează șirul format din concatenarea argumentelor">
+<!ENTITY xpath-exprestion.treecell.d_contains.label "Returnează „adevărat” dacă primul argument îl conține pe al doilea argument">
+<!ENTITY xpath-exprestion.treecell.d_count.label "Returnează numărul de noduri din grupul de noduri">
+<!ENTITY xpath-exprestion.treecell.d_descendant-or-self.label "Selectează urmașii nodului curent precum și nodul curent">
+<!ENTITY xpath-exprestion.treecell.d_descendant.label "Selectează urmașii nodului curent">
+<!ENTITY xpath-exprestion.treecell.d_false.label "Returnează valoarea logică „fals”">
+<!ENTITY xpath-exprestion.treecell.d_floor.label "Returnează întregul mai mare cel mai apropiat de argument">
+<!ENTITY xpath-exprestion.treecell.d_following-sibling.label "Selectează capitolul următor de același nivel cu nodul curent">
+<!ENTITY xpath-exprestion.treecell.d_following.label "Selectează totul ce urmează nodului curent">
+<!ENTITY xpath-exprestion.treecell.d_id.label "Returnează elementul specificat prin identificatorul său unic">
+<!ENTITY xpath-exprestion.treecell.d_lang.label "Returnează „adevărat” dacă limba nodului curent este identică cu cea specificată de argument">
+<!ENTITY xpath-exprestion.treecell.d_last.label "Returnează poziția ultimului nod din lista curentă">
+<!ENTITY xpath-exprestion.treecell.d_local-name.label "Returnează denumirea locală a nodului curent">
+<!ENTITY xpath-exprestion.treecell.d_local-name_N.label "Returnează denumirea locală a primului nod din grupul de noduri">
+<!ENTITY xpath-exprestion.treecell.d_name.label "Returnează denumirea nodului curent">
+<!ENTITY xpath-exprestion.treecell.d_name_N.label "Returnează denumirea primului nod din grupul de noduri">
+<!ENTITY xpath-exprestion.treecell.d_namespace-uri.label "Returnează contextul namespace-uri al nodului curent">
+<!ENTITY xpath-exprestion.treecell.d_namespace-uri_N.label "Returnează contextul namespace-uri al primului nod din grupul de noduri">
+<!ENTITY xpath-exprestion.treecell.d_namespace.label "Selectează contextul namespace al nodului curent">
+<!ENTITY xpath-exprestion.treecell.d_normalize-space.label "Returnează un șir normalizat specificat de nodul curent">
+<!ENTITY xpath-exprestion.treecell.d_normalize-space_S.label "Returnează un șir normalizat specificat de argument">
+<!ENTITY xpath-exprestion.treecell.d_not.label "Returnează valoarea logică reprezentând negația valorii argumentului">
+<!ENTITY xpath-exprestion.treecell.d_number.label "Returnează reprezentarea numerică a nodului curent">
+<!ENTITY xpath-exprestion.treecell.d_number_O.label "Returnează reprezentarea numerică a argumentului">
+<!ENTITY xpath-exprestion.treecell.d_parent.label "Selectează părintele nodului curent">
+<!ENTITY xpath-exprestion.treecell.d_position.label "Returnează poziția nodului curent">
+<!ENTITY xpath-exprestion.treecell.d_preceding-sibling.label "Selectează capitolul precedent de același nivel cu nodului curent">
+<!ENTITY xpath-exprestion.treecell.d_preceding.label "Selectează totul ce precede nodul curent">
+<!ENTITY xpath-exprestion.treecell.d_round.label "Returnează întregul cel mai apropiat de argument">
+<!ENTITY xpath-exprestion.treecell.d_self.label "Selectează nodul curent">
+<!ENTITY xpath-exprestion.treecell.d_starts-with.label "Returnează „adevărat” dacă primul argument începe cu al doilea argument">
+<!ENTITY xpath-exprestion.treecell.d_string-length.label "Returnează lungimea șirului specificat de nodul curent">
+<!ENTITY xpath-exprestion.treecell.d_string-length_S.label "Returnează lungimea șirului specificat de argument">
+<!ENTITY xpath-exprestion.treecell.d_string.label "Returnează reprezentarea ca șir a nodului curent">
+<!ENTITY xpath-exprestion.treecell.d_string_O.label "Returnează reprezentarea ca șir a argumentului">
+<!ENTITY xpath-exprestion.treecell.d_substring-after.label "Returnează subșirul din primul argument care începe după prima apariție a celui de-al doilea argument">
+<!ENTITY xpath-exprestion.treecell.d_substring-before.label "Returnează subșirul din primul argument care se termină înainte de prima apariție a celui de-al doilea argument">
+<!ENTITY xpath-exprestion.treecell.d_substring.label "Returnează subșirul din primul argument care începe în poziția specificată de al doilea argument">
+<!ENTITY xpath-exprestion.treecell.d_substring_N.label "Returnează subșirul din primul argument care începe în poziția specificată de al doilea argument și are lungimea specificată de al treilea argument">
+<!ENTITY xpath-exprestion.treecell.d_sum.label "Returnează suma tuturor nodurilor din grupul de noduri">
+<!ENTITY xpath-exprestion.treecell.d_text.label "Returnează conținutul text al nodului curent">
+<!ENTITY xpath-exprestion.treecell.d_translate.label "Înlocuiește caracterele din șirul specificat de al doilea argument cu caracterele specificate în al treilea argument">
+<!ENTITY xpath-exprestion.treecell.d_true.label "Returnează valoarea logică „adevărat”">
+<!ENTITY xpath-exprestion.treecell.s_ancestor-or-self.label "strămoșii nodului curent și nodul curent">
+<!ENTITY xpath-exprestion.treecell.s_ancestor.label "strămoșii nodului curent">
+<!ENTITY xpath-exprestion.treecell.s_attribute.label "atributele nodului curent">
+<!ENTITY xpath-exprestion.treecell.s_child.label "fiii nodului curent">
+<!ENTITY xpath-exprestion.treecell.s_descendant-or-self.label "urmașii nodului curent și nodul curent">
+<!ENTITY xpath-exprestion.treecell.s_descendant.label "urmașii nodului curent">
+<!ENTITY xpath-exprestion.treecell.s_following-sibling.label "capitolul următor de același nivel cu nodul curent">
+<!ENTITY xpath-exprestion.treecell.s_following.label "totul ce urmează nodului curent">
+<!ENTITY xpath-exprestion.treecell.s_namespace.label "contextul namespace al nodului curent">
+<!ENTITY xpath-exprestion.treecell.s_parent.label "părintele nodului curent">
+<!ENTITY xpath-exprestion.treecell.s_preceding-sibling.label "capitolul precedent de același nivel cu nodul curent">
+<!ENTITY xpath-exprestion.treecell.s_preceding.label "totul ce precede nodului curent">
+<!ENTITY xpath-exprestion.treecell.s_self.label "nodul curent">
+<!ENTITY xpath-exprestion.treecol.description.label "Descriere">
+<!ENTITY xpath-exprestion.treecol.function.label "Funcție">
+<!ENTITY xpath-exprestion.treecol.shortdescription.label "Descriere scurtă">

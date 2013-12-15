@@ -1,0 +1,73 @@
+<!ENTITY xpath-exprestion.button.reset.label "Zurücksetzen">
+<!ENTITY xpath-exprestion.descriptionBox.text "Beschreibung des XPath-Ausdrucks">
+<!ENTITY xpath-exprestion.dialog.xpath-expressions.title "XPath-Ausdruck">
+<!ENTITY xpath-exprestion.tab.boolean.label "Boolesche Funktionen">
+<!ENTITY xpath-exprestion.tab.location.label "Adressen">
+<!ENTITY xpath-exprestion.tab.nodeset.label "Knotenbearbeitungs-Funktionen">
+<!ENTITY xpath-exprestion.tab.number.label "Zahlenfunktion">
+<!ENTITY xpath-exprestion.tab.string.label "String-Funktionen">
+<!ENTITY xpath-exprestion.treecell.d_ancestor-or-self.label "Wählt den aktuellen und die übergeordneten Knoten aus">
+<!ENTITY xpath-exprestion.treecell.d_ancestor.label "Wählt die übergeordneten Knoten des aktuellen Knotens aus">
+<!ENTITY xpath-exprestion.treecell.d_attribute.label "Wählt Attribute des jeweiligen Knotens aus">
+<!ENTITY xpath-exprestion.treecell.d_boolean.label "Gibt den repräsentativen booleschen Wert des Objekt-Parameters zurück.">
+<!ENTITY xpath-exprestion.treecell.d_ceiling.label "Gibt den kleinsten Integerwert zurück der nicht kleiner ist als der Parameter.">
+<!ENTITY xpath-exprestion.treecell.d_child.label "Wählt die Kindelemente des aktuellen Knotens aus">
+<!ENTITY xpath-exprestion.treecell.d_concat.label "Gibt die Verkettung der Parameter zurück.">
+<!ENTITY xpath-exprestion.treecell.d_contains.label "Ist wahr, wenn der zweite String im ersten String enthalten ist.">
+<!ENTITY xpath-exprestion.treecell.d_count.label "Gibt die Anzahl der Knoten in einer Liste mit Knoten zurück.">
+<!ENTITY xpath-exprestion.treecell.d_descendant-or-self.label "Wählt den aktuellen und die untergeordneten Knoten aus">
+<!ENTITY xpath-exprestion.treecell.d_descendant.label "Wählt die untergeordneten Knoten des aktuellen Knotens aus">
+<!ENTITY xpath-exprestion.treecell.d_false.label "Gibt den Wert &quot;falsch&quot; als boolschen Wert zurück.">
+<!ENTITY xpath-exprestion.treecell.d_floor.label "Gibt den größten Integerwert zurück der nicht größer ist als das Parameter.">
+<!ENTITY xpath-exprestion.treecell.d_following-sibling.label "Wählt den nächsten Knoten derselben Ebene aus">
+<!ENTITY xpath-exprestion.treecell.d_following.label "Wählt die nachfolgenden Knoten des jeweiligen Knotens aus">
+<!ENTITY xpath-exprestion.treecell.d_id.label "Gibt das Element mit der jeweiligen eindeutigen ID zurück.">
+<!ENTITY xpath-exprestion.treecell.d_lang.label "Gibt den Wert &quot;wahr&quot; zurück, wenn die Sprache des aktuellen Knotens identisch mit dem im Parameter spezifierten ist.">
+<!ENTITY xpath-exprestion.treecell.d_last.label "Gibt die Position des letzten Knotens in der jeweiligen Liste zurück.">
+<!ENTITY xpath-exprestion.treecell.d_local-name.label "Gibt den lokalen Bezeichner für den jeweiligen Knoten zurück.">
+<!ENTITY xpath-exprestion.treecell.d_local-name_N.label "Gibt den lokalen Bezeichner für den ersten Knoten in der Knotenliste zurück.">
+<!ENTITY xpath-exprestion.treecell.d_name.label "Gibt den Bezeichner für den jeweiligen Knoten zurück.">
+<!ENTITY xpath-exprestion.treecell.d_name_N.label "Gibt den Bezeichner für den ersten Knoten in der Knotenliste zurück.">
+<!ENTITY xpath-exprestion.treecell.d_namespace-uri.label "Gibt den URI-Namensraum für den jeweiligen Knoten zurück.">
+<!ENTITY xpath-exprestion.treecell.d_namespace-uri_N.label "Gibt den URI-Namensraum für den ersten Knoten in der Knotenliste zurück.">
+<!ENTITY xpath-exprestion.treecell.d_namespace.label "Wählt die Namensräume des jeweiligen Knotens aus">
+<!ENTITY xpath-exprestion.treecell.d_normalize-space.label "Gibt einen dekodierten, durch den jeweiligen Knoten spezifierten String zurück.">
+<!ENTITY xpath-exprestion.treecell.d_normalize-space_S.label "Gibt einen dekodierten, durch den Parameter spezifierten String zurück.">
+<!ENTITY xpath-exprestion.treecell.d_not.label "Gibt den dem Parameter entgegengesetzten booleschen Wert zurück.">
+<!ENTITY xpath-exprestion.treecell.d_number.label "Gibt die representative Nummer des jeweiligen Knotens zurück.">
+<!ENTITY xpath-exprestion.treecell.d_number_O.label "Gibt die representative Nummer des Objekt-Parameters zurück.">
+<!ENTITY xpath-exprestion.treecell.d_parent.label "Wählt den übergeordneten Knoten des jeweiligen Knotens aus">
+<!ENTITY xpath-exprestion.treecell.d_position.label "Gibt die Position des aktuellen jeweiligen Knotens zurück.">
+<!ENTITY xpath-exprestion.treecell.d_preceding-sibling.label "Wählt den vorhergehenden Knoten derselben Ebene aus">
+<!ENTITY xpath-exprestion.treecell.d_preceding.label "Wählt die dem jeweiligen Knoten vorhergehenden aus">
+<!ENTITY xpath-exprestion.treecell.d_round.label "Gibt den dem Parameter am nächsten kommenden Integer-Wert zurück.">
+<!ENTITY xpath-exprestion.treecell.d_self.label "Wählt den jeweiligen Knoten aus">
+<!ENTITY xpath-exprestion.treecell.d_starts-with.label "Gibt den Wert &quot;wahr&quot; zurück, wenn der erste String mit dem zweiten String beginnt.">
+<!ENTITY xpath-exprestion.treecell.d_string-length.label "Gibt die Länge des durch den jeweiligen Knoten spezifierten Strings zurück.">
+<!ENTITY xpath-exprestion.treecell.d_string-length_S.label "Gibt die Länge des durch den Parameter spezifierten Strings zurück.">
+<!ENTITY xpath-exprestion.treecell.d_string.label "Gibt eine String-Wertdarstellung des jeweiligen Knotens zurück.">
+<!ENTITY xpath-exprestion.treecell.d_string_O.label "Gibt eine String-Wertdarstellung des Objekt-Parameters zurück.">
+<!ENTITY xpath-exprestion.treecell.d_substring-after.label "Gibt den Teilstring des ersten String-Parameters nach dem ersten Vorkommen des zweiten Parameters zurück.">
+<!ENTITY xpath-exprestion.treecell.d_substring-before.label "Gibt den Teilstring des ersten String-Parameters vor dem ersten Vorkommen des zweiten Parameters zurück.">
+<!ENTITY xpath-exprestion.treecell.d_substring.label "Gibt den Teilstring des ersten String-Parameters ab der durch den zweite Parameter spezifierten Position zurück.">
+<!ENTITY xpath-exprestion.treecell.d_substring_N.label "Gibt den Teilstring des ersten String-Parameter ab der durch den zweite Parameter spezifierten Position in der im dritten Parameter genannten Länge zurück.">
+<!ENTITY xpath-exprestion.treecell.d_sum.label "Gibt die Summe aller Knoten in der Knotenliste zurück.">
+<!ENTITY xpath-exprestion.treecell.d_text.label "Gibt den Textinhalt des jeweiligen Knotens zurück.">
+<!ENTITY xpath-exprestion.treecell.d_translate.label "Ersetzt die im zweiten String-Parameter spezifierten Zeichen mit den im dritten Parameter spezifierten.">
+<!ENTITY xpath-exprestion.treecell.d_true.label "Gibt den Wert &quot;wahr&quot; als boolschen Wert zurück.">
+<!ENTITY xpath-exprestion.treecell.s_ancestor-or-self.label "Übergeordnete und der jeweiligen Knoten">
+<!ENTITY xpath-exprestion.treecell.s_ancestor.label "Übergeordnete des jeweiligen Knotens">
+<!ENTITY xpath-exprestion.treecell.s_attribute.label "Attribut des jeweiligen Knotens">
+<!ENTITY xpath-exprestion.treecell.s_child.label "Kindelemente des jweiligen Knotens">
+<!ENTITY xpath-exprestion.treecell.s_descendant-or-self.label "Untergeordnete und der jeweiligen Knoten">
+<!ENTITY xpath-exprestion.treecell.s_descendant.label "Untergeordnete des jeweiligen Knotens">
+<!ENTITY xpath-exprestion.treecell.s_following-sibling.label "Nächster Knoten derselben Ebene wie der jeweilige Knoten">
+<!ENTITY xpath-exprestion.treecell.s_following.label "Nachfolgende des jeweiligen Knotens">
+<!ENTITY xpath-exprestion.treecell.s_namespace.label "Namensräume des jeweiligen Knotens">
+<!ENTITY xpath-exprestion.treecell.s_parent.label "Elternelement des jeweiligen Knotens">
+<!ENTITY xpath-exprestion.treecell.s_preceding-sibling.label "Der vorherige Knoten derselben Ebene wie der jeweilige Knoten">
+<!ENTITY xpath-exprestion.treecell.s_preceding.label "Vorgehende des jeweiligen Knotens">
+<!ENTITY xpath-exprestion.treecell.s_self.label "Der jeweilige Knoten">
+<!ENTITY xpath-exprestion.treecol.description.label "Beschreibung">
+<!ENTITY xpath-exprestion.treecol.function.label "Funktion">
+<!ENTITY xpath-exprestion.treecol.shortdescription.label "Kurzbeschreibung">

@@ -1,0 +1,235 @@
+<!ENTITY autopager-workshop.button.modifyXPath.label "...">
+<!ENTITY autopager-workshop.label.value "Рамки">
+<!ENTITY autopager.label.value "AutoPager">
+<!ENTITY autopager.menu.autopager-hidden-panel-menu.label "Хранилище страниц">
+<!ENTITY autopager.menu.autopager-immedialate-load.key "н">
+<!ENTITY autopager.menu.autopager-immedialate-load.label "Загрузить немедленно">
+<!ENTITY autopager.menuitem.autopager-hidden.label "скрыть">
+<!ENTITY autopager.menuitem.autopager-load-10.key "0">
+<!ENTITY autopager.menuitem.autopager-load-10.label "10 страниц">
+<!ENTITY autopager.menuitem.autopager-load-3.key "3">
+<!ENTITY autopager.menuitem.autopager-load-3.label "3 страницы">
+<!ENTITY autopager.menuitem.autopager-load-5.key "5">
+<!ENTITY autopager.menuitem.autopager-load-5.label "5 страниц">
+<!ENTITY autopager.menuitem.autopager-load-all.key "В">
+<!ENTITY autopager.menuitem.autopager-load-all.label "Все страницы">
+<!ENTITY autopager.menuitem.autopager-load.modifiers "accel, alt">
+<!ENTITY autopager.menuitem.autopager-pause-load.key "Q">
+<!ENTITY autopager.menuitem.autopager-pause-load.label "Пауза">
+<!ENTITY autopager.menuitem.autopager-show.label "показать">
+<!ENTITY autopager.sanitizer.entry "Подтверждение сайта AutoPager">
+<!ENTITY autopager.sanitizer.entry.accesskey "A">
+<!ENTITY autopager.sanitizer.entry.confirm "Вы хотите очистить подтверждение сайта AutoPager?">
+<!ENTITY autopager.sidebarTitle "Центр настройки AutoPager">
+<!ENTITY autopager.status.createXPath "Создать XPath">
+<!ENTITY autopager.status.createXPathTip "Создать XPath, выбрав узел на странице">
+<!ENTITY autopager.status.disableOnSite "Отключить на этом сайте">
+<!ENTITY autopager.status.disableOnSiteTip "Отключить на этом сайте">
+<!ENTITY autopager.status.enabled "AutoPager включен">
+<!ENTITY autopager.status.enabledTip "Включен AutoPager или нет">
+<!ENTITY autopager.status.export "Экспорт настроек">
+<!ENTITY autopager.status.exportTip "Экспорт настроек AutoPager&apos;а">
+<!ENTITY autopager.status.exportclip "Экспорт в буфер обмена">
+<!ENTITY autopager.status.exportclipTip "Экспорт настроек AutoPager&apos;a в буфер обмена">
+<!ENTITY autopager.status.exportfile "Экспорт в файл">
+<!ENTITY autopager.status.exportfileTip "Экспорт настроек AutoPager&apos;a в файл">
+<!ENTITY autopager.status.importclip "Импорт из буфера обмена">
+<!ENTITY autopager.status.importclipTip "Импорт настроек AutoPager&apos;a из буфер обмена">
+<!ENTITY autopager.status.importexport "Импорт/Экспорт">
+<!ENTITY autopager.status.importfile "Импорт из файла">
+<!ENTITY autopager.status.importfileTip "Импорт настроек AutoPager&apos;a из файла">
+<!ENTITY autopager.status.importurl "Импорт по URL">
+<!ENTITY autopager.status.importurlTip "Импорт настроек AutoPager&apos;a по URL">
+<!ENTITY autopager.status.myname "Мое имя:">
+<!ENTITY autopager.status.mynameTip "Ваше имя. Оно будет добавлено в созданный вами файл настроек.">
+<!ENTITY autopager.status.reportSite "Сообщить о проблеме с сайтом">
+<!ENTITY autopager.status.reportSiteTip "Сообщите о проблеме с этим сайтом">
+<!ENTITY autopager.status.requestHelp "Нужна помощь">
+<!ENTITY autopager.status.requestHelpTip "Запрос помощи по настройке сайта">
+<!ENTITY autopager.status.setting "Управление настройками">
+<!ENTITY autopager.status.settingTip "Управление настройками AutoPager&apos;a">
+<!ENTITY autopager.status.showabout "О расширении">
+<!ENTITY autopager.status.showaboutTip "Показать информацию о расширении">
+<!ENTITY autopager.status.showoption "Показать опции страницы">
+<!ENTITY autopager.status.showoptionTip "Показать «Опции страницы» для этой страницы">
+<!ENTITY autopager.status.sitewizard "Мастер сайта">
+<!ENTITY autopager.status.sitewizardTip "Создание настроек сайта с помощью мастера">
+<!ENTITY autopager.status.testXPath "Протестировать XPath">
+<!ENTITY autopager.status.testXPathTip "Протестировать XPath на этой странице">
+<!ENTITY autopager.status.update "Обновить настройки через сеть">
+<!ENTITY autopager.status.updateTip "Обновить настройки AutoPager&apos;а с Rules Repositories.">
+<!ENTITY autopager.status.xpathUtils "Инструменты XPath">
+<!ENTITY autopager.toolbarLabel "AutoPager">
+<!ENTITY autopager.tooltip "Центр настройки AutoPager">
+<!ENTITY button.modifyContainerXPath.label "...">
+<!ENTITY button.modifyLinkXPath.label "...">
+<!ENTITY caption.results-caption.label "Результаты">
+<!ENTITY caption.results-caption2.label "Результаты">
+<!ENTITY checkbox.chkForceJS.label "Принудительный режим JavaScript">
+<!ENTITY checkbox.ir.label "Включать рекомендованные правила">
+<!ENTITY label.Usages.value "Использование">
+<!ENTITY label.filterLabel.tooltiptext "Clear this filter to see all rules.">
+<!ENTITY label.filterLabel.value "Filter">
+<!ENTITY label.idsLabel.value "ID выбранных правил (разделяются запятыми)">
+<!ENTITY label.lazyLoad "Подгружать изображения по атрибуту src">
+<!ENTITY label.monitorXPathLbl.value "XPath отслеживаемых элементов:">
+<!ENTITY label.value "Количество">
+<!ENTITY openautopagerSidebar.commandkey "S">
+<!ENTITY openautopagerSidebar.modifiersKey "alt">
+<!ENTITY options.checkbox.ignoreFormatVersionCheck.label "Игнорировать проверку версии формата">
+<!ENTITY options.checkbox.setAgent.label "Добавить AutoPager в строку идентификации браузера">
+<!ENTITY options.checkbox.tweakSession.label "Сессия настройки: после перезапуска будет восстановлена последняя видимая страница">
+<!ENTITY options.dialog.autopager-options.buttonlabelextra1 "Дополнительно">
+<!ENTITY options.dialog.autopager-options.title "Настройки AutoPager">
+<!ENTITY options.label.speedLabel.value "Количество предзагружаемых страниц">
+<!ENTITY options.menuitem.label0 "0">
+<!ENTITY options.menuitem.label1 "1">
+<!ENTITY options.menuitem.label2 "2">
+<!ENTITY options.menuitem.label3 "3">
+<!ENTITY setting.appname "AutoPager">
+<!ENTITY setting.button.add "Добавить…">
+<!ENTITY setting.button.cloneToEdit "Клонировать для правки">
+<!ENTITY setting.button.cloneToEditTip "Этот элемент взят из подготовленного источника. При необходимости возможно редактирование его клонированной версии.">
+<!ENTITY setting.button.copy "Клонировать">
+<!ENTITY setting.button.down "Ниже">
+<!ENTITY setting.button.edit "Редактировать…">
+<!ENTITY setting.button.export "Экспорт">
+<!ENTITY setting.button.exportTip "Экспорт выбранных элементов">
+<!ENTITY setting.button.import "Импорт">
+<!ENTITY setting.button.pick "Выбрать…">
+<!ENTITY setting.button.public "Опубликовать">
+<!ENTITY setting.button.remove "Удалить">
+<!ENTITY setting.button.reset "Сброс">
+<!ENTITY setting.button.resetTip "Сброс параметров правила">
+<!ENTITY setting.button.up "Выше">
+<!ENTITY setting.buttonlabelextra1 "Применить">
+<!ENTITY setting.key "u">
+<!ENTITY setting.label.advanced "Дополнительно">
+<!ENTITY setting.label.allwaysEnableJavaScript "Всегда разрешать JavaScript во время загрузки страницы">
+<!ENTITY setting.label.btnEdit "Правка">
+<!ENTITY setting.label.chkAjax "Это сайт на основе AJAX. События «load» нет.">
+<!ENTITY setting.label.chkAlt "Alt">
+<!ENTITY setting.label.chkCtrl "Ctrl">
+<!ENTITY setting.label.chkEnableJS "Включить JavaScript во время загрузки страницы">
+<!ENTITY setting.label.chkEnabled "Включено">
+<!ENTITY setting.label.chkFixOverflow "Отключить установки переполнения загружаемой страницы">
+<!ENTITY setting.label.chkIsRegex "Это RegExp?">
+<!ENTITY setting.label.chkQuickLoad "Быстрая загрузка (подходит не для всех сайтов)">
+<!ENTITY setting.label.chkShift "Shift">
+<!ENTITY setting.label.chkneedMouseDown "Необходимо инициировать событие Mouse Down для ссылки">
+<!ENTITY setting.label.confirmstyle "Стиль подтверждения:">
+<!ENTITY setting.label.delaymsecs "Задержка перед присоединением следующей страницы (миллисекунд)">
+<!ENTITY setting.label.disable-by-default "Отключено для отдельного нового сайта">
+<!ENTITY setting.label.discoverytext "Обнаружение">
+<!ENTITY setting.label.doubleclick "+ двойной щелчок">
+<!ENTITY setting.label.general "Общее">
+<!ENTITY setting.label.grpContentXPath "XPath для содержимого:">
+<!ENTITY setting.label.grpDiscovery "Обнаружение">
+<!ENTITY setting.label.grpRemoveXPath "XPath для фильтрации (пропуск элементов на новых страницах):">
+<!ENTITY setting.label.grpSmart "Умное листание">
+<!ENTITY setting.label.hotkeys "Сочетание клавиш для включения/отключения:">
+<!ENTITY setting.label.ignoresite "Игнорировать сайты">
+<!ENTITY setting.label.lblContainerXPath "XPath для контейнера:">
+<!ENTITY setting.label.lblDesc "Описание:">
+<!ENTITY setting.label.lblLinkXPath "XPath для ссылки:">
+<!ENTITY setting.label.lblOwner "Создатель:">
+<!ENTITY setting.label.lblSetting "Источник настроек AutoPager&apos;а">
+<!ENTITY setting.label.lblSettingContext "Тип контекста:">
+<!ENTITY setting.label.lblSettingDesc "Описание:">
+<!ENTITY setting.label.lblSettingOwner "Поддержка:">
+<!ENTITY setting.label.lblSettingType "Тип:">
+<!ENTITY setting.label.lblSettingUrl "URL:">
+<!ENTITY setting.label.lblSettingXPath "XPath:">
+<!ENTITY setting.label.lblURLPattern "Шаблон URL:">
+<!ENTITY setting.label.lblUpdate "Автоматически обновлять конфигурации сайтов:">
+<!ENTITY setting.label.loading "Стиль уведомления о загрузке:">
+<!ENTITY setting.label.localrules "Local Rules">
+<!ENTITY setting.label.margin "Листать, когда пространство меньше чем">
+<!ENTITY setting.label.marginEnd "высоты окна">
+<!ENTITY setting.label.minipages "Минимальное число предзагруженных страниц">
+<!ENTITY setting.label.pagebreak "Стиль разрыва страниц:">
+<!ENTITY setting.label.showContextMenu "Показывать контекстное меню AutoPager">
+<!ENTITY setting.label.showHelpTips "Показать значок подсказки для всех элементов управления. Чтобы увидеть описание данного элемента щелкните по значку">
+<!ENTITY setting.label.showPrompt "Показывать запрос для каждого нового сайта">
+<!ENTITY setting.label.showStatusBar "Показывать значок в строке состояния">
+<!ENTITY setting.label.showToolbarIcon "Показывать значок AutoPager в панели инструментов">
+<!ENTITY setting.label.simpleModalPrompt "Показывать простой модальный запрос для каждого нового сайта">
+<!ENTITY setting.label.sites "Сайты">
+<!ENTITY setting.label.smartenable "Включить умное листание">
+<!ENTITY setting.label.smartlinks "Идти по ссылке, если найдено не более">
+<!ENTITY setting.label.smartlinksEnd "ссылок">
+<!ENTITY setting.label.smartmatch "Exactly match only">
+<!ENTITY setting.label.smarttext "Текст/class/id/src рисунка для поиска следующей ссылки (разделять &apos;|&apos;):">
+<!ENTITY setting.label.timeout "Таймаут загрузки страницы (сек.)">
+<!ENTITY setting.label.update "Обновление">
+<!ENTITY setting.text.tipContainerXPath "Не меняйте это, если не знаете, что нужно делать. Данная опция может помочь, если основное содержание сайта находится в контейнере с overflow-y и полосой прокрутки. Взгляните на www.cuil.com, например.">
+<!ENTITY setting.title "Настройки AutoPager">
+<!ENTITY setting.tree.Description "Описание">
+<!ENTITY setting.tree.URLPattern "Шаблон URL">
+<!ENTITY setting.type.autopager "AutoPager XML">
+<!ENTITY setting.type.autopagerize "autopagerize">
+<!ENTITY setting.type.autopagerizeJson "AutoPager JSON">
+<!ENTITY setting.type.autopagerlite "autopager lite">
+<!ENTITY setting.type.autopagertext "AutoPager text">
+<!ENTITY setting.update.bidaily "Через день">
+<!ENTITY setting.update.daily "Ежедневно">
+<!ENTITY setting.update.global "Использовать общие настройки">
+<!ENTITY setting.update.monthly "Ежемесячно">
+<!ENTITY setting.update.never "Никогда">
+<!ENTITY setting.update.once "В первый раз">
+<!ENTITY setting.update.startup "При каждом запуске">
+<!ENTITY setting.update.weekly "Еженедельно">
+<!ENTITY statusbar.image.autopager-close-toolbar.tooltiptext "Закрыть контейнер страниц AutoPager">
+<!ENTITY statusbar.label.value "Просмотреть правила подгрузки страниц на сайте">
+<!ENTITY statusbar.menu.autopager-about.label "Помощь">
+<!ENTITY statusbar.menu.fix.label "Исправить проблемы">
+<!ENTITY statusbar.menuitem.autoPagerAutoFix.label "Автоматическое исправление">
+<!ENTITY statusbar.menuitem.autoPagerAutoFix.tooltiptext "Автоматическое исправление проблем">
+<!ENTITY statusbar.menuitem.autoPagerReset.label "Сбросить настройки">
+<!ENTITY statusbar.menuitem.autoPagerReset.tooltiptext "Сбрасывает все настройки AutoPager">
+<!ENTITY statusbar.menuitem.autoPagerShoting.label "Поиск неполадок">
+<!ENTITY statusbar.menuitem.autoPagerShoting.tooltiptext "Поиск неполадок">
+<!ENTITY statusbar.menuitem.autopager-clean.label "Очистить">
+<!ENTITY statusbar.menuitem.autopager-donation.label "Пожертвования">
+<!ENTITY statusbar.menuitem.autopager-donation.tooltiptext "Показать страницу пожертвований">
+<!ENTITY statusbar.menuitem.autopager-related-search.label "Показывать связанные запросы">
+<!ENTITY statusbar.menuitem.autopager-showhelp.label "Помощь">
+<!ENTITY statusbar.menuitem.autopager-showhelp.tooltiptext "Показать страницу помощи">
+<!ENTITY statusbar.menuitem.autopager-showrules.label "Правила">
+<!ENTITY statusbar.menuitem.autopager-showrules.tooltiptext "Показать правила в онлайн-хранилище">
+<!ENTITY statusbar.menuitem.autopager-showtutorials.label "Уроки">
+<!ENTITY statusbar.menuitem.autopager-showtutorials.tooltiptext "Показать страницу с уроками">
+<!ENTITY statusbar.menuitem.autopagerlite-discover.label "Искать правила в сети">
+<!ENTITY statusbar.menuitem.autopagerlite-discover.tooltiptext "Искать правила в сети">
+<!ENTITY statusbar.menuitem.autopagerlite-switchToLite.label "Переключиться в упрощенный режим">
+<!ENTITY statusbar.menuitem.autopagerlite-switchToLite.tooltiptext "Переключает AutoPager в упрощенный режим">
+<!ENTITY statusbar.menuitem.autopagerlite-switchToNormal.label "Переключиться в нормальный режим">
+<!ENTITY statusbar.menuitem.autopagerlite-switchToNormal.tooltiptext "Переключает AutoPager в нормальный режим">
+<!ENTITY statusbar.menuitem.disable-on-default.label "Отключить подгрузку страниц по умолчанию">
+<!ENTITY statusbar.menuitem.discover.label "Просмотреть подходящие правила на сайте">
+<!ENTITY statusbar.menuitem.highlightContents.label "Подсветка содержания">
+<!ENTITY statusbar.menuitem.highlightContents.tooltiptext "Подсветить в документе содержание">
+<!ENTITY statusbar.menuitem.highlightLinks.label "Подсветка ссылок на следующую страницк">
+<!ENTITY statusbar.menuitem.highlightLinks.tooltiptext "Подсветить в документе ссылки на следующую страницу">
+<!ENTITY statusbar.menuitem.label "Параметры">
+<!ENTITY statusbar.menuitem.liteModel.label "Упрощенный режим">
+<!ENTITY statusbar.menuitem.noPrompt.label "Показывать на новом сайте">
+<!ENTITY statusbar.menuitem.showDiscoverPanel.label "Всегда показывать иконку обнаружения">
+<!ENTITY statusbar.menuitem.tooltiptext "Основные параметры AutoPager">
+<!ENTITY statusbar.statusbarpanel.autopagerlite_status.label "?">
+<!ENTITY textbox.lazyImgSrc.tooltiptext "Подгрузка изображений">
+<!ENTITY textbox.monitorXPath.tooltiptext "Очистка загруженных страниц при изменении или щелчке на элементах, соответствующих заданному XPath">
+<!ENTITY toolbarbutton.addSite.tooltiptext "Добавить сайт">
+<!ENTITY toolbarbutton.clearAllPath.tooltiptext "Очистить всё">
+<!ENTITY toolbarbutton.discoverPath.tooltiptext "Обнаружение">
+<!ENTITY toolbarbutton.openInOwnWin.tooltiptext "Открыть в отдельном окне">
+<!ENTITY toolbarbutton.openInSidebar.tooltiptext "Открыть в боковой панели">
+<!ENTITY toolbarbutton.pickupContentPath.tooltiptext "Выбрать содержимое">
+<!ENTITY toolbarbutton.pickupLinkPath.tooltiptext "Выбрать ссылку">
+<!ENTITY toolbarbutton.testSite.tooltiptext "Протестировать сайт">
+<!ENTITY treecol.authorityCol.label "Вес">
+<!ENTITY treecol.contentXpathCol.label "XPath для содержимого">
+<!ENTITY treecol.fileCol.label "Файл">
+<!ENTITY treecol.linkXpathCol.label "XPath для ссылки">
+<!ENTITY treecol.machedCol.label "Число совпадений">
+<!ENTITY treecol.xpathCol.label "XPath">

@@ -1,0 +1,80 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#discoverPath {
+	list-style-image:	url("chrome://autopager/skin/toolbar.png") !important;
+}
+
+toolbarbutton.autopager_button .toolbarbutton-text {
+	display: none;
+}
+
+#openInOwnWin{
+	list-style-image:	url("chrome://autopager/skin/ownwin.png") !important;
+}
+#openInSidebar{
+	list-style-image:	url("chrome://autopager/skin/ownwin.png") !important;
+}
+
+#addSite {
+	list-style-image:	url("chrome://autopager/skin/apply.png") !important;
+}
+#testSite {
+	list-style-image:	url("chrome://autopager/skin/play.png") !important;
+}
+#clearAllPath {
+	list-style-image:	url("chrome://autopager/skin/clear.png") !important;
+}
+#pickupLinkPath {
+	list-style-image:	url("chrome://autopager/skin/pickupLink.png") !important;
+}
+#pickupContentPath {
+	list-style-image:	url("chrome://autopager/skin/pickupContent.png") !important;
+}
+#tools {
+	list-style-image:	url("chrome://autopager/skin/tools.png") !important;
+}
+
+
+#pickupPath1 {
+	-moz-image-region: rect(0px 26px 24px 0px) !important;
+}
+
+#pickupPath1:active {
+	-moz-image-region: rect(24px 26px 48px 0px) !important;
+}
+
+#pickupPath1[disabled="true"] {
+	-moz-image-region: rect(48px 26px 72px 0px) !important;
+}
+
+#discoverPath {
+	-moz-image-region: rect(0px 52px 24px 26px) !important;
+}
+
+#discoverPath:active {
+	-moz-image-region: rect(24px 52px 48px 26px) !important;
+}
+
+#discoverPath[disabled="true"] {
+	-moz-image-region: rect(48px 52px 72px 26px) !important;
+}
+
+/* If this is removed, please remove next rule as well */
+treechildren::-moz-tree-twisty {
+	-moz-appearance: none !important;
+	padding-right: 0px !important;
+	padding-top: 0px !important;
+	width:	0px !important;
+	list-style-image: none !important;
+}
+/* Work around for bug in separators at level 0 when twisty has width 0 */
+treechildren::-moz-tree-cell-text(Name, separator) {
+	margin-left:	20px;
+}
+
+treechildren::-moz-tree-separator {
+  -moz-appearance: separator !important;
+  border-top: 1px solid ThreeDShadow !important;
+  border-bottom: 1px solid ThreeDHighlight !important;
+}
+

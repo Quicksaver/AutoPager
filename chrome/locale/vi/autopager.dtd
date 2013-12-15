@@ -1,0 +1,235 @@
+<!ENTITY autopager-workshop.button.modifyXPath.label "...">
+<!ENTITY autopager-workshop.label.value "Frames">
+<!ENTITY autopager.label.value "lật trang tự động">
+<!ENTITY autopager.menu.autopager-hidden-panel-menu.label "Trình giữ Trang">
+<!ENTITY autopager.menu.autopager-immedialate-load.key "L">
+<!ENTITY autopager.menu.autopager-immedialate-load.label "Tải ngay Lập tức">
+<!ENTITY autopager.menuitem.autopager-hidden.label "ẩn">
+<!ENTITY autopager.menuitem.autopager-load-10.key "0">
+<!ENTITY autopager.menuitem.autopager-load-10.label "10 Trang">
+<!ENTITY autopager.menuitem.autopager-load-3.key "3">
+<!ENTITY autopager.menuitem.autopager-load-3.label "3 Trang">
+<!ENTITY autopager.menuitem.autopager-load-5.key "5">
+<!ENTITY autopager.menuitem.autopager-load-5.label "5 Trang">
+<!ENTITY autopager.menuitem.autopager-load-all.key "T">
+<!ENTITY autopager.menuitem.autopager-load-all.label "Tất cả Các trang">
+<!ENTITY autopager.menuitem.autopager-load.modifiers "accel,alt">
+<!ENTITY autopager.menuitem.autopager-pause-load.key "Q">
+<!ENTITY autopager.menuitem.autopager-pause-load.label "Pause">
+<!ENTITY autopager.menuitem.autopager-show.label "hiện">
+<!ENTITY autopager.sanitizer.entry "Xác nhận Trang AutoPager">
+<!ENTITY autopager.sanitizer.entry.accesskey "A">
+<!ENTITY autopager.sanitizer.entry.confirm "Bạn có muốn xóa trắng xác nhận trang AutoPager?">
+<!ENTITY autopager.sidebarTitle "Phân xưởng Thiết lập Trang của AutoPager">
+<!ENTITY autopager.status.createXPath "Tạo XPath">
+<!ENTITY autopager.status.createXPathTip "Tạo XPath bằng cách chọn một điểm nút trên trang.">
+<!ENTITY autopager.status.disableOnSite "Tắt trên Trang">
+<!ENTITY autopager.status.disableOnSiteTip "Tắt trên Trang">
+<!ENTITY autopager.status.enabled "Bật AutoPager">
+<!ENTITY autopager.status.enabledTip "AutoPager được bật hoặc không.">
+<!ENTITY autopager.status.export "Xuất thiết lập">
+<!ENTITY autopager.status.exportTip "Xuất thiết lập AutoPager.">
+<!ENTITY autopager.status.exportclip "Xuất sang Clipboard">
+<!ENTITY autopager.status.exportclipTip "Xuất thiết lập AutoPager sang Clipboard.">
+<!ENTITY autopager.status.exportfile "Xuất sang Tập tin">
+<!ENTITY autopager.status.exportfileTip "Xuất thiết lập AutoPager sang Tập tin.">
+<!ENTITY autopager.status.importclip "Nhập từ Clipboard">
+<!ENTITY autopager.status.importclipTip "Nhập thiết lập AutoPager từ Clipboard.">
+<!ENTITY autopager.status.importexport "Nhập/Xuất">
+<!ENTITY autopager.status.importfile "Nhập từ Tập tin">
+<!ENTITY autopager.status.importfileTip "Nhập thiết lập AutoPager từ Tập tin.">
+<!ENTITY autopager.status.importurl "Nhập từ URL">
+<!ENTITY autopager.status.importurlTip "Nhập thiết lập AutoPager từ URL.">
+<!ENTITY autopager.status.myname "Tên Tôi:">
+<!ENTITY autopager.status.mynameTip "Tên Bạn, sẽ được thêm vào phần cấu hình mà bạn tạo.">
+<!ENTITY autopager.status.reportSite "Báo lỗi trên Trang">
+<!ENTITY autopager.status.reportSiteTip "Báo lỗi trên Trang">
+<!ENTITY autopager.status.requestHelp "Yêu cầu Trợ giúp trên Trang">
+<!ENTITY autopager.status.requestHelpTip "Yêu cầu Trợ giúp trên Trang">
+<!ENTITY autopager.status.setting "Quản lí Thiết lập">
+<!ENTITY autopager.status.settingTip "Quản lí Thiết lập AutoPager.">
+<!ENTITY autopager.status.showabout "Giới thiệu">
+<!ENTITY autopager.status.showaboutTip "Hiện Giới Thiệu của AutoPager.">
+<!ENTITY autopager.status.showoption "Hiện Tùy Chọn Trang">
+<!ENTITY autopager.status.showoptionTip "Hiện Tùy Chọn Trang cho trang này.">
+<!ENTITY autopager.status.sitewizard "Trình thuật sĩ Trang">
+<!ENTITY autopager.status.sitewizardTip "Tạo thiết lập cho Trang trong Trình thuật sĩ">
+<!ENTITY autopager.status.testXPath "Thử nghiệm XPath">
+<!ENTITY autopager.status.testXPathTip "Thử nghiệm XPath trên trang.">
+<!ENTITY autopager.status.update "Cập nhật Thiết lập Trực tuyến">
+<!ENTITY autopager.status.updateTip "Cập nhật Thiết lập AutoPager từ Rules Repositories.">
+<!ENTITY autopager.status.xpathUtils "Tiện ích XPath">
+<!ENTITY autopager.toolbarLabel "AutoPager">
+<!ENTITY autopager.tooltip "Phân xưởng Thiết lập Trang của AutoPager">
+<!ENTITY button.modifyContainerXPath.label "...">
+<!ENTITY button.modifyLinkXPath.label "...">
+<!ENTITY caption.results-caption.label "Kết quả">
+<!ENTITY caption.results-caption2.label "Kết quả">
+<!ENTITY checkbox.chkForceJS.label "Force JavaScript Mode">
+<!ENTITY checkbox.ir.label "Include Recommended Rules">
+<!ENTITY label.Usages.value "Sử dụng">
+<!ENTITY label.filterLabel.tooltiptext "Clear this filter to see all rules.">
+<!ENTITY label.filterLabel.value "Filter">
+<!ENTITY label.idsLabel.value "Selected Rule IDs(Seperate by ,)">
+<!ENTITY label.lazyLoad "Lazy load image src attribute">
+<!ENTITY label.monitorXPathLbl.value "Monitor XPath:">
+<!ENTITY label.value "Count">
+<!ENTITY openautopagerSidebar.commandkey "S">
+<!ENTITY openautopagerSidebar.modifiersKey "alt">
+<!ENTITY options.checkbox.ignoreFormatVersionCheck.label "Ignore Format Version Check">
+<!ENTITY options.checkbox.setAgent.label "Add AutoPager to browser User Agent">
+<!ENTITY options.checkbox.tweakSession.label "Tweak Session, restore to the last visible page after restart">
+<!ENTITY options.dialog.autopager-options.buttonlabelextra1 "More">
+<!ENTITY options.dialog.autopager-options.title "AutoPager Options">
+<!ENTITY options.label.speedLabel.value "Proload page count:">
+<!ENTITY options.menuitem.label0 "0">
+<!ENTITY options.menuitem.label1 "1">
+<!ENTITY options.menuitem.label2 "2">
+<!ENTITY options.menuitem.label3 "3">
+<!ENTITY setting.appname "AutoPager">
+<!ENTITY setting.button.add "Thêm...">
+<!ENTITY setting.button.cloneToEdit "Nhân bản để Chỉnh sửa">
+<!ENTITY setting.button.cloneToEditTip "Mục này đến từ một nguồn có sẵn. Bạn chỉ có thể chỉnh sửa bản sao nếu cần.">
+<!ENTITY setting.button.copy "Nhân bản">
+<!ENTITY setting.button.down "Xuống">
+<!ENTITY setting.button.edit "Chỉnh sửa...">
+<!ENTITY setting.button.export "Xuất">
+<!ENTITY setting.button.exportTip "Xuất các mục đã chọn">
+<!ENTITY setting.button.import "Nhập">
+<!ENTITY setting.button.pick "Chọn...">
+<!ENTITY setting.button.public "Công cộng">
+<!ENTITY setting.button.remove "Xóa">
+<!ENTITY setting.button.reset "Reset">
+<!ENTITY setting.button.resetTip "Reset to online setting or previous setting(for local rule)">
+<!ENTITY setting.button.up "Lên">
+<!ENTITY setting.buttonlabelextra1 "Áp dụng">
+<!ENTITY setting.key "u">
+<!ENTITY setting.label.advanced "Nâng cao">
+<!ENTITY setting.label.allwaysEnableJavaScript "Luôn Bật JavaScript Khi Mở Trang">
+<!ENTITY setting.label.btnEdit "Chỉnh sửa">
+<!ENTITY setting.label.chkAjax "Đây là một trang ajax. Không có sự kiện tải.">
+<!ENTITY setting.label.chkAlt "Alt">
+<!ENTITY setting.label.chkCtrl "Ctrl">
+<!ENTITY setting.label.chkEnableJS "Bật Javascript khi mở trang.">
+<!ENTITY setting.label.chkEnabled "Được bật">
+<!ENTITY setting.label.chkFixOverflow "Tắt thiết lập overflow của trang đã mở.">
+<!ENTITY setting.label.chkIsRegex "Là Bthức Qtắc?">
+<!ENTITY setting.label.chkQuickLoad "Tải Nhanh (Không an toàn cho tất cả các trang).">
+<!ENTITY setting.label.chkShift "Shift">
+<!ENTITY setting.label.chkneedMouseDown "Giả lập sự kiện Di Chuột Xuống đối với liên kết">
+<!ENTITY setting.label.confirmstyle "style xác nhận:">
+<!ENTITY setting.label.delaymsecs "Độ trễ miligiây trước khi trộn trang tiếp theo">
+<!ENTITY setting.label.disable-by-default "Disabled for individual new site">
+<!ENTITY setting.label.discoverytext "Khám phá">
+<!ENTITY setting.label.doubleclick "+Nhấp Đôi">
+<!ENTITY setting.label.general "Tổng quát">
+<!ENTITY setting.label.grpContentXPath "XPath Nội Dung:">
+<!ENTITY setting.label.grpDiscovery "Khám phá">
+<!ENTITY setting.label.grpRemoveXPath "Lọc XPath (Bỏ qua các mục của trang mới):">
+<!ENTITY setting.label.grpSmart "Lật trang Thông minh">
+<!ENTITY setting.label.hotkeys "Bật/Tắt phím nóng:">
+<!ENTITY setting.label.ignoresite "Ignore Sites">
+<!ENTITY setting.label.lblContainerXPath "XPath Container:">
+<!ENTITY setting.label.lblDesc "Mô tả:">
+<!ENTITY setting.label.lblLinkXPath "XPath Liên Kết:">
+<!ENTITY setting.label.lblOwner "Tạo bởi:">
+<!ENTITY setting.label.lblSetting "Nguồn thiết lập AutoPager">
+<!ENTITY setting.label.lblSettingContext "Kiểu ngữ cảnh:">
+<!ENTITY setting.label.lblSettingDesc "Mô tả:">
+<!ENTITY setting.label.lblSettingOwner "Duy trì bởi:">
+<!ENTITY setting.label.lblSettingType "Kiểu:">
+<!ENTITY setting.label.lblSettingUrl "URL:">
+<!ENTITY setting.label.lblSettingXPath "XPath:">
+<!ENTITY setting.label.lblURLPattern "Mẫu URL:">
+<!ENTITY setting.label.lblUpdate "Tự động Cập nhật Cấu hình Trang:">
+<!ENTITY setting.label.loading "style thông báo đang tải:">
+<!ENTITY setting.label.localrules "Local Rules">
+<!ENTITY setting.label.margin "Lật trang khi khoảng trống ít hơn">
+<!ENTITY setting.label.marginEnd "chiều cao cửa sổ">
+<!ENTITY setting.label.minipages "Lượt đếm trang tải sẵn tối thiểu">
+<!ENTITY setting.label.pagebreak "style ngắt trang:">
+<!ENTITY setting.label.showContextMenu "Show autopager context menu">
+<!ENTITY setting.label.showHelpTips "Hiện một hình ảnh trợ giúp cho mỗi điều khiển, nhấn để xem mô tả cho điều khiển đó">
+<!ENTITY setting.label.showPrompt "Hiện hộp thoại hỏi cho từng trang mới">
+<!ENTITY setting.label.showStatusBar "Hiện biểu tượng autopager trong thanh trạng thái">
+<!ENTITY setting.label.showToolbarIcon "Show autopager icon in toolbar">
+<!ENTITY setting.label.simpleModalPrompt "Hiện hộp thoại hỏi đơn giản cho từng trang mới">
+<!ENTITY setting.label.sites "Trang">
+<!ENTITY setting.label.smartenable "Bật Lật trang Thông minh">
+<!ENTITY setting.label.smartlinks "Theo liên kết khi không có hơn">
+<!ENTITY setting.label.smartlinksEnd "liên kết đã gặp.">
+<!ENTITY setting.label.smartmatch "Exactly match only">
+<!ENTITY setting.label.smarttext "Lớp/ID/Nguồn Hình/Chữ cho Tìm kiếm Liên kết Tiếp theo (tách bởi &apos;|&apos;):">
+<!ENTITY setting.label.timeout "thời gian hết hạn cho việc tải trang (giây):">
+<!ENTITY setting.label.update "Cập nhật">
+<!ENTITY setting.text.tipContainerXPath "Đừng thay đổi nếu bạn không biết về nó.\nPhần này sẽ có ích nếu nội dung chính của trang có một container với overflow-y và thanh cuộn. Ví dụ như www.cuil.com.">
+<!ENTITY setting.title "Thiết lập AutoPager">
+<!ENTITY setting.tree.Description "Mô tả">
+<!ENTITY setting.tree.URLPattern "Mẫu URL">
+<!ENTITY setting.type.autopager "autopager xml">
+<!ENTITY setting.type.autopagerize "autopager-hóa">
+<!ENTITY setting.type.autopagerizeJson "autopager-hóa josn">
+<!ENTITY setting.type.autopagerlite "autopager lite">
+<!ENTITY setting.type.autopagertext "autopager chữ">
+<!ENTITY setting.update.bidaily "Every Other Day">
+<!ENTITY setting.update.daily "Mỗi ngày">
+<!ENTITY setting.update.global "Dùng thiết lập Bao trùm">
+<!ENTITY setting.update.monthly "Mỗi tháng">
+<!ENTITY setting.update.never "Không bao giờ">
+<!ENTITY setting.update.once "Lần đầu tiên">
+<!ENTITY setting.update.startup "Mỗi khi Khởi động">
+<!ENTITY setting.update.weekly "Mỗi tuần">
+<!ENTITY statusbar.image.autopager-close-toolbar.tooltiptext "Đóng Trình Giữ Trang AutoPager">
+<!ENTITY statusbar.label.value "Click to view the paging rules online">
+<!ENTITY statusbar.menu.autopager-about.label "Trợ giúp">
+<!ENTITY statusbar.menu.fix.label "Sửa Lỗi">
+<!ENTITY statusbar.menuitem.autoPagerAutoFix.label "Tự động Sửa">
+<!ENTITY statusbar.menuitem.autoPagerAutoFix.tooltiptext "Tự động Sửa lỗi">
+<!ENTITY statusbar.menuitem.autoPagerReset.label "Reset All Setting">
+<!ENTITY statusbar.menuitem.autoPagerReset.tooltiptext "Reset All AutoPager Setting">
+<!ENTITY statusbar.menuitem.autoPagerShoting.label "Gỡ rối">
+<!ENTITY statusbar.menuitem.autoPagerShoting.tooltiptext "Gỡ rối">
+<!ENTITY statusbar.menuitem.autopager-clean.label "Clean All">
+<!ENTITY statusbar.menuitem.autopager-donation.label "Ủng hộ">
+<!ENTITY statusbar.menuitem.autopager-donation.tooltiptext "Hiện trang Ủng hộ">
+<!ENTITY statusbar.menuitem.autopager-related-search.label "Show Related Search">
+<!ENTITY statusbar.menuitem.autopager-showhelp.label "Trợ giúp">
+<!ENTITY statusbar.menuitem.autopager-showhelp.tooltiptext "Hiện trang Trợ giúp">
+<!ENTITY statusbar.menuitem.autopager-showrules.label "Quy tắc">
+<!ENTITY statusbar.menuitem.autopager-showrules.tooltiptext "Hiện quy tắc trong Kho trực tuyến">
+<!ENTITY statusbar.menuitem.autopager-showtutorials.label "Hướng dẫn">
+<!ENTITY statusbar.menuitem.autopager-showtutorials.tooltiptext "Hiện trang Hướng dẫn">
+<!ENTITY statusbar.menuitem.autopagerlite-discover.label "Search rules online">
+<!ENTITY statusbar.menuitem.autopagerlite-discover.tooltiptext "Search rules online">
+<!ENTITY statusbar.menuitem.autopagerlite-switchToLite.label "Switch To Lite Mode">
+<!ENTITY statusbar.menuitem.autopagerlite-switchToLite.tooltiptext "Switch To AutoPager Lite Mode">
+<!ENTITY statusbar.menuitem.autopagerlite-switchToNormal.label "Switch To Normal Mode">
+<!ENTITY statusbar.menuitem.autopagerlite-switchToNormal.tooltiptext "Switch To AutoPager Normal Mode">
+<!ENTITY statusbar.menuitem.disable-on-default.label "Disable Paging By Default">
+<!ENTITY statusbar.menuitem.discover.label "Discover matched rules online">
+<!ENTITY statusbar.menuitem.highlightContents.label "Highlight Contents">
+<!ENTITY statusbar.menuitem.highlightContents.tooltiptext "Highlight Contents in the document">
+<!ENTITY statusbar.menuitem.highlightLinks.label "Highlight Next Links">
+<!ENTITY statusbar.menuitem.highlightLinks.tooltiptext "Highlight Next Links in the document">
+<!ENTITY statusbar.menuitem.label "Options">
+<!ENTITY statusbar.menuitem.liteModel.label "Works in lite model">
+<!ENTITY statusbar.menuitem.noPrompt.label "Show This On New Site">
+<!ENTITY statusbar.menuitem.showDiscoverPanel.label "Always show discover icon">
+<!ENTITY statusbar.menuitem.tooltiptext "AutoPager Core Options">
+<!ENTITY statusbar.statusbarpanel.autopagerlite_status.label "?">
+<!ENTITY textbox.lazyImgSrc.tooltiptext "Image Lazy load Attribute">
+<!ENTITY textbox.monitorXPath.tooltiptext "Clean Loaded Pages when elements by following xpath clicked/changed">
+<!ENTITY toolbarbutton.addSite.tooltiptext "Thêm Trang">
+<!ENTITY toolbarbutton.clearAllPath.tooltiptext "Xóa trắng Tất cả">
+<!ENTITY toolbarbutton.discoverPath.tooltiptext "Khám phá">
+<!ENTITY toolbarbutton.openInOwnWin.tooltiptext "Mở trong Cửa Sổ Riêng">
+<!ENTITY toolbarbutton.openInSidebar.tooltiptext "Mở trong Thanh Lề">
+<!ENTITY toolbarbutton.pickupContentPath.tooltiptext "Chọn lấy Nội dung">
+<!ENTITY toolbarbutton.pickupLinkPath.tooltiptext "Chọn lấy Liên kết">
+<!ENTITY toolbarbutton.testSite.tooltiptext "Thử Trang">
+<!ENTITY treecol.authorityCol.label "Xác thực">
+<!ENTITY treecol.contentXpathCol.label "XPath Nội Dung">
+<!ENTITY treecol.fileCol.label "Tập tin">
+<!ENTITY treecol.linkXpathCol.label "XPath Liên Kết">
+<!ENTITY treecol.machedCol.label "Lượt đếm Khớp">
+<!ENTITY treecol.xpathCol.label "XPath">

@@ -1,0 +1,235 @@
+<!ENTITY autopager-workshop.button.modifyXPath.label "...">
+<!ENTITY autopager-workshop.label.value "Frames">
+<!ENTITY autopager.label.value "AutoPager">
+<!ENTITY autopager.menu.autopager-hidden-panel-menu.label "Seitenhalter">
+<!ENTITY autopager.menu.autopager-immedialate-load.key "L">
+<!ENTITY autopager.menu.autopager-immedialate-load.label "Sofort laden">
+<!ENTITY autopager.menuitem.autopager-hidden.label "ausgeblendet">
+<!ENTITY autopager.menuitem.autopager-load-10.key "0">
+<!ENTITY autopager.menuitem.autopager-load-10.label "10 Seiten">
+<!ENTITY autopager.menuitem.autopager-load-3.key "3">
+<!ENTITY autopager.menuitem.autopager-load-3.label "3 Seiten">
+<!ENTITY autopager.menuitem.autopager-load-5.key "5">
+<!ENTITY autopager.menuitem.autopager-load-5.label "5 Seiten">
+<!ENTITY autopager.menuitem.autopager-load-all.key "A">
+<!ENTITY autopager.menuitem.autopager-load-all.label "Alle Seiten">
+<!ENTITY autopager.menuitem.autopager-load.modifiers "accel,alt">
+<!ENTITY autopager.menuitem.autopager-pause-load.key "Q">
+<!ENTITY autopager.menuitem.autopager-pause-load.label "Anhalten">
+<!ENTITY autopager.menuitem.autopager-show.label "angezeigt">
+<!ENTITY autopager.sanitizer.entry "AutoPager Seitenbestätigung">
+<!ENTITY autopager.sanitizer.entry.accesskey "A">
+<!ENTITY autopager.sanitizer.entry.confirm "Möchten Sie die AutoPager Seitenbestätigung wirklich löschen?">
+<!ENTITY autopager.sidebarTitle "AutoPager">
+<!ENTITY autopager.status.createXPath "XPath erstellen">
+<!ENTITY autopager.status.createXPathTip "Erstellt einen XPath anhand der Auswahl eines Seitenknotens">
+<!ENTITY autopager.status.disableOnSite "Auf dieser Seite deaktivieren">
+<!ENTITY autopager.status.disableOnSiteTip "Auf dieser Seite deaktivieren">
+<!ENTITY autopager.status.enabled "Aktiviert">
+<!ENTITY autopager.status.enabledTip "AutoPager-Status: Aktiviert oder deaktiviert">
+<!ENTITY autopager.status.export "Einstellungen exportieren">
+<!ENTITY autopager.status.exportTip "Exportiert die AutoPager-Einstellungen">
+<!ENTITY autopager.status.exportclip "Einstellungen in Zwischenablage kopieren">
+<!ENTITY autopager.status.exportclipTip "Exportiert die AutoPager-Einstellungen in die Zwischenablage">
+<!ENTITY autopager.status.exportfile "Einstellungen in eine Datei exportieren">
+<!ENTITY autopager.status.exportfileTip "Exportiert die AutoPager-Einstellungen in eine Datei">
+<!ENTITY autopager.status.importclip "Einstellungen aus Zwischenablage importieren">
+<!ENTITY autopager.status.importclipTip "Importiert die AutoPager-Einstellungen aus der Zwischenablage">
+<!ENTITY autopager.status.importexport "Import/Export">
+<!ENTITY autopager.status.importfile "Einstellungen aus einer Datei importieren">
+<!ENTITY autopager.status.importfileTip "Importiert die AutoPager-Einstellungen aus einer Datei">
+<!ENTITY autopager.status.importurl "Einstellungen von einer Seite aus dem Internet importieren">
+<!ENTITY autopager.status.importurlTip "Importiert die AutoPager-Einstellungen von einer Datei aus dem Internet">
+<!ENTITY autopager.status.myname "Ihr Name:">
+<!ENTITY autopager.status.mynameTip "Ihr Name wird den von Ihnen erstellten Seitenkonfigurationen hinzugefügt.">
+<!ENTITY autopager.status.reportSite "Fehler für diese Seite melden">
+<!ENTITY autopager.status.reportSiteTip "Ein Fehlverhalten für diese Seite melden">
+<!ENTITY autopager.status.requestHelp "Hilfe für diese Seite anfordern">
+<!ENTITY autopager.status.requestHelpTip "Hilfe für diese Seite anfordern">
+<!ENTITY autopager.status.setting "Einstellungen bearbeiten">
+<!ENTITY autopager.status.settingTip "AutoPager-Einstellungen bearbeiten">
+<!ENTITY autopager.status.showabout "Über">
+<!ENTITY autopager.status.showaboutTip "&quot;Über AutoPager&quot; anzeigen">
+<!ENTITY autopager.status.showoption "Seitenkonfiguration anzeigen">
+<!ENTITY autopager.status.showoptionTip "Die AutoPager-Konfiguration für diese Seite anzeigen">
+<!ENTITY autopager.status.sitewizard "Seitenassistent">
+<!ENTITY autopager.status.sitewizardTip "Seitenkonfiguration mittels des Assistenten erstellen">
+<!ENTITY autopager.status.testXPath "XPath testen">
+<!ENTITY autopager.status.testXPathTip "XPath-Ausdruck für einen Test auf diese Seite anwenden">
+<!ENTITY autopager.status.update "Einstellungen aus dem Internet aktualisieren">
+<!ENTITY autopager.status.updateTip "Die AutoPager-Einstellungen von Rules Repositories herunterladen">
+<!ENTITY autopager.status.xpathUtils "XPath-Werkzeuge">
+<!ENTITY autopager.toolbarLabel "AutoPager-Sidebar ein-/ausblenden">
+<!ENTITY autopager.tooltip "Sidebar zum Erstellen der Regeln für das Anfügen der nächsten Seite">
+<!ENTITY button.modifyContainerXPath.label "...">
+<!ENTITY button.modifyLinkXPath.label "...">
+<!ENTITY caption.results-caption.label "Ergebnisse">
+<!ENTITY caption.results-caption2.label "Ergebnisse">
+<!ENTITY checkbox.chkForceJS.label "JavaScript-Modus erzwingen">
+<!ENTITY checkbox.ir.label "Empfohlene Regeln hinzufügen">
+<!ENTITY label.Usages.value "Befehle">
+<!ENTITY label.filterLabel.tooltiptext "Clear this filter to see all rules.">
+<!ENTITY label.filterLabel.value "Filter">
+<!ENTITY label.idsLabel.value "IDs der gewählte Regeln (getrennt durch ,)">
+<!ENTITY label.lazyLoad "Bildquellen langsam laden">
+<!ENTITY label.monitorXPathLbl.value "XPath anzeigen:">
+<!ENTITY label.value "Anzahl">
+<!ENTITY openautopagerSidebar.commandkey "Q">
+<!ENTITY openautopagerSidebar.modifiersKey "alt">
+<!ENTITY options.checkbox.ignoreFormatVersionCheck.label "Format-Versionsprüfung ignorieren">
+<!ENTITY options.checkbox.setAgent.label "AutoPager zur Browserkennung hinzufügen">
+<!ENTITY options.checkbox.tweakSession.label "Sitzung optimieren. Letzte sichtbare Seite nach einem Neustart wiederherstellen">
+<!ENTITY options.dialog.autopager-options.buttonlabelextra1 "Erweiterte Konfiguration...">
+<!ENTITY options.dialog.autopager-options.title "AutoPager - Einstellungen">
+<!ENTITY options.label.speedLabel.value "Anzahl vorgeladener Seiten:">
+<!ENTITY options.menuitem.label0 "0">
+<!ENTITY options.menuitem.label1 "1">
+<!ENTITY options.menuitem.label2 "2">
+<!ENTITY options.menuitem.label3 "3">
+<!ENTITY setting.appname "AutoPager">
+<!ENTITY setting.button.add "Hinzufügen...">
+<!ENTITY setting.button.cloneToEdit "Duplizieren und bearbeiten">
+<!ENTITY setting.button.cloneToEditTip "Dieser Eintrag befindet sich in einer schreibgeschützten Datei. Sie können nur einen duplizierten Eintrag bearbeiten.">
+<!ENTITY setting.button.copy "Duplizieren">
+<!ENTITY setting.button.down "Nach unten">
+<!ENTITY setting.button.edit "Bearbeiten...">
+<!ENTITY setting.button.export "Exportieren">
+<!ENTITY setting.button.exportTip "Ausgewählte Einträge exportieren">
+<!ENTITY setting.button.import "Importieren">
+<!ENTITY setting.button.pick "Auswählen...">
+<!ENTITY setting.button.public "Öffentlich">
+<!ENTITY setting.button.remove "Löschen">
+<!ENTITY setting.button.reset "Zurücksetzen">
+<!ENTITY setting.button.resetTip "Auf Online- oder vorherigen Stand zurücksetzen (für lokale Konfigurationen)">
+<!ENTITY setting.button.up "Nach oben">
+<!ENTITY setting.buttonlabelextra1 "Anwenden">
+<!ENTITY setting.key "u">
+<!ENTITY setting.label.advanced "Erweitert">
+<!ENTITY setting.label.allwaysEnableJavaScript "JavaScript beim Laden der Seite immer aktivieren">
+<!ENTITY setting.label.btnEdit "Bearbeiten">
+<!ENTITY setting.label.chkAjax "Dies ist eine Ajax-Seite. Kein Load-Ereignis.">
+<!ENTITY setting.label.chkAlt "Alt">
+<!ENTITY setting.label.chkCtrl "Strg">
+<!ENTITY setting.label.chkEnableJS "JavaScript beim Laden der Seite aktivieren.">
+<!ENTITY setting.label.chkEnabled "Aktiviert">
+<!ENTITY setting.label.chkFixOverflow "Allen Seiten gleiche Breite geben.">
+<!ENTITY setting.label.chkIsRegex "Regulärer Ausdruck">
+<!ENTITY setting.label.chkQuickLoad "Schnelles Laden (funktioniert nicht für alle Seiten).">
+<!ENTITY setting.label.chkShift "Umschalt">
+<!ENTITY setting.label.chkneedMouseDown "Benötigt Mausklick-Auslöser für den Link">
+<!ENTITY setting.label.confirmstyle "CSS-Stil für Steuerungs-Pop-up:">
+<!ENTITY setting.label.delaymsecs "Millisekunden warten vor dem Anhängen der nächsten Seite">
+<!ENTITY setting.label.disable-by-default "Für die individuelle neue Seite deaktivieren">
+<!ENTITY setting.label.discoverytext "Bekannte IDs von Link-Elementen">
+<!ENTITY setting.label.doubleclick "+ Doppelklick">
+<!ENTITY setting.label.general "Allgemein">
+<!ENTITY setting.label.grpContentXPath "XPath des Inhalts:">
+<!ENTITY setting.label.grpDiscovery "Erkennung">
+<!ENTITY setting.label.grpRemoveXPath "XPath filtern (Elemente von neuen Seiten ignorieren):">
+<!ENTITY setting.label.grpSmart "Intelligenter Modus">
+<!ENTITY setting.label.hotkeys "Tastaturkürzel aktivieren/deaktivieren:">
+<!ENTITY setting.label.ignoresite "Seiten ignorieren">
+<!ENTITY setting.label.lblContainerXPath "XPath des Inhalts:">
+<!ENTITY setting.label.lblDesc "Beschreibung:">
+<!ENTITY setting.label.lblLinkXPath "XPath des Links:">
+<!ENTITY setting.label.lblOwner "Erstellt von:">
+<!ENTITY setting.label.lblSetting "AutoPager Konfigurationsquelle">
+<!ENTITY setting.label.lblSettingContext "Zusammenhang:">
+<!ENTITY setting.label.lblSettingDesc "Bes.:">
+<!ENTITY setting.label.lblSettingOwner "Unterstützt von:">
+<!ENTITY setting.label.lblSettingType "Typ:">
+<!ENTITY setting.label.lblSettingUrl "Adresse:">
+<!ENTITY setting.label.lblSettingXPath "XPath:">
+<!ENTITY setting.label.lblURLPattern "Adressregel:">
+<!ENTITY setting.label.lblUpdate "Seitenkonfigurationen aktualisieren:">
+<!ENTITY setting.label.loading "CSS-Stil für Laden der nächsten Seite:">
+<!ENTITY setting.label.localrules "Local Rules">
+<!ENTITY setting.label.margin "Nächste Seite aufrufen, wenn der restliche Seitenbereich kleiner als">
+<!ENTITY setting.label.marginEnd "Fensterhöhe(n) entspricht.">
+<!ENTITY setting.label.minipages "Minimum an vorgeladenen Seiten">
+<!ENTITY setting.label.pagebreak "CSS-Stil für Grenze zwischen Seiten:">
+<!ENTITY setting.label.showContextMenu "Autopages Kontextmenü anzeigen">
+<!ENTITY setting.label.showHelpTips "Einen Hilfetext für jede Funktion anzeigen, klicken für eine Beschreibung">
+<!ENTITY setting.label.showPrompt "Hinweis für die individuelle neue Seite anzeigen">
+<!ENTITY setting.label.showStatusBar "Symbol von AutoPager in der Statusleiste anzeigen">
+<!ENTITY setting.label.showToolbarIcon "Symbol von AutoPager in der Symbolleiste anzeigen">
+<!ENTITY setting.label.simpleModalPrompt "Einen einfachen modalen Hinweis für jede individuelle neue Seite anzeigen">
+<!ENTITY setting.label.sites "Regeln">
+<!ENTITY setting.label.smartenable "Intelligenten Modus aktivieren">
+<!ENTITY setting.label.smartlinks "Diesen Link verwenden, wenn nicht mehr als">
+<!ENTITY setting.label.smartlinksEnd "zutreffende Links gefunden werden.">
+<!ENTITY setting.label.smartmatch "Exactly match only">
+<!ENTITY setting.label.smarttext "Text des Links zur nächsten Seite/Pfad der verlinkenden Grafik/ID oder CSS-Klasse des Links (getrennt durch '|'):">
+<!ENTITY setting.label.timeout "Maximale Wartezeit beim Laden einer Seite (Sekunden):">
+<!ENTITY setting.label.update "Aktualisierung">
+<!ENTITY setting.text.tipContainerXPath "Nicht ändern falls unbekannt.\nDies wird helfen, wenn der Inhalt vertikal angeordnet ist und eine Bildlaufleiste enthält. Siehe www.cuil.com als Beispiel.">
+<!ENTITY setting.title "AutoPager - Einstellungen">
+<!ENTITY setting.tree.Description "Beschreibung">
+<!ENTITY setting.tree.URLPattern "Adressregel">
+<!ENTITY setting.type.autopager "Autopager XML">
+<!ENTITY setting.type.autopagerize "Autopagerize">
+<!ENTITY setting.type.autopagerizeJson "Autopagerize Json">
+<!ENTITY setting.type.autopagerlite "autopager lite">
+<!ENTITY setting.type.autopagertext "Autopager Text">
+<!ENTITY setting.update.bidaily "Jeden zweiten Tag">
+<!ENTITY setting.update.daily "Täglich">
+<!ENTITY setting.update.global "Globale Einstellungen verwenden">
+<!ENTITY setting.update.monthly "Monatlich">
+<!ENTITY setting.update.never "Nie">
+<!ENTITY setting.update.once "Beim ersten Mal">
+<!ENTITY setting.update.startup "Bei jedem Start">
+<!ENTITY setting.update.weekly "Wöchentlich">
+<!ENTITY statusbar.image.autopager-close-toolbar.tooltiptext "AutoPager-Seitenhalter schließen">
+<!ENTITY statusbar.label.value "Hier klicken um die Online-Regeln anzuzeigen">
+<!ENTITY statusbar.menu.autopager-about.label "Hilfe">
+<!ENTITY statusbar.menu.fix.label "Fehler beheben">
+<!ENTITY statusbar.menuitem.autoPagerAutoFix.label "Automatisch beheben">
+<!ENTITY statusbar.menuitem.autoPagerAutoFix.tooltiptext "Fehler automatisch beheben">
+<!ENTITY statusbar.menuitem.autoPagerReset.label "Alle Einstellungen zurücksetzen">
+<!ENTITY statusbar.menuitem.autoPagerReset.tooltiptext "Alle Einstellungen für AutoPager zurücksetzen">
+<!ENTITY statusbar.menuitem.autoPagerShoting.label "Fehlersuche">
+<!ENTITY statusbar.menuitem.autoPagerShoting.tooltiptext "Fehlersuche">
+<!ENTITY statusbar.menuitem.autopager-clean.label "Alle leeren">
+<!ENTITY statusbar.menuitem.autopager-donation.label "Spenden">
+<!ENTITY statusbar.menuitem.autopager-donation.tooltiptext "Spendenseite anzeigen">
+<!ENTITY statusbar.menuitem.autopager-related-search.label "Ähnliche Suchen anzeigen">
+<!ENTITY statusbar.menuitem.autopager-showhelp.label "Hilfe">
+<!ENTITY statusbar.menuitem.autopager-showhelp.tooltiptext "Hilfeseite anzeigen">
+<!ENTITY statusbar.menuitem.autopager-showrules.label "Konfigurationen">
+<!ENTITY statusbar.menuitem.autopager-showrules.tooltiptext "Konfigurationen der Online-Sammlung anzeigen">
+<!ENTITY statusbar.menuitem.autopager-showtutorials.label "Tutorials">
+<!ENTITY statusbar.menuitem.autopager-showtutorials.tooltiptext "Tutorialseite anzeigen">
+<!ENTITY statusbar.menuitem.autopagerlite-discover.label "Online nach Regeln suchen">
+<!ENTITY statusbar.menuitem.autopagerlite-discover.tooltiptext "Online nach Regeln suchen">
+<!ENTITY statusbar.menuitem.autopagerlite-switchToLite.label "In Lite-Modus wechseln">
+<!ENTITY statusbar.menuitem.autopagerlite-switchToLite.tooltiptext "AutoPager in den Lite-Modus umschalten">
+<!ENTITY statusbar.menuitem.autopagerlite-switchToNormal.label "In normalen Modus wechseln">
+<!ENTITY statusbar.menuitem.autopagerlite-switchToNormal.tooltiptext "AutoPager in den normalen Modus umschalten">
+<!ENTITY statusbar.menuitem.disable-on-default.label "Blättern standardmäßig deaktivieren">
+<!ENTITY statusbar.menuitem.discover.label "Passende Regeln online suchen">
+<!ENTITY statusbar.menuitem.highlightContents.label "Inhalt markieren">
+<!ENTITY statusbar.menuitem.highlightContents.tooltiptext "Inhalt im Dokument markieren">
+<!ENTITY statusbar.menuitem.highlightLinks.label "Weiter-Links markieren">
+<!ENTITY statusbar.menuitem.highlightLinks.tooltiptext "Weiter-Links im Dokument markieren">
+<!ENTITY statusbar.menuitem.label "Optionen">
+<!ENTITY statusbar.menuitem.liteModel.label "Funktioniert im Lite-Modell">
+<!ENTITY statusbar.menuitem.noPrompt.label "Dies auf der neuen Seite anzeigen">
+<!ENTITY statusbar.menuitem.showDiscoverPanel.label "Fund-Icon immer anzeigen">
+<!ENTITY statusbar.menuitem.tooltiptext "AutoPager-Haupteinstellungen">
+<!ENTITY statusbar.statusbarpanel.autopagerlite_status.label "?">
+<!ENTITY textbox.lazyImgSrc.tooltiptext "Bildquellen langsam laden Attribut">
+<!ENTITY textbox.monitorXPath.tooltiptext "Geladene Seiten entfernen wenn Elemente des folgenden XPaths geklickt/geändert werden">
+<!ENTITY toolbarbutton.addSite.tooltiptext "Seite hinzufügen">
+<!ENTITY toolbarbutton.clearAllPath.tooltiptext "Liste leeren">
+<!ENTITY toolbarbutton.discoverPath.tooltiptext "Herausfinden">
+<!ENTITY toolbarbutton.openInOwnWin.tooltiptext "In eigenem Fenster öffnen">
+<!ENTITY toolbarbutton.openInSidebar.tooltiptext "Als Sidebar anzeigen">
+<!ENTITY toolbarbutton.pickupContentPath.tooltiptext "Inhalt auswählen">
+<!ENTITY toolbarbutton.pickupLinkPath.tooltiptext "Link auswählen">
+<!ENTITY toolbarbutton.testSite.tooltiptext "Seite testen">
+<!ENTITY treecol.authorityCol.label "Relevanz">
+<!ENTITY treecol.contentXpathCol.label "XPath des Inhalts">
+<!ENTITY treecol.fileCol.label "Datei">
+<!ENTITY treecol.linkXpathCol.label "XPath des Links">
+<!ENTITY treecol.machedCol.label "Anzahl">
+<!ENTITY treecol.xpathCol.label "XPath">

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://browser/content/bookmarks/bookmarks.css" type="text/css"?>
+<?xml-stylesheet href="chrome://browser/skin/browser.css" type="text/css"?>
+<?xml-stylesheet href="chrome://autopager/skin/autopager.css" type="text/css"?>
+<?xml-stylesheet href="chrome://autopager/skin/autopager-workshop-win.css" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://autopager/locale/autopager.dtd" >
+<?xul-overlay href="chrome://autopager/content/autopager-workshop.xul"?>
+<dialog id="autopagerWorkshopDialog"
+        title="&autopager.sidebarTitle;"
+        orient="vertical"
+        ondialogcancel="autopagerSidebar.quit();"
+        ondialogaccept="return autopagerSidebar.doAddSite(true);"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <vbox id="autopager-workshop" flex="1">
+    </vbox>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-namespace.js"></script>
+    <script type="text/javascript">
+        window.addEventListener("DOMContentLoaded",function(event) {
+                window.removeEventListener("DOMContentLoaded", arguments.callee, false);
+                autopagerSidebar.onLoad()
+            },false);
+            
+        if (typeof window.opener.autopagerSelectUrl != 'undefined')
+        {
+        window.addEventListener("load",function(event) {
+                window.setTimeout(function(){
+                    var discoverPath = document.getElementById("discoverPath");
+                    discoverPath.doCommand();
+                },400);
+            },false);
+        }
+    </script>
+</dialog>

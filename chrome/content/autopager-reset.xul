@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+<?xml-stylesheet href="chrome://autopager/skin/autopager.css" type="text/css"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://global/locale/config.dtd">
+
+<overlay id="autopager" 
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+    <hbox id="loading-hbox">
+        <button id="loadingReset" label="&reset.label;" accesskey="&reset.accesskey;"
+            oncommand="try{autopagerPref.resetPref('loading');}catch(e){}; txtLoading.value = autopagerMain.getLoadingStyle();"/>
+    </hbox>
+    <hbox  id="pagebreak-hbox">
+        <button id="pagebreakReset" label="&reset.label;" accesskey="&reset.accesskey;"
+            oncommand="try{autopagerPref.resetPref('pagebreak');}catch(e){}; txtPagebreak.value = autopagerPref.loadUTF8Pref('pagebreak');"/>
+    </hbox>
+    <hbox  id="confirm-hbox">
+        <button id="confirmReset" label="&reset.label;" accesskey="&reset.accesskey;"
+            oncommand="try{autopagerPref.resetPref('optionstyle');}catch(e){};try{txtConfirmStyle.value = autopagerPref.loadUTF8Pref('optionstyle');}catch(e){}"/>
+    </hbox>
+</overlay>

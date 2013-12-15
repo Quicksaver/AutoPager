@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://browser/content/bookmarks/bookmarks.css" type="text/css"?>
+<?xml-stylesheet href="chrome://browser/skin/browser.css" type="text/css"?>
+<?xml-stylesheet href="chrome://autopager/skin/autopager.css" type="text/css"?>
+<?xml-stylesheet href="chrome://autopager/skin/autopager-workshop.css" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://autopager/locale/autopager.dtd" >
+
+<overlay id="autopagerworkshopOverlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <vbox id="autopager-workshop" flex="1">
+
+        <script type="text/javascript" src="chrome://autopager/content/autopager-namespace.js"></script>
+        <script type="text/javascript" src="chrome://autopager/content/autopager-bw-utils.js"></script>
+        <script type="text/javascript" src="chrome://autopager/content/autopager-shared.js"></script>
+        <script type="text/javascript" src="chrome://autopager/content/autopager-common-global.js"></script>    
+        <script type="text/javascript" src="chrome://autopager/content/autopager-bw-utils.js"></script>
+        <script type="text/javascript" src="chrome://autopager/content/autopager-strings.js"></script>
+        <script type="text/javascript" src="chrome://autopager/content/splitbrowse.js"></script>
+        <script type="text/javascript" src="chrome://autopager/content/apxmlhttp.js"></script>
+        <script type="text/javascript" src="chrome://autopager/content/autopagerize.js"></script>
+        <script type="text/javascript" src="chrome://autopager/content/autopager-pref.js"></script>
+        <script type="text/javascript" src="chrome://autopager/content/autopager-utils.js"></script>
+        <script type="text/javascript" src="chrome://autopager/content/autopager-highlight.js"></script>
+        <script type="text/javascript" src="chrome://autopager/content/autopager-xpath.js"></script>
+        <script type="text/javascript" src="chrome://autopager/content/autopager-json.js"></script>
+        <script type="text/javascript" src="chrome://autopager/content/autopager-lite.js"></script>
+        <script type="text/javascript" src="chrome://autopager/content/autopager-updatesites.js"></script>
+        <script type="text/javascript" src="chrome://autopager/content/autopager-rules.js"></script>
+        <script type="text/javascript" src="chrome://autopager/content/autopagerSidebar.js"></script>
+        <script type="text/javascript" src="chrome://autopager/content/autoConfig.js"></script>
+        <script type="text/javascript" src="chrome://autopager/content/autopager.js"></script>
+        <script type="text/javascript" src="chrome://autopager/content/autopager-selector.js"></script>
+        <script type="text/javascript" src="chrome://autopager/content/autopager-tips.js"></script>
+        <script type="text/javascript" src="chrome://autopager/content/autopager-description.js"></script>
+        <script type="text/javascript" src="chrome://autopager/content/autopager-firefox.js"></script>    
+        <script type="text/javascript" src="chrome://autopager/content/autopager-end.js"></script>
+
+        <toolbox class="plain">
+            <toolbar>
+                <toolbarbutton id="discoverPath" class="autopager_button toolbarbutton-1" oncommand="autopagerSidebar.discovery();" tooltiptext="&toolbarbutton.discoverPath.tooltiptext;" keyword="Discovery"/>
+
+                <toolbarbutton id="pickupLinkPath" class="autopager_button toolbarbutton-1" oncommand="autopagerSidebar.pickupLink();" tooltiptext="&toolbarbutton.pickupLinkPath.tooltiptext;" keyword="Pickup Link XPath"/>
+                <toolbarbutton id="pickupContentPath" class="autopager_button toolbarbutton-1" oncommand="autopagerSidebar.pickupContent();" tooltiptext="&toolbarbutton.pickupContentPath.tooltiptext;" keyword="Pickup Content XPath"/>
+
+                <toolbarbutton id="clearAllPath" class="autopager_button toolbarbutton-1" oncommand="autopagerSidebar.clearAll();" tooltiptext="&toolbarbutton.clearAllPath.tooltiptext;" keyword="Clear All"/>
+                <toolbarbutton id="testSite" class="autopager_button toolbarbutton-1" oncommand="autopagerSidebar.testSite();" tooltiptext="&toolbarbutton.testSite.tooltiptext;" keyword="Test Site Rule"/>
+                <spacer flex="0"/>
+                <toolbarbutton id="addSite" class="autopager_button toolbarbutton-1" oncommand="autopagerSidebar.addSite();" tooltiptext="&toolbarbutton.addSite.tooltiptext;" keyword="Add Site Rule"/>
+                <toolbarbutton type="menu" id="autopager-about" class="autopager-menu-class" label="&statusbar.menu.autopager-about.label;"
+                                keyword="About">
+                    <menupopup id="autopager-about-menupopup" >
+                        <menuitem id="autopager-donation" label="&statusbar.menuitem.autopager-donation.label;" tooltiptext="&statusbar.menuitem.autopager-donation.tooltiptext;"
+                                  oncommand="autopagerMain.showDonation()"
+                                  />
+                        <menuseparator class="autopager-sep-global"/>
+                        <menuitem id="autopager-showtutorials" label="&statusbar.menuitem.autopager-showtutorials.label;" tooltiptext="&statusbar.menuitem.autopager-showtutorials.tooltiptext;"
+                                  oncommand="autopagerMain.showTutorials()"
+                                  />
+                        <menuitem id="autopager-showhelp" label="&statusbar.menuitem.autopager-showhelp.label;" tooltiptext="&statusbar.menuitem.autopager-showhelp.tooltiptext;"
+                                  oncommand="autopagerUtils.showHelp()"
+                                  />
+                        <menuseparator class="autopager-sep-global"/>
+                        <menuitem id="autopager-showrules" label="&statusbar.menuitem.autopager-showrules.label;" tooltiptext="&statusbar.menuitem.autopager-showrules.tooltiptext;"
+                                  oncommand="autopagerMain.showRules()"
+                                  />
+                        <menuseparator class="autopager-sep-global"/>
+                        <menuitem id="autopager-showabout"
+                                  label="&autopager.status.showabout;"
+                                  tooltiptext="&autopager.status.showaboutTip;"
+                                  oncommand="autopagerBwUtil.showAbout()"
+                                  />
+                    </menupopup>
+                </toolbarbutton>
+
+                <spacer flex="1"/>
+                <!--
+            <toolbarbutton id="tools" type="menu" class="autopager_button toolbarbutton-1" label="Tools"  tooltiptext="Tools">
+                <menupopup>
+                    <menuitem label="test" oncommand="test()"/>
+                </menupopup>
+            </toolbarbutton>
+            -->
+                <toolbarbutton id="openInOwnWin" class="autopager_button toolbarbutton-1" oncommand="autopagerSidebar.openInOwnWin();" tooltiptext="&toolbarbutton.openInOwnWin.tooltiptext;" keyword="Open In Own Window"/>
+                <toolbarbutton id="openInSidebar" class="autopager_button toolbarbutton-1" oncommand="autopagerSidebar.openInSidebar();" tooltiptext="&toolbarbutton.openInSidebar.tooltiptext;" keyword="Open In Sidebar"/>
+            </toolbar>
+        </toolbox>
+
+        <deck selectedIndex="0" id="xpathDeck" flex="1">
+            <vbox flex="1">
+                <hbox align="center">
+                    <label control="menuFrame" value="&autopager-workshop.label.value;"  keyword="Frame"/>
+                    <menulist flex="1" id="menuFrame">
+                        <menupopup >
+                        </menupopup>
+                    </menulist>
+                </hbox>
+                <hbox align="center">
+                    <label control="urlPattern" value="&setting.label.lblURLPattern;" keyword="URL Pattern"/>
+                    <checkbox id="chkIsRegex" label="&setting.label.chkIsRegex;" checked="false" keyword="URL Is Regex"/>
+                    <menulist flex="1" id="urlPattern" editable="true">
+                        <menupopup >
+                        </menupopup>
+                    </menulist>
+                </hbox>
+                <hbox align="center">
+                    <label control="xpath" value="&setting.label.lblLinkXPath;" keyword="Link XPath"/>
+                    <menulist flex="1" id="xpath" editable="true">
+                        <menupopup >
+                        </menupopup>
+                    </menulist>
+                    <button id="modifyXPath" label="&autopager-workshop.button.modifyXPath.label;" onclick="autopagerXPath.modifyXPath('xpath');" keyword="Modify XPath"/>
+                </hbox>
+                <hbox align="center">
+                    <label control="contentXPath" value="&setting.label.grpContentXPath;" keyword="Content XPath"/>
+                    <menulist flex="1" id="contentXPath" editable="true">
+                        <menupopup >
+                        </menupopup>
+                    </menulist>
+                    <button id="modifyXPath" label="&autopager-workshop.button.modifyXPath.label;" onclick="autopagerXPath.modifyXPath('contentXPath');" keyword="Modify XPath"/>
+                </hbox>
+                <tabbox id="autopager-workshop-tabbox" flex="1" selectedIndex="1">
+                    <tabs>
+                        <tab label="&setting.label.sites;"/>
+                        <tab label="&treecol.linkXpathCol.label;"/>
+                        <tab label="&treecol.contentXpathCol.label;"/>
+                    </tabs>
+                    <tabpanels  flex="1">
+                        <tabpanel id="site-setting"  flex="1">
+                            <vbox flex="1">
+                                <tree id="setings" width="100px" flex="3" seltype="single" enableColumnDrag="true" context="xpathsContext">
+                                    <treecols>
+                                        <treecol ordinal="1" id="urlPatternCol" label="&setting.tree.URLPattern;" flex="1"
+                                                 class="sortDirectionIndicator" persist="hidden width ordinal sortDirection" keyword="URL Pattern Column"/>
+                                        <splitter ordinal="2" class="tree-splitter"/>
+                                        <treecol ordinal="3" id="linkXpathCol" label="&treecol.linkXpathCol.label;" flex="1"
+                                                 class="sortDirectionIndicator" persist="hidden width ordinal sortDirection" keyword="Link XPath Column"/>
+                                        <splitter ordinal="4" class="tree-splitter"/>
+                                        <treecol ordinal="5" id="contentXpathCol" label="&treecol.contentXpathCol.label;" flex="1"
+                                                 class="sortDirectionIndicator" persist="hidden width ordinal sortDirection" keyword="Content XPath Column"/>
+                                        <splitter ordinal="6" class="tree-splitter"/>
+                                        <treecol ordinal="7" id="fileCol" label="&treecol.fileCol.label;" flex="1"
+                                                 class="sortDirectionIndicator" persist="hidden width ordinal sortDirection" hidden="true" keyword="Repository Column"/>
+                                    </treecols>
+                                    <treechildren flex="1" id="settingsTreeBody" ondblclick="autopagerSidebar.setXPathes();"/>
+                                </tree>
+                            </vbox>
+                        </tabpanel>
+                        <tabpanel id="links" >
+
+                            <vbox flex="1">
+                                <tree id="xpaths" width="100px" flex="3" seltype="single" enableColumnDrag="true" context="xpathsContext">
+                                    <treecols>
+                                        <treecol ordinal="1" id="xpathCol" label="&treecol.xpathCol.label;" flex="2"
+                                                 class="sortDirectionIndicator" persist="hidden width ordinal sortDirection" keyword="XPath Column"/>
+                                        <splitter ordinal="2" class="tree-splitter"/>
+                                        <treecol ordinal="3" id="authorityCol" label="&treecol.authorityCol.label;" flex="1"
+                                                 class="sortDirectionIndicator" persist="hidden width ordinal sortDirection" hidden="true" keyword="Authority Column"/>
+                                        <splitter ordinal="4" class="tree-splitter"/>
+                                        <treecol ordinal="5" id="machedCol" label="&treecol.machedCol.label;" flex="1"
+                                                 class="sortDirectionIndicator" persist="hidden width ordinal sortDirection" keyword="Matched Count Column"/>
+                                    </treecols>
+                                    <treechildren flex="1" id="autoLinkPathTreeBody" ondblclick="autopagerSidebar.setLinkXPath();"/>
+                                </tree>
+                                <splitter />
+                                <groupbox flex="1" pack="center">
+                                    <caption id="results-caption" label="&caption.results-caption.label;" crop="center"/>
+                                    <vbox flex="1">
+                                        <label id="status"/>
+                                        <iframe id="resultsFrame" type="content-targetable" flex="1"  src="http://www.teesoft.info/autopager/intro.html"/>
+                                    </vbox>
+                                </groupbox>
+                            </vbox>
+                        </tabpanel>
+                        <tabpanel id="Content">
+                            <vbox flex="1">
+                                <tree width="100px" id="contentXPaths" flex="3" seltype="single" enableColumnDrag="true" context="contentXPathsContext">
+                                    <treecols>
+                                        <treecol ordinal="1" id="xpathCol" label="&treecol.xpathCol.label;" flex="2" class="sortDirectionIndicator"
+                                                 persist="hidden width ordinal sortDirection" keyword="XPath Column"/>
+                                        <splitter ordinal="2" class="tree-splitter"/>
+                                        <treecol ordinal="3" id="authorityCol" label="&treecol.authorityCol.label;" flex="1"
+                                                 class="sortDirectionIndicator" persist="hidden width ordinal sortDirection" hidden="true" keyword="Authority Column"/>
+                                        <splitter ordinal="4" class="tree-splitter"/>
+                                        <treecol ordinal="5" id="machedCol" label="&treecol.machedCol.label;" flex="1"
+                                                 class="sortDirectionIndicator" persist="hidden width ordinal sortDirection" keyword="Matched Count Column"/>
+                                    </treecols>
+                                    <treechildren id="autoContentPathTreeBody" ondblclick="autopagerSidebar.setContentXPath();"/>
+                                </tree>
+                                <splitter />
+                                <groupbox flex="1" pack="center">
+                                    <caption id="results-caption2" label="&caption.results-caption2.label;" crop="center"/>
+                                    <vbox flex="1">
+                                        <label id="status2"/>
+                                        <iframe id="resultsFrame2" type="content-targetable" flex="1" src="http://www.teesoft.info/autopager/intro.html"/>
+                                    </vbox>
+                                </groupbox>
+                            </vbox>
+                        </tabpanel>
+                    </tabpanels>
+                </tabbox>
+            </vbox>
+            <vbox>
+                <label id="Usages" value="&label.Usages.value;" keyword="XPath Creator Usages"/>
+                <rows id="autopager-helpbox-rows"/>
+                <tooltip id="autopager-viewsource" noautohide="true" orient="vertical"/>
+            </vbox>
+        </deck>
+        <vbox flex="0">
+            <tooltip  id="helptip" flex="1">
+                <image width="48" height="48" src="chrome://autopager/skin/help.jpg"
+                       style="color: red;"
+                       onclick=" autopagerSidebar.tips.openHelpTip(this.parentNode);" class="text-link"/>
+            </tooltip>
+        </vbox>
+    </vbox>
+</overlay>

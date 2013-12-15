@@ -1,0 +1,73 @@
+<!ENTITY xpath-exprestion.button.reset.label "Sıfırla">
+<!ENTITY xpath-exprestion.descriptionBox.text "Xpath İfade Açıklaması">
+<!ENTITY xpath-exprestion.dialog.xpath-expressions.title "Xpath İfadesi">
+<!ENTITY xpath-exprestion.tab.boolean.label "Mantıksal İfadeler">
+<!ENTITY xpath-exprestion.tab.location.label "Konumlar">
+<!ENTITY xpath-exprestion.tab.nodeset.label "Düğüm-Kümesi İşlevleri">
+<!ENTITY xpath-exprestion.tab.number.label "Sayı İşlevleri">
+<!ENTITY xpath-exprestion.tab.string.label "Dizge İşlevleri">
+<!ENTITY xpath-exprestion.treecell.d_ancestor-or-self.label "Bağlamsal düğümün kendisini ve üstsellerini seçer.">
+<!ENTITY xpath-exprestion.treecell.d_ancestor.label "Bağlamsal düğümün üstsellerini seçer.">
+<!ENTITY xpath-exprestion.treecell.d_attribute.label "Bağlamsal düğümün özniteliklerini seçer.">
+<!ENTITY xpath-exprestion.treecell.d_boolean.label "Nesnel değişkenin gösterimini mantıksal değere döndürür.">
+<!ENTITY xpath-exprestion.treecell.d_ceiling.label "Belirtilen sayıyı en yakın büyük tamsayıya yuvarlar.">
+<!ENTITY xpath-exprestion.treecell.d_child.label "Bağlamsal düğümün çocuklarını seçer.">
+<!ENTITY xpath-exprestion.treecell.d_concat.label "Değişkenlerini birbirine ulayarak oluşturduğu dizgeyi döndürür.">
+<!ENTITY xpath-exprestion.treecell.d_contains.label "Eğer birinci dizge, ikinci dizgeyi içeriyorsa doğru, aksi takdirde yanlış döndürür.">
+<!ENTITY xpath-exprestion.treecell.d_count.label "Düğüm-kümesindeki düğümlerin sayılarını döndürür.">
+<!ENTITY xpath-exprestion.treecell.d_descendant-or-self.label "Bağlamsal düğümün kendisini ve astsallarını seçer.">
+<!ENTITY xpath-exprestion.treecell.d_descendant.label "Bağlamsal düğümün astsallarını seçer.">
+<!ENTITY xpath-exprestion.treecell.d_false.label "Bir boole değeri doğru veya yanlış ile döner.">
+<!ENTITY xpath-exprestion.treecell.d_floor.label "Belirtilen sayıyı en yakın küçük tamsayıya yuvarlar.">
+<!ENTITY xpath-exprestion.treecell.d_following-sibling.label "Bağlamsal düğümün tüm küçük kardeşlerini seçer.">
+<!ENTITY xpath-exprestion.treecell.d_following.label "Bağlamsal düğümden sonra gelen (öznitelik düğümleri ve isim-alanı düğümleri hariç) tüm düğümleri seçer.">
+<!ENTITY xpath-exprestion.treecell.d_id.label "Elemanları eşsiz ID'lerine göre döner.">
+<!ENTITY xpath-exprestion.treecell.d_lang.label "Argüman olarak belirtilen dil ile aynı veya belirtilen dilin bir altdili olup olmamasına bağlı olarak doğru veya yanlış ile döner.">
+<!ENTITY xpath-exprestion.treecell.d_last.label "İfade değerlendirme bağlamındaki bağlamsal boyuta eşit bir sayı ile döner.">
+<!ENTITY xpath-exprestion.treecell.d_local-name.label "Bağlamsal düğüme göre yerel kısım ile döner">
+<!ENTITY xpath-exprestion.treecell.d_local-name_N.label "Belirtilen düğüm-kümesi içindeki ilk düğümün genişletilmiş isminin yerel kısmı ile döner.">
+<!ENTITY xpath-exprestion.treecell.d_name.label "Bağlamsal düğüme göre isim ile döner">
+<!ENTITY xpath-exprestion.treecell.d_name_N.label "Düğüm kümesindeki ilk düğümün adını döndürür.">
+<!ENTITY xpath-exprestion.treecell.d_namespace-uri.label "Bağlamsal düğüme göre isim-alanı tanım-yeri (URI) ile döner">
+<!ENTITY xpath-exprestion.treecell.d_namespace-uri_N.label "Belirtilen düğüm-kümesi içinde belgedeki sıraya göre ilk düğümün genişletilmiş isminin isim-alanı tanım-yeri (URI) ile döner">
+<!ENTITY xpath-exprestion.treecell.d_namespace.label "Bağlamsal düğümün isim-alanı düğümlerini seçer">
+<!ENTITY xpath-exprestion.treecell.d_normalize-space.label "Belirtilen düğüm-kümesi içindeki boşluk karakterleri atıldıktan sonra kalan düğüm-kümesi içindeki boşluk dizgecikleri birer boşluk karakteri ile değiştirilerek elde edilen düğüm-kümesini döndürür.">
+<!ENTITY xpath-exprestion.treecell.d_normalize-space_S.label "İşlevi belirtilen dizgenin başındaki ve sonundaki boşluk karakterleri atıldıktan sonra kalan dizgenin içindeki boşluk dizgecikleri birer boşluk karakteri ile değiştirilerek elde edilen dizgeyi döndürür.">
+<!ENTITY xpath-exprestion.treecell.d_not.label "Argümanını bir mantıksal değere döndürür.">
+<!ENTITY xpath-exprestion.treecell.d_number.label "Bağlamsal düğümün gösterimini sayıya döndürür.">
+<!ENTITY xpath-exprestion.treecell.d_number_O.label "Nesnel argümanını bir sayıya döndürür.">
+<!ENTITY xpath-exprestion.treecell.d_parent.label "Bağlamsal düğümün ebeveynini seçer.">
+<!ENTITY xpath-exprestion.treecell.d_position.label "Değerlendirme bağlamındaki bağlamsal sıraya eşit bir sayı ile döner.">
+<!ENTITY xpath-exprestion.treecell.d_preceding-sibling.label "Bağlamsal düğümün önceki ilk bölüm kardeşini seçer">
+<!ENTITY xpath-exprestion.treecell.d_preceding.label "Bağlamsal düğümün tüm büyük kardeşlerini seçer.">
+<!ENTITY xpath-exprestion.treecell.d_round.label "Belirtilen sayıyı en yakın tamsayıya yuvarlar.">
+<!ENTITY xpath-exprestion.treecell.d_self.label "Bağlamsal düğümün kendisini seçer.">
+<!ENTITY xpath-exprestion.treecell.d_starts-with.label "Eğer birinci dizge, ikinci dizgeyi içeriyorsa doğru, aksi takdirde yanlış döndürür.">
+<!ENTITY xpath-exprestion.treecell.d_string-length.label "Bağlamsal düğüm tarafından belirtilen dizge içindeki karakter sayısı ile döner.">
+<!ENTITY xpath-exprestion.treecell.d_string-length_S.label "Argümana göre belirtilen dizge içindeki karakter sayısı ile döner">
+<!ENTITY xpath-exprestion.treecell.d_string.label "Bağlamsal düğümün gösterimini bir dizgeye döndürür.">
+<!ENTITY xpath-exprestion.treecell.d_string_O.label "İşlevi belirtilen nesnel argümantı bir dizgeye döndürür.">
+<!ENTITY xpath-exprestion.treecell.d_substring-after.label "Birinci dizgenin içinde ikinci dizgenin ilk bulunduğu konumda, ikinci dizgenin bitiminden birinci dizgenin sonuna kadar olan alt dizge ile döner.">
+<!ENTITY xpath-exprestion.treecell.d_substring-before.label "Birinci dizgenin başlangıcından ikinci dizgenin ilk bulunduğu yere kadar olan alt dizgeyi döndürür.">
+<!ENTITY xpath-exprestion.treecell.d_substring.label "Birinci argümanda belirtilen dizgenin başından itibaren ikinci argümanda belirtilen sayıda karakter içeren dizgeyle döner.">
+<!ENTITY xpath-exprestion.treecell.d_substring_N.label "Birinci argümanda belirtilen dizgenin başından itibaren ikinci argümanda belirtilen sıradaki karakterden başlayan ve üçüncü argümanda belirtilen sayıda karakter içeren dizgeyle döner.">
+<!ENTITY xpath-exprestion.treecell.d_sum.label "Düğüm-kümesi içindeki düğümlerin birer sayıya dönüştürülen dizgesel değerlerinin toplamı ile döner.">
+<!ENTITY xpath-exprestion.treecell.d_text.label "Bağlamsal düğüm için metin içeriğini döndürür.">
+<!ENTITY xpath-exprestion.treecell.d_translate.label "Birinci dizgenin içindeki karakterlerden ikinci dizgede belirtilenlerin yerlerine üçüncü dizgede belirtilenlerden ikincidekiyle aynı konumda olanları yerleştirerek elde edilen dizgeyi döndürür.">
+<!ENTITY xpath-exprestion.treecell.d_true.label "Bir boole doğru değeri ile döner.">
+<!ENTITY xpath-exprestion.treecell.s_ancestor-or-self.label "Bağlamsal düğümün kendisini ve üstsellerini seçer">
+<!ENTITY xpath-exprestion.treecell.s_ancestor.label "Bağlamsal düğümün üstsellerini seçer.">
+<!ENTITY xpath-exprestion.treecell.s_attribute.label "Bağlamsal düğümün özniteliklerini seçer.">
+<!ENTITY xpath-exprestion.treecell.s_child.label "Bağlamsal düğümün çocuklarını seçer.">
+<!ENTITY xpath-exprestion.treecell.s_descendant-or-self.label "Bağlamsal düğümün kendini ve astsallarını seçer.">
+<!ENTITY xpath-exprestion.treecell.s_descendant.label "Bağlamsal düğümün astsallarını seçer.">
+<!ENTITY xpath-exprestion.treecell.s_following-sibling.label "Bağlamsal düğümün tüm küçük kardeşlerini seçer.">
+<!ENTITY xpath-exprestion.treecell.s_following.label "Bağlamsal düğümden sonra gelen tüm düğümleri seçer.">
+<!ENTITY xpath-exprestion.treecell.s_namespace.label "Bağlamsal düğümün isim-alanı düğümlerini seçer.">
+<!ENTITY xpath-exprestion.treecell.s_parent.label "Bağlamsal düğümün ebeveynini seçer.">
+<!ENTITY xpath-exprestion.treecell.s_preceding-sibling.label "Bağlamsal düğümün tüm büyük kardeşlerini seçer.">
+<!ENTITY xpath-exprestion.treecell.s_preceding.label "Bağlamsal düğümden önce gelen (öznitelik düğümleri ve isim-alanı düğümleri hariç) tüm düğümleri seçer.">
+<!ENTITY xpath-exprestion.treecell.s_self.label "Bağlamsal düğümün kendisini seçer.">
+<!ENTITY xpath-exprestion.treecol.description.label "Açıklama">
+<!ENTITY xpath-exprestion.treecol.function.label "İşlev">
+<!ENTITY xpath-exprestion.treecol.shortdescription.label "Kısa Açıklaması">

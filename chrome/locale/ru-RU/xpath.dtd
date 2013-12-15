@@ -1,0 +1,73 @@
+<!ENTITY xpath-exprestion.button.reset.label "Сброс">
+<!ENTITY xpath-exprestion.descriptionBox.text "Описание выражения XPath">
+<!ENTITY xpath-exprestion.dialog.xpath-expressions.title "Выражение XPath">
+<!ENTITY xpath-exprestion.tab.boolean.label "Булевы функции">
+<!ENTITY xpath-exprestion.tab.location.label "Позиционирование">
+<!ENTITY xpath-exprestion.tab.nodeset.label "Функции для работы с набором узлов">
+<!ENTITY xpath-exprestion.tab.number.label "Функции для работы с числами">
+<!ENTITY xpath-exprestion.tab.string.label "Строковые функции">
+<!ENTITY xpath-exprestion.treecell.d_ancestor-or-self.label "Выбирает предшественников контекстого узла и его самого">
+<!ENTITY xpath-exprestion.treecell.d_ancestor.label "Выбирает предшественников контекстного узла">
+<!ENTITY xpath-exprestion.treecell.d_attribute.label "Выбирает атрибут контекстного узла">
+<!ENTITY xpath-exprestion.treecell.d_boolean.label "Возвращает булево значение объекта, переданного в аргументе">
+<!ENTITY xpath-exprestion.treecell.d_ceiling.label "Возвращает минимальное целое значение не меньшее, чем аргумент">
+<!ENTITY xpath-exprestion.treecell.d_child.label "Выбирает дочерние узлы контекстного узла">
+<!ENTITY xpath-exprestion.treecell.d_concat.label "Возвращает конкатенацию аргументов">
+<!ENTITY xpath-exprestion.treecell.d_contains.label "Возвращает true, если строка в первом аргументе содержит строку из второго">
+<!ENTITY xpath-exprestion.treecell.d_count.label "Возвращает количество узлов в наборе">
+<!ENTITY xpath-exprestion.treecell.d_descendant-or-self.label "Выбирает потомков контекстного узла и его самого">
+<!ENTITY xpath-exprestion.treecell.d_descendant.label "Выбирает потомков контекстного узла">
+<!ENTITY xpath-exprestion.treecell.d_false.label "Возвращает булеву величину со значением false">
+<!ENTITY xpath-exprestion.treecell.d_floor.label "Возвращает максимальное целое, не большее, чем аргумент">
+<!ENTITY xpath-exprestion.treecell.d_following-sibling.label "Выбирает следующий узел-брат контекстного узла">
+<!ENTITY xpath-exprestion.treecell.d_following.label "Выбрать узлы, следующие за контекстным">
+<!ENTITY xpath-exprestion.treecell.d_id.label "Возвращает элемент заданный уникальным идентификатором (id)">
+<!ENTITY xpath-exprestion.treecell.d_lang.label "Возвращает true, если язык контекстного узла, совпадает с языком, заданным в аргументе">
+<!ENTITY xpath-exprestion.treecell.d_last.label "Возвращает позицию последнего узла в контекстном списке">
+<!ENTITY xpath-exprestion.treecell.d_local-name.label "Возвращает локальное имя контекстного узла">
+<!ENTITY xpath-exprestion.treecell.d_local-name_N.label "Возвращает локальное имя первого узла в наборе">
+<!ENTITY xpath-exprestion.treecell.d_name.label "Возвращает имя контекстного узла">
+<!ENTITY xpath-exprestion.treecell.d_name_N.label "Возвращает имя первого узла в наборе">
+<!ENTITY xpath-exprestion.treecell.d_namespace-uri.label "Возвращает URI пространства имен контекстного узла">
+<!ENTITY xpath-exprestion.treecell.d_namespace-uri_N.label "Возвращает URI пространства имен первого узла в наборе">
+<!ENTITY xpath-exprestion.treecell.d_namespace.label "Выбирает пространства имен контекстного узла">
+<!ENTITY xpath-exprestion.treecell.d_normalize-space.label "Возвращает строку из контекстного узла с нормализованными пробелами">
+<!ENTITY xpath-exprestion.treecell.d_normalize-space_S.label "Возвращает строку с нормализованными пробелами, переданную в аргументе">
+<!ENTITY xpath-exprestion.treecell.d_not.label "Возвращает булеву величину противоположную по значению величине, переданной в аргументе">
+<!ENTITY xpath-exprestion.treecell.d_number.label "Возвращает численное представление контекстного узла">
+<!ENTITY xpath-exprestion.treecell.d_number_O.label "Возвращает численное представление объекта, переданного в аргументе">
+<!ENTITY xpath-exprestion.treecell.d_parent.label "Выбирает родителя контекстного узла">
+<!ENTITY xpath-exprestion.treecell.d_position.label "Возвращает позицию текущего контекстного узла">
+<!ENTITY xpath-exprestion.treecell.d_preceding-sibling.label "Выбирает предыдущий узел-брат контекстного узла">
+<!ENTITY xpath-exprestion.treecell.d_preceding.label "Выбирает узлы, предшествующие контекстному">
+<!ENTITY xpath-exprestion.treecell.d_round.label "Возвращает целое значение ближайшее к значению аргумента">
+<!ENTITY xpath-exprestion.treecell.d_self.label "Выбирает контекстный узел">
+<!ENTITY xpath-exprestion.treecell.d_starts-with.label "Возвращает true, если строка, переданная в первом аргументе, начинается со строки, переданной во втором аргументе">
+<!ENTITY xpath-exprestion.treecell.d_string-length.label "Возвращает длину строки в контекстном узле">
+<!ENTITY xpath-exprestion.treecell.d_string-length_S.label "Возвращает длину строки в переданном аргументе">
+<!ENTITY xpath-exprestion.treecell.d_string.label "Возвращает строковое представление контекстного узла">
+<!ENTITY xpath-exprestion.treecell.d_string_O.label "Возвращает строковое представление объекта, переданного в аргументе">
+<!ENTITY xpath-exprestion.treecell.d_substring-after.label "Возвращает подстроку строки, переданной в первом аргументе, которая идет после первого вхождения строки, переданной во втором аргументе">
+<!ENTITY xpath-exprestion.treecell.d_substring-before.label "Возвращает подстроку строки, переданной в первом аргументе, которая идет перед первым вхождение второго аргумента">
+<!ENTITY xpath-exprestion.treecell.d_substring.label "Возвращает подстроку первого аргумента с позиции, заданной вторым аргументом">
+<!ENTITY xpath-exprestion.treecell.d_substring_N.label "Возвращает подстроку первого аргумента, начиная с позиции, заданной вторым аргументом, и длины, указанной в третьем аргументе">
+<!ENTITY xpath-exprestion.treecell.d_sum.label "Возвращает сумму всех узлов в наборе">
+<!ENTITY xpath-exprestion.treecell.d_text.label "Возвращает текст, содержащийся в контекстном узле">
+<!ENTITY xpath-exprestion.treecell.d_translate.label "Заменяет в строке символы, переданные во втором аргументе, на символы, заданные третьим аргументов">
+<!ENTITY xpath-exprestion.treecell.d_true.label "Возвращает булеву величину со значение true">
+<!ENTITY xpath-exprestion.treecell.s_ancestor-or-self.label "предшественники контекстного узла и он сам">
+<!ENTITY xpath-exprestion.treecell.s_ancestor.label "предшественники контекстного узла">
+<!ENTITY xpath-exprestion.treecell.s_attribute.label "атрибут контекстного узла">
+<!ENTITY xpath-exprestion.treecell.s_child.label "дочерние узлы контекстного узла">
+<!ENTITY xpath-exprestion.treecell.s_descendant-or-self.label "потомки контекстного узла и он сам">
+<!ENTITY xpath-exprestion.treecell.s_descendant.label "потомки контекстного узла">
+<!ENTITY xpath-exprestion.treecell.s_following-sibling.label "следующий узел-брат контекстного узла">
+<!ENTITY xpath-exprestion.treecell.s_following.label "узлы, следующие за контекстным">
+<!ENTITY xpath-exprestion.treecell.s_namespace.label "пространства имен контекстного узла">
+<!ENTITY xpath-exprestion.treecell.s_parent.label "родитель контекстного узла">
+<!ENTITY xpath-exprestion.treecell.s_preceding-sibling.label "предыдущий узел-брат контекстного узла">
+<!ENTITY xpath-exprestion.treecell.s_preceding.label "узлы, предшествующие контекстному">
+<!ENTITY xpath-exprestion.treecell.s_self.label "контекстный узел">
+<!ENTITY xpath-exprestion.treecol.description.label "Описание">
+<!ENTITY xpath-exprestion.treecol.function.label "Функция">
+<!ENTITY xpath-exprestion.treecol.shortdescription.label "Короткое описание">

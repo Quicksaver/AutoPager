@@ -1,0 +1,235 @@
+<!ENTITY autopager-workshop.button.modifyXPath.label "...">
+<!ENTITY autopager-workshop.label.value "Frames">
+<!ENTITY autopager.label.value "Otomatik sayfalama">
+<!ENTITY autopager.menu.autopager-hidden-panel-menu.label "Sayfa Tutucu">
+<!ENTITY autopager.menu.autopager-immedialate-load.key "S">
+<!ENTITY autopager.menu.autopager-immedialate-load.label "Şimdiden Sayfala">
+<!ENTITY autopager.menuitem.autopager-hidden.label "gizli">
+<!ENTITY autopager.menuitem.autopager-load-10.key "0">
+<!ENTITY autopager.menuitem.autopager-load-10.label "Sonraki 10 Sayfayı">
+<!ENTITY autopager.menuitem.autopager-load-3.key "3">
+<!ENTITY autopager.menuitem.autopager-load-3.label "Sonraki 3 Sayfayı">
+<!ENTITY autopager.menuitem.autopager-load-5.key "5">
+<!ENTITY autopager.menuitem.autopager-load-5.label "Sonraki 5 Sayfayı">
+<!ENTITY autopager.menuitem.autopager-load-all.key "T">
+<!ENTITY autopager.menuitem.autopager-load-all.label "Sonraki Tüm Sayfaları">
+<!ENTITY autopager.menuitem.autopager-load.modifiers "accel,alt">
+<!ENTITY autopager.menuitem.autopager-pause-load.key "Q">
+<!ENTITY autopager.menuitem.autopager-pause-load.label "Pause">
+<!ENTITY autopager.menuitem.autopager-show.label "göster">
+<!ENTITY autopager.sanitizer.entry "AutoPager site onayları">
+<!ENTITY autopager.sanitizer.entry.accesskey "A">
+<!ENTITY autopager.sanitizer.entry.confirm "AutoPager site onaylarını temizlemek istediğinize emin misiniz?">
+<!ENTITY autopager.sidebarTitle "AutoPager Sayfalama Kuralı Oluşturma Aracı">
+<!ENTITY autopager.status.createXPath "Xpath Oluştur">
+<!ENTITY autopager.status.createXPathTip "Çerçeveli seçim yardımıyla sayfada kolaylıkla XPath belirlemenizi sağlar.">
+<!ENTITY autopager.status.disableOnSite "Bu Sitedeyken Devre Dışı Kal">
+<!ENTITY autopager.status.disableOnSiteTip "Bu sitedeyken otomatik sayfalamayı devre dışı bırak.">
+<!ENTITY autopager.status.enabled "AutoPager'ı Etkinleştir">
+<!ENTITY autopager.status.enabledTip "AutoPager'ı etkinleştirir.">
+<!ENTITY autopager.status.export "Kuralları Ver">
+<!ENTITY autopager.status.exportTip "Mevcut otomatik sayfalama kurallarını bir dosyaya kaydet.">
+<!ENTITY autopager.status.exportclip "Panoya Kopyala">
+<!ENTITY autopager.status.exportclipTip "Seçili otomatik sayfalama kurallarını panoya kopya.">
+<!ENTITY autopager.status.exportfile "Dosyaya Kaydet">
+<!ENTITY autopager.status.exportfileTip "Seçili otomatik sayfalama kurallarını dosyaya kaydet.">
+<!ENTITY autopager.status.importclip "Panodan Al">
+<!ENTITY autopager.status.importclipTip "Otomatik sayfalama kurallarını kopyalanmış metinden al.">
+<!ENTITY autopager.status.importexport "Al/Ver">
+<!ENTITY autopager.status.importfile "Dosyadan Al">
+<!ENTITY autopager.status.importfileTip "Otomatik sayfalama kurallarını dosyadan al.">
+<!ENTITY autopager.status.importurl "URL'den Al">
+<!ENTITY autopager.status.importurlTip "Otomatik sayfalama kurallarını URL adresinden al.">
+<!ENTITY autopager.status.myname "Adım:">
+<!ENTITY autopager.status.mynameTip "Adınız, oluşturduğunuz kurallara eklenecektir.">
+<!ENTITY autopager.status.reportSite "Bu Sitedeki Sorunu Bildir">
+<!ENTITY autopager.status.reportSiteTip "Bu sitede yaşadığınız otomatik sayfalama sorununu bildirerek çözülmesini sağlayabilirsiniz.">
+<!ENTITY autopager.status.requestHelp "Otomatik Sayfalama Talep Et">
+<!ENTITY autopager.status.requestHelpTip "Bu site için otomatik sayfalama talebinde bulunarak, yeni kuralların eklenmesine yardımcı olabilirsiniz.">
+<!ENTITY autopager.status.setting "Ayarları Düzenle">
+<!ENTITY autopager.status.settingTip "Otomatik sayfalama ile ilgili yapılandırmaları düzenle.">
+<!ENTITY autopager.status.showabout "Hakkında">
+<!ENTITY autopager.status.showaboutTip "AutoPager Hakkında">
+<!ENTITY autopager.status.showoption "Sayfa Tercihlerini Göster">
+<!ENTITY autopager.status.showoptionTip "Bu sayfa için otomatik sayfalama tercihlerini bir kutuda göster.">
+<!ENTITY autopager.status.sitewizard "Otomatik Keşfet">
+<!ENTITY autopager.status.sitewizardTip "Anahtar ifadeleri tarayarak sayfada otomatik sayfalama kuralı belirlemeyi dener.">
+<!ENTITY autopager.status.testXPath "XPath'i Test Et">
+<!ENTITY autopager.status.testXPathTip "Belirttiğiniz Xpath'i sayfada test eder.">
+<!ENTITY autopager.status.update "Kuralları Çevrimiçi Güncelle">
+<!ENTITY autopager.status.updateTip "Otomatik sayfalama kurallarını çevrimiçi olarak Rules Repositories adresinden günceller.">
+<!ENTITY autopager.status.xpathUtils "XPath Araçları">
+<!ENTITY autopager.toolbarLabel "AutoPager Sayfalama Kuralı Oluşturma Aracı">
+<!ENTITY autopager.tooltip "Otomatik sayfalama için kural oluşturma aracını göster.">
+<!ENTITY button.modifyContainerXPath.label "...">
+<!ENTITY button.modifyLinkXPath.label "...">
+<!ENTITY caption.results-caption.label "Sonuçlar">
+<!ENTITY caption.results-caption2.label "Sonuçlar">
+<!ENTITY checkbox.chkForceJS.label "Force JavaScript Mode">
+<!ENTITY checkbox.ir.label "Include Recommended Rules">
+<!ENTITY label.Usages.value "Klavye kullanımları">
+<!ENTITY label.filterLabel.tooltiptext "Clear this filter to see all rules.">
+<!ENTITY label.filterLabel.value "Filter">
+<!ENTITY label.idsLabel.value "Selected Rule IDs(Seperate by ,)">
+<!ENTITY label.lazyLoad "Lazy load image src attribute">
+<!ENTITY label.monitorXPathLbl.value "Monitor XPath:">
+<!ENTITY label.value "Count">
+<!ENTITY openautopagerSidebar.commandkey "K">
+<!ENTITY openautopagerSidebar.modifiersKey "alt">
+<!ENTITY options.checkbox.ignoreFormatVersionCheck.label "Kuralların sürüm kontrolünü yoksay">
+<!ENTITY options.checkbox.setAgent.label "AutoPager'ı kullanıcı aracısına ekle">
+<!ENTITY options.checkbox.tweakSession.label "Yeniden sayfalarken en son görünen sayfadan başla">
+<!ENTITY options.dialog.autopager-options.buttonlabelextra1 "Daha fazla">
+<!ENTITY options.dialog.autopager-options.title "AutoPager Seçenekleri">
+<!ENTITY options.label.speedLabel.value "Önyüklenecek sayfa sayısı:">
+<!ENTITY options.menuitem.label0 "0">
+<!ENTITY options.menuitem.label1 "1">
+<!ENTITY options.menuitem.label2 "2">
+<!ENTITY options.menuitem.label3 "3">
+<!ENTITY setting.appname "AutoPager">
+<!ENTITY setting.button.add "Yeni...">
+<!ENTITY setting.button.cloneToEdit "Düzenlemek için çoğalt">
+<!ENTITY setting.button.cloneToEditTip "Daha önceden oluşturulmuş bir kuralı düzenlemek isterseniz çoğaltılmış kopyasını kullanabilirsiniz.">
+<!ENTITY setting.button.copy "Çoğalt">
+<!ENTITY setting.button.down "Aşağı">
+<!ENTITY setting.button.edit "Düzenle...">
+<!ENTITY setting.button.export "Ver">
+<!ENTITY setting.button.exportTip "Seçili kuralları ver.">
+<!ENTITY setting.button.import "Al">
+<!ENTITY setting.button.pick "Yakala...">
+<!ENTITY setting.button.public "Herkese Açık">
+<!ENTITY setting.button.remove "Kaldır">
+<!ENTITY setting.button.reset "Sıfırla">
+<!ENTITY setting.button.resetTip "Çevrimiçi ve yerel kuralları sıfırla">
+<!ENTITY setting.button.up "Yukarı">
+<!ENTITY setting.buttonlabelextra1 "Uygula">
+<!ENTITY setting.key "u">
+<!ENTITY setting.label.advanced "Gelişmiş">
+<!ENTITY setting.label.allwaysEnableJavaScript "Yüklenen sayfalarda her zaman Javascript'i etkinleştir">
+<!ENTITY setting.label.btnEdit "Düzenle">
+<!ENTITY setting.label.chkAjax "Bu bir Ajax sitesi, yüklenme günlüğü yok">
+<!ENTITY setting.label.chkAlt "Alt">
+<!ENTITY setting.label.chkCtrl "Ctrl">
+<!ENTITY setting.label.chkEnableJS "Yüklenen sayfalarda Javascript'i etkinleştir">
+<!ENTITY setting.label.chkEnabled "Etkin">
+<!ENTITY setting.label.chkFixOverflow "Sayfa yüklenirken taşmayı (overflow) devre dışı bırak">
+<!ENTITY setting.label.chkIsRegex "RegExp">
+<!ENTITY setting.label.chkQuickLoad "Hızlı yüklen (Her site için güvenli değil)">
+<!ENTITY setting.label.chkShift "Shift">
+<!ENTITY setting.label.chkneedMouseDown "Sayfalama için fare hareketini zorunlu kıl">
+<!ENTITY setting.label.confirmstyle "Sayfa tercihleri kutusunun biçemi:">
+<!ENTITY setting.label.delaymsecs "Sonraki sayfayı göstermek için beklenecek salise:">
+<!ENTITY setting.label.disable-by-default "Desteklenen yeni siteler için devre dışı bırak">
+<!ENTITY setting.label.discoverytext "Otomatik Keşfet için anahtar ifadeler:">
+<!ENTITY setting.label.doubleclick "+  Çift tıkla">
+<!ENTITY setting.label.general "Genel Ayarlar">
+<!ENTITY setting.label.grpContentXPath "İçerik XPath:">
+<!ENTITY setting.label.grpDiscovery "Otomatik Keşfet">
+<!ENTITY setting.label.grpRemoveXPath "XPath'i Kaldır (Sonraki sayfalarda yoksayılacaklar listesi):">
+<!ENTITY setting.label.grpSmart "Akıllı Sayfalama">
+<!ENTITY setting.label.hotkeys "AutoPager'ı etkinleştirme/devre dışı bırakma kısayolu:">
+<!ENTITY setting.label.ignoresite "Ignore Sites">
+<!ENTITY setting.label.lblContainerXPath "Barındırıcı XPath:">
+<!ENTITY setting.label.lblDesc "Açıklama:">
+<!ENTITY setting.label.lblLinkXPath "Link Xpath">
+<!ENTITY setting.label.lblOwner "Oluşturan:">
+<!ENTITY setting.label.lblSetting "AutoPager Kural Listesi">
+<!ENTITY setting.label.lblSettingContext "İçerik Türü:">
+<!ENTITY setting.label.lblSettingDesc "Açıklama:">
+<!ENTITY setting.label.lblSettingOwner "Sağlayan:">
+<!ENTITY setting.label.lblSettingType "Tür:">
+<!ENTITY setting.label.lblSettingUrl "URL:">
+<!ENTITY setting.label.lblSettingXPath "XPath:">
+<!ENTITY setting.label.lblURLPattern "URL Düzeni:">
+<!ENTITY setting.label.lblUpdate "Site Kurallarını Otomatik Güncelle:">
+<!ENTITY setting.label.loading "&quot;Yükleniyor...&quot; uyarısının biçemi:">
+<!ENTITY setting.label.localrules "Local Rules">
+<!ENTITY setting.label.margin "Boş alan">
+<!ENTITY setting.label.marginEnd "pencere yüksekliğinden daha az ise başla">
+<!ENTITY setting.label.minipages "Önceden yüklenecek minimum sayfa sayısı:">
+<!ENTITY setting.label.pagebreak "&quot;AutoPager ile sayfa sonu&quot; satırının biçemi:">
+<!ENTITY setting.label.showContextMenu "Show autopager context menu">
+<!ENTITY setting.label.showHelpTips "Denetimleri kullanırken ipucu simgesi göster">
+<!ENTITY setting.label.showPrompt "Desteklenen yeni sitelerde onay penceresini göster">
+<!ENTITY setting.label.showStatusBar "Durum çubuğunda AutoPager simgesini göster">
+<!ENTITY setting.label.showToolbarIcon "Araç çubuğunda AutoPager simgesini göster">
+<!ENTITY setting.label.simpleModalPrompt "Desteklenen yeni sitelerde varsayılan sayfalama tercihlerini kullan">
+<!ENTITY setting.label.sites "Mevcut Kurallar">
+<!ENTITY setting.label.smartenable "Akıllı Sayfalamayı Etkinleştir">
+<!ENTITY setting.label.smartlinks "Anahtar ifadelerle izlenen bağlantı">
+<!ENTITY setting.label.smartlinksEnd "adetten fazla değilse başla">
+<!ENTITY setting.label.smartmatch "Exactly match only">
+<!ENTITY setting.label.smarttext "Akıllı Sayfalama için anahtar ifadeler: Yazı/Resim Src/ID/Class('|' ile ayırın):">
+<!ENTITY setting.label.timeout "sayfa yüklenme zaman aşımı (saniye):">
+<!ENTITY setting.label.update "Güncelle">
+<!ENTITY setting.text.tipContainerXPath "Bunu bilmiyorsanız, değiştirmeyiniz. Sayfanın ana içeriğinde y-taşması (overflow-y) ve kaydırma çubuğu içeren bir alan varsa kullanılır. Örnek için www.cuil.com sayfasına bakınız.">
+<!ENTITY setting.title "AutoPager Ayarları">
+<!ENTITY setting.tree.Description "Açıklama">
+<!ENTITY setting.tree.URLPattern "URL Düzeni">
+<!ENTITY setting.type.autopager "autopager xml">
+<!ENTITY setting.type.autopagerize "autopagerize">
+<!ENTITY setting.type.autopagerizeJson "autopagerize Json">
+<!ENTITY setting.type.autopagerlite "autopager lite">
+<!ENTITY setting.type.autopagertext "autopager text">
+<!ENTITY setting.update.bidaily "Birer Gün Arayla">
+<!ENTITY setting.update.daily "Her Gün">
+<!ENTITY setting.update.global "Genel Ayarları Kullan">
+<!ENTITY setting.update.monthly "Her Ay">
+<!ENTITY setting.update.never "Hiçbir Zaman">
+<!ENTITY setting.update.once "Bir Defa">
+<!ENTITY setting.update.startup "Her Başlatıldığında">
+<!ENTITY setting.update.weekly "Her Hafta">
+<!ENTITY statusbar.image.autopager-close-toolbar.tooltiptext "AutoPager Sayfa Tutucusunu Kapat">
+<!ENTITY statusbar.label.value "Click to view the paging rules online">
+<!ENTITY statusbar.menu.autopager-about.label "Yardım">
+<!ENTITY statusbar.menu.fix.label "Hataları Düzelt">
+<!ENTITY statusbar.menuitem.autoPagerAutoFix.label "Otomatik Düzelt">
+<!ENTITY statusbar.menuitem.autoPagerAutoFix.tooltiptext "Hataları otomatik düzelt">
+<!ENTITY statusbar.menuitem.autoPagerReset.label "Reset All Setting">
+<!ENTITY statusbar.menuitem.autoPagerReset.tooltiptext "Reset All AutoPager Setting">
+<!ENTITY statusbar.menuitem.autoPagerShoting.label "Arıza Tespiti">
+<!ENTITY statusbar.menuitem.autoPagerShoting.tooltiptext "Arıza Tespiti">
+<!ENTITY statusbar.menuitem.autopager-clean.label "Tümünü Temizle">
+<!ENTITY statusbar.menuitem.autopager-donation.label "Bağış yap">
+<!ENTITY statusbar.menuitem.autopager-donation.tooltiptext "Bağış sayfasına git">
+<!ENTITY statusbar.menuitem.autopager-related-search.label "Show Related Search">
+<!ENTITY statusbar.menuitem.autopager-showhelp.label "Yardım">
+<!ENTITY statusbar.menuitem.autopager-showhelp.tooltiptext "Çevrimiçi yardım sayfasına git">
+<!ENTITY statusbar.menuitem.autopager-showrules.label "Kurallar">
+<!ENTITY statusbar.menuitem.autopager-showrules.tooltiptext "Çevrimiçi depodaki kuralları göster">
+<!ENTITY statusbar.menuitem.autopager-showtutorials.label "Eğitsel Dökümanlar">
+<!ENTITY statusbar.menuitem.autopager-showtutorials.tooltiptext "Eğitsel Dökümanlar sayfasına git">
+<!ENTITY statusbar.menuitem.autopagerlite-discover.label "Search rules online">
+<!ENTITY statusbar.menuitem.autopagerlite-discover.tooltiptext "Search rules online">
+<!ENTITY statusbar.menuitem.autopagerlite-switchToLite.label "Switch To Lite Mode">
+<!ENTITY statusbar.menuitem.autopagerlite-switchToLite.tooltiptext "Switch To AutoPager Lite Mode">
+<!ENTITY statusbar.menuitem.autopagerlite-switchToNormal.label "Switch To Normal Mode">
+<!ENTITY statusbar.menuitem.autopagerlite-switchToNormal.tooltiptext "Switch To AutoPager Normal Mode">
+<!ENTITY statusbar.menuitem.disable-on-default.label "Disable Paging By Default">
+<!ENTITY statusbar.menuitem.discover.label "Discover matched rules online">
+<!ENTITY statusbar.menuitem.highlightContents.label "Highlight Contents">
+<!ENTITY statusbar.menuitem.highlightContents.tooltiptext "Highlight Contents in the document">
+<!ENTITY statusbar.menuitem.highlightLinks.label "Highlight Next Links">
+<!ENTITY statusbar.menuitem.highlightLinks.tooltiptext "Highlight Next Links in the document">
+<!ENTITY statusbar.menuitem.label "Seçenekler">
+<!ENTITY statusbar.menuitem.liteModel.label "Works in lite model">
+<!ENTITY statusbar.menuitem.noPrompt.label "Show This On New Site">
+<!ENTITY statusbar.menuitem.showDiscoverPanel.label "Always show discover icon">
+<!ENTITY statusbar.menuitem.tooltiptext "Autopager Temel Seçenekler">
+<!ENTITY statusbar.statusbarpanel.autopagerlite_status.label "?">
+<!ENTITY textbox.lazyImgSrc.tooltiptext "Image Lazy load Attribute">
+<!ENTITY textbox.monitorXPath.tooltiptext "Clean Loaded Pages when elements by following xpath clicked/changed">
+<!ENTITY toolbarbutton.addSite.tooltiptext "Kural Olarak Ekle">
+<!ENTITY toolbarbutton.clearAllPath.tooltiptext "Tümünü Temizle">
+<!ENTITY toolbarbutton.discoverPath.tooltiptext "Otomatik Keşfet">
+<!ENTITY toolbarbutton.openInOwnWin.tooltiptext "Kendi penceresinde göster">
+<!ENTITY toolbarbutton.openInSidebar.tooltiptext "Kenar çubuğunda göster">
+<!ENTITY toolbarbutton.pickupContentPath.tooltiptext "İçeriği Yakala">
+<!ENTITY toolbarbutton.pickupLinkPath.tooltiptext "Linki Yakala">
+<!ENTITY toolbarbutton.testSite.tooltiptext "Test Et">
+<!ENTITY treecol.authorityCol.label "Erişim">
+<!ENTITY treecol.contentXpathCol.label "İçerik XPath">
+<!ENTITY treecol.fileCol.label "Liste">
+<!ENTITY treecol.linkXpathCol.label "Link Xpath">
+<!ENTITY treecol.machedCol.label "Adet">
+<!ENTITY treecol.xpathCol.label "XPath">

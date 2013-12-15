@@ -1,0 +1,73 @@
+<!ENTITY xpath-exprestion.button.reset.label "重設">
+<!ENTITY xpath-exprestion.descriptionBox.text "XPath 表示式描述">
+<!ENTITY xpath-exprestion.dialog.xpath-expressions.title "XPath 表示式">
+<!ENTITY xpath-exprestion.tab.boolean.label "布林函式">
+<!ENTITY xpath-exprestion.tab.location.label "位址">
+<!ENTITY xpath-exprestion.tab.nodeset.label "Node-Set 函式">
+<!ENTITY xpath-exprestion.tab.number.label "數字函式">
+<!ENTITY xpath-exprestion.tab.string.label "字串函式">
+<!ENTITY xpath-exprestion.treecell.d_ancestor-or-self.label "selects ancestors of the context node and self ">
+<!ENTITY xpath-exprestion.treecell.d_ancestor.label "selects ancestors of the context node">
+<!ENTITY xpath-exprestion.treecell.d_attribute.label "selects attribute of the context node">
+<!ENTITY xpath-exprestion.treecell.d_boolean.label "Returns the boolean representation of the object argument.">
+<!ENTITY xpath-exprestion.treecell.d_ceiling.label "Returns the smallest integer value not less than the argument.">
+<!ENTITY xpath-exprestion.treecell.d_child.label "selects children of the context node">
+<!ENTITY xpath-exprestion.treecell.d_concat.label "Returns the concatenation of its arguments.">
+<!ENTITY xpath-exprestion.treecell.d_contains.label "Returns true if the first argument string contains the second argument string.">
+<!ENTITY xpath-exprestion.treecell.d_count.label "Returns the number of nodes in the node-set.">
+<!ENTITY xpath-exprestion.treecell.d_descendant-or-self.label "selects descendants of the context node and self">
+<!ENTITY xpath-exprestion.treecell.d_descendant.label "selects descendants of the context node">
+<!ENTITY xpath-exprestion.treecell.d_false.label "Returns a boolean with the value of false.">
+<!ENTITY xpath-exprestion.treecell.d_floor.label "Returns the largest integer value not greater than the argument.">
+<!ENTITY xpath-exprestion.treecell.d_following-sibling.label "selects next chapter sibling of the context node">
+<!ENTITY xpath-exprestion.treecell.d_following.label "selects followings of the context node">
+<!ENTITY xpath-exprestion.treecell.d_id.label "Returns the element specified by it&apos;s unique id.">
+<!ENTITY xpath-exprestion.treecell.d_lang.label "Returns true if the language of the context node is the same as the languag specified by the argument.">
+<!ENTITY xpath-exprestion.treecell.d_last.label "Returns the position of the last node in the context list.">
+<!ENTITY xpath-exprestion.treecell.d_local-name.label "Returns the local-name for the context node.">
+<!ENTITY xpath-exprestion.treecell.d_local-name_N.label "Returns the local-name for the first node in the node-set.">
+<!ENTITY xpath-exprestion.treecell.d_name.label "Returns the name for the context node.">
+<!ENTITY xpath-exprestion.treecell.d_name_N.label "Returns the name for the first node in the node-set.">
+<!ENTITY xpath-exprestion.treecell.d_namespace-uri.label "Returns the namespace-uri for the context node.">
+<!ENTITY xpath-exprestion.treecell.d_namespace-uri_N.label "Returns the namespace-uri for the first node in the node-set.">
+<!ENTITY xpath-exprestion.treecell.d_namespace.label "selects namespaces of the context node">
+<!ENTITY xpath-exprestion.treecell.d_normalize-space.label "Returns a white-space normalized string specified by the context-node.">
+<!ENTITY xpath-exprestion.treecell.d_normalize-space_S.label "Returns a white-space normalized string specified by the argument.">
+<!ENTITY xpath-exprestion.treecell.d_not.label "Returns a boolean with the opposite value of its argument.">
+<!ENTITY xpath-exprestion.treecell.d_number.label "Returns the number representation of the context node.">
+<!ENTITY xpath-exprestion.treecell.d_number_O.label "Returns the number representation of the object argument.">
+<!ENTITY xpath-exprestion.treecell.d_parent.label "selects parent of the context node">
+<!ENTITY xpath-exprestion.treecell.d_position.label "Returns the position of the current context node.">
+<!ENTITY xpath-exprestion.treecell.d_preceding-sibling.label "selects the previous chapter sibling of the context node">
+<!ENTITY xpath-exprestion.treecell.d_preceding.label "selects precedings of the context node">
+<!ENTITY xpath-exprestion.treecell.d_round.label "Returns the integer value closest to the argument.">
+<!ENTITY xpath-exprestion.treecell.d_self.label "select the context node">
+<!ENTITY xpath-exprestion.treecell.d_starts-with.label "Returns true if the first argument string starts with the second argument string.">
+<!ENTITY xpath-exprestion.treecell.d_string-length.label "Returns the length of the string specified by the context node.">
+<!ENTITY xpath-exprestion.treecell.d_string-length_S.label "Returns the length of the string specified by the argument.">
+<!ENTITY xpath-exprestion.treecell.d_string.label "Returns a string value representation of the context node.">
+<!ENTITY xpath-exprestion.treecell.d_string_O.label "Returns the string representation of the object argument.">
+<!ENTITY xpath-exprestion.treecell.d_substring-after.label "Returns the substring of the first argument string that comes after the first occurrence of the second argument.">
+<!ENTITY xpath-exprestion.treecell.d_substring-before.label "Returns the substring of the first argument string that comes before the first occurrence of the second argument.">
+<!ENTITY xpath-exprestion.treecell.d_substring.label "Returns the substring of the first argument from the position specified by the second argument.">
+<!ENTITY xpath-exprestion.treecell.d_substring_N.label "Returns the substring of the first argument starting at the position specified by the second argument and the length specified by the third argument.">
+<!ENTITY xpath-exprestion.treecell.d_sum.label "Returns the sum of all nodes in the node-set.">
+<!ENTITY xpath-exprestion.treecell.d_text.label "Returns the text contents for the context node.">
+<!ENTITY xpath-exprestion.treecell.d_translate.label "Replaces characters in the string specified by the second argument with characters specified by the third argument.">
+<!ENTITY xpath-exprestion.treecell.d_true.label "Returns a boolean with the value of true.">
+<!ENTITY xpath-exprestion.treecell.s_ancestor-or-self.label "ancestors of the context node and self">
+<!ENTITY xpath-exprestion.treecell.s_ancestor.label "ancestors of the context node">
+<!ENTITY xpath-exprestion.treecell.s_attribute.label "attribute of the context node">
+<!ENTITY xpath-exprestion.treecell.s_child.label "children of the context node">
+<!ENTITY xpath-exprestion.treecell.s_descendant-or-self.label "descendants of the context node and self">
+<!ENTITY xpath-exprestion.treecell.s_descendant.label "descendants of the context node">
+<!ENTITY xpath-exprestion.treecell.s_following-sibling.label "next chapter siblings of the context node">
+<!ENTITY xpath-exprestion.treecell.s_following.label "followings of the context node">
+<!ENTITY xpath-exprestion.treecell.s_namespace.label "namespaces of the context node">
+<!ENTITY xpath-exprestion.treecell.s_parent.label "parent of the context node">
+<!ENTITY xpath-exprestion.treecell.s_preceding-sibling.label "the previous chapter sibling of the context node">
+<!ENTITY xpath-exprestion.treecell.s_preceding.label "precedings of the context node">
+<!ENTITY xpath-exprestion.treecell.s_self.label "the context node">
+<!ENTITY xpath-exprestion.treecol.description.label "Description">
+<!ENTITY xpath-exprestion.treecol.function.label "Function">
+<!ENTITY xpath-exprestion.treecol.shortdescription.label "Short Description">

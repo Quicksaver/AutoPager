@@ -1,0 +1,449 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+<?xml-stylesheet href="chrome://autopager/skin/autopager.css" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://autopager/locale/autopager.dtd" >
+
+<dialog id="autopager" 
+        title="&setting.title;"
+        buttons="help,accept,extra1,cancel"
+        ondialogaccept="return handleOkButton()"
+        ondialoghelp="return handleHelpButton()"
+        orient="vertical"
+        buttonlabelextra1="&setting.buttonlabelextra1;"
+        ondialogextra1="return handleApplyButton()"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <vbox flex="1">
+    <tabbox id="autopager-options"  selectedIndex="0" flex="1" minwidth="400" minheight="400">
+        <tabs>
+            <tab label="&setting.label.sites;"/>
+            <tab label="&setting.label.general;"/>
+            <tab label="&setting.label.update;"/>
+            <tab label="&setting.label.ignoresite;"/>
+        </tabs>
+        <tabpanels  flex="1">
+            <tabpanel id="site-setting"  flex="1">
+                <hbox flex="1">
+                    <vbox flex="3" orient="vertical">
+                        <vbox flex="0">
+                            <hbox flex="1">
+                                <label id="filterLabel" control="siteSearch" value="&label.filterLabel.value;" keyword="rulefilter" tooltiptext="&label.filterLabel.tooltiptext;"/>
+                                <textbox  flex="1" id="siteSearch" type="search" searchbutton="true" emptytext="Search" keyword="Search"/>
+                            </hbox>
+                        </vbox>
+                        <hbox flex="1">
+                            <vbox flex="1">
+                                <tree flex="10"  id="treeSites" seltype="multiple" width="400">
+                                    <treecols>
+                                        <treecol id="urlPatternCol" label="&setting.tree.URLPattern;" primary="true"  flex="5" width="300"/>
+                                        <splitter class="tree-splitter"/>
+                                        <treecol id="descCol" label="&setting.tree.Description;" flex="1" hidden="false"/>
+                                    </treecols>
+                                    <treechildren id="siteContents"></treechildren>
+                                </tree>
+                            </vbox>
+                            <vbox>
+                                <spacer flex="1"/>
+                                <button id="btnAdd" label="&setting.button.add;" />
+                                <button id="btnCopy" label="&setting.button.copy;" />
+                                <button id="btnDelete" label="&setting.button.remove;" />
+                                <button id="btnPublic" label="&setting.button.public;" />
+                                <spacer flex="1"/>
+                                <button id="btnImport"  popup="import-settings" label="&setting.button.import;"
+                                        dir="reverse" />
+                                
+                                <popupset>
+                                    <popup id="import-settings" position="before_start">
+                                        <menuitem
+                                            label="&autopager.status.importurl;"
+                                            tooltiptext="&autopager.status.importurlTip;"
+                                            oncommand="autopagerConfig.saveConfig(sites);autopagerConfig.importFromURL(function(){onSiteFilter(siteSearch.value,true)});"
+                                            keyword="Import From Url"
+                                        />
+                                        <menuitem
+                                            label="&autopager.status.importfile;"
+                                            tooltiptext="&autopager.status.importfileTip;"
+                                            oncommand="autopagerConfig.saveConfig(sites);autopagerConfig.importFromFile();onSiteFilter(siteSearch.value,true);"
+                                            keyword="Import From File"
+                                        />
+                                        <menuitem
+                                            label="&autopager.status.importclip;"
+                                            tooltiptext="&autopager.status.importclipTip;"
+                                            oncommand="autopagerConfig.saveConfig(sites);autopagerConfig.importFromClip();onSiteFilter(siteSearch.value,true);"
+                                            keyword="Import From Clipboard"
+                                        />
+                                    </popup>
+                                    <popup id="export-settings" position="before_start">
+                                        <menuitem
+                                            label="&autopager.status.exportfile;"
+                                            tooltiptext="&autopager.status.exportfileTip;"
+                                            oncommand="exportSelectedSetting(false);"
+                                            keyword="Export To File"
+                                        />
+                                        <menuitem
+                                            label="&autopager.status.exportclip;"
+                                            tooltiptext="&autopager.status.exportclipTip;"
+                                            oncommand="exportSelectedSetting(true);"
+                                            keyword="Export To Clipboard"
+                                        />
+                                    </popup>
+                                </popupset>
+                                
+                                <button id="btnExport" label="&setting.button.export;" popup="export-settings" />
+                                <spacer flex="1"/>
+                                <button id="btnSiteUp" label="&setting.button.up;" />
+                                <button id="btnSiteDown" label="&setting.button.down;" />
+                                <spacer flex="10"/>
+                                
+                            </vbox>
+                        </hbox>
+                    </vbox>
+                    <splitter/>
+                    <deck id="settingDeck" selectedIndex="1">
+                        <vbox flex="1">
+                            <tabbox id="rule-tabbox" flex="1">
+                                <tabs>
+                                    <tab label="&setting.label.general;"/>
+                                    <tab label="&setting.label.advanced;"/>
+                                </tabs>
+                                <tabpanels  flex="1">
+                                    <tabpanel id="rule-general-setting"  flex="1">
+                                        <vbox flex="1">
+                                            <hbox align="center">
+                                                <label control="lblOwner" value="&setting.label.lblOwner;"  keyword="Owner"/>
+                                                <label id="lblOwner" value=""/>
+                                                <checkbox id="chkEnabled" label="&setting.label.chkEnabled;" checked="true"  keyword="Rule Enabled"/>
+                                                <button id="btnCloneToEdit" label="&setting.button.cloneToEdit;"
+                                    hidden="true" flex="1" style="color:red;"
+                                     tooltiptext="&setting.button.cloneToEditTip;"/>                                
+                                                <button id="btnReset" label="&setting.button.reset;"
+                                    hidden="true" flex="1" style="color:red;"
+                                     tooltiptext="&setting.button.resetTip;"/>
+                                            </hbox>
+                        
+                                            <hbox align="center">
+                                                <label control="urlPattern" value="&setting.label.lblURLPattern;" keyword="URL Pattern"/>
+                                                <checkbox id="chkIsRegex" label="&setting.label.chkIsRegex;" checked="false"  keyword="URL Is Regex"/>
+                                                <textbox id="urlPattern" flex="1"/>
+                                            </hbox>
+                                            <hbox align="center">
+                                                <label control="margin" value="&setting.label.margin;" keyword="Paging Space"/>
+                                                <textbox id="margin" flex="1"/>
+                                                <label control="margin" value="&setting.label.marginEnd;" keyword="Paging Space"/>
+                                            </hbox>
+                                            <hbox align="left">
+                                                <checkbox id="chkEnableJS" label="&setting.label.chkEnableJS;" checked="false" keyword="Enable Javascript"/>
+                                                <checkbox id="chkForceJS" label="&checkbox.chkForceJS.label;" checked="false" keyword="Force Javascript"/>
+                                            </hbox>
+                                            <vbox id="auto-xpath" flex="1">
+                                                <hbox align="center">
+                                                    <label control="linkXPath" value="&setting.label.lblLinkXPath;" keyword="Link XPath"/>
+                                                    <textbox id="linkXPath" flex="1"/>
+                                                    <button id="pickLinkPath" flex="1" label="&setting.button.pick;" />
+                                                    <button id="modifyLinkXPath" flex="1" label="&button.modifyLinkXPath.label;" oncommand="autopagerXPath.modifyXPath('linkXPath');"/>
+                                                </hbox>
+                                                <groupbox id="grpContentXPath" orient="vertical" flex="1">
+                                                    <caption label="&setting.label.grpContentXPath;" keyword="Content XPath"/>
+                                                    <hbox style="margin-bottom:.5em;" flex="1">
+                                                        <listbox id="lstContentXPath" flex="1" rows="3"/>
+                                                        <vbox>
+                                                            <button id="btnAddPath" label="&setting.button.add;" />
+                                                            <button id="pickContentPath" label="&setting.button.pick;" oncommand="pickupContentForList('lstContentXPath')" />
+                                                            <button id="btnEditPath" label="&setting.button.edit;" />
+                                                            <button id="btnDeletePath" label="&setting.button.remove;"/>
+                                                            <spacer flex="1"/>
+                                                            <button id="btnUp" label="&setting.button.up;" />
+                                                            <button id="btnDown" label="&setting.button.down;" />
+                                                        </vbox>
+                                                    </hbox>
+                                                </groupbox>
+
+                                            </vbox>
+                                            <hbox flex="2">
+                                                <label control="desc" value="&setting.label.lblDesc;"  keyword="Description"/>
+                                                <textbox multiline="true" id="desc" rows="4" flex="1"/>
+                                            </hbox>
+                                        </vbox>
+                                    </tabpanel>
+                                    <tabpanel  id="rule-advanced-setting"  flex="1">
+                                        <vbox flex="1">
+                                            <checkbox id="chkAjax" label="&setting.label.chkAjax;" checked="false" keyword="Ajax Site"/>
+                                            <checkbox id="chkQuickLoad" label="&setting.label.chkQuickLoad;" checked="true" keyword="Quick Load"/>
+                                            <checkbox id="chkFixOverflow" label="&setting.label.chkFixOverflow;" checked="true" keyword="Fix Overflow"/>
+                                            <checkbox id="chkneedMouseDown" label="&setting.label.chkneedMouseDown;" checked="false" keyword="Triger Mouse Down"/>
+                                            <hbox align="center">
+                                                <label control="delaymsecs" value="&setting.label.delaymsecs;" keyword="Delay Milliseconds"/>
+                                                <textbox id="delaymsecs" flex="1"/>
+                                            </hbox>
+                                            <hbox align="center">
+                                                <label control="minipages" value="&setting.label.minipages;" keyword="Minimum Pages"/>
+                                                <textbox id="minipages" flex="1"/>
+                                            </hbox>
+                                            <hbox>
+                                                <label control="lazyImgSrc" value="&label.lazyLoad;" keyword="Lazy Load Image Source"/>
+                                                <textbox id="lazyImgSrc" flex="3" tooltiptext="&textbox.lazyImgSrc.tooltiptext;"/>
+                                            </hbox>
+                                            <hbox align="center">
+                                                <label control="containerXPath" value="&setting.label.lblContainerXPath;" keyword="Container XPath"/>
+                                            </hbox>
+                                            <hbox align="center">
+                                                <textbox id="containerXPath" flex="3" tooltiptext="&setting.text.tipContainerXPath;"/>
+                                                <button id="pickContainerPath" flex="1" label="&setting.button.pick;" oncommand="pickupContent('containerXPath')" />
+                                                <button id="modifyContainerXPath" flex="1" label="&button.modifyContainerXPath.label;" oncommand="autopagerXPath.modifyXPath('containerXPath');"/>
+                                            </hbox>
+                                            <hbox align="center">
+                                                <label id="monitorXPathLbl" control="monitorXPath" value="&label.monitorXPathLbl.value;" keyword="Monitor XPath"/>
+                                            </hbox>
+                                            <hbox align="center">
+                                                <textbox id="monitorXPath" flex="3" tooltiptext="&textbox.monitorXPath.tooltiptext;"/>
+                                                <button id="pickCleanPath" flex="1" label="&setting.button.pick;" oncommand="pickupContent('monitorXPath')" />
+                                                <button id="modifyCleanPath" flex="1" label="&button.modifyContainerXPath.label;" oncommand="autopagerXPath.modifyXPath('monitorXPath');"/>
+                                            </hbox>
+                                            <groupbox id="grpRemoveXPath" orient="vertical" flex="1">
+                                                <caption label="&setting.label.grpRemoveXPath;"  keyword="Filter XPath"/>
+                                                <hbox style="margin-bottom:.5em;" flex="1">
+                                                    <listbox id="lstRemoveXPath" flex="1"  rows="3"/>
+                                                    <vbox>
+                                                        <button id="btnAddRemovePath" label="&setting.button.add;" />
+                                                        <button id="pickRemovePath" label="&setting.button.pick;" oncommand="pickupContentForList('lstRemoveXPath')" />
+                                                        <button id="btnEditRemovePath" label="&setting.button.edit;" />
+                                                        <button id="btnDeleteRemovePath" label="&setting.button.remove;"/>
+                                                        <spacer flex="1"/>
+                                                        <button id="btnFilterUp" label="&setting.button.up;" />
+                                                        <button id="btnFilterDown" label="&setting.button.down;" />
+                                                    </vbox>
+                                                </hbox>
+                                            </groupbox>
+                                        </vbox>
+                                    </tabpanel>
+                                </tabpanels>
+                            </tabbox>
+                        </vbox>
+                        <vbox>
+                            <vbox flex="1">
+                                <description>&setting.label.lblSetting;</description>
+
+                                <hbox align="center">
+                                    <label control="lblSettingOwner" value="&setting.label.lblSettingOwner;" keyword="Repository Owner"/>
+                                    <textbox id="lbSettinglOwner" value=""/>
+                                    <checkbox id="chkSettingEnabled" label="&setting.label.chkEnabled;" checked="true"  keyword="Repository Enabled"/>
+                                </hbox>
+                                <hbox align="center">
+                                    <label control="settingurl" value="&setting.label.lblSettingUrl;" keyword="Repository URL"/>
+                                    <textbox id="settingurl" flex="1"/>
+                                </hbox>
+                                <hbox align="center">
+                                    <label control="settingtype" value="&setting.label.lblSettingType;" keyword="Repository Type"/>
+                                    <menulist id="settingtype" flex="1">
+                                        <menupopup>
+                                            <menuitem label="&setting.type.autopager;" value="autopager-xml" selected="true"/>
+                                            <menuitem label="&setting.type.autopagerlite;" value="autopager-lite"/>
+                                            <menuitem label="&setting.type.autopagertext;" value="autopager-freetext"/>
+                                            <menuitem label="&setting.type.autopagerize;" value="autopagerize"/>
+                                            <menuitem label="&setting.type.autopagerizeJson;" value="autopagerize-json"/>
+                                        </menupopup>
+                                    </menulist>
+                                </hbox>
+                                <vbox id="settingUpdateContainer">
+                                <label control="settingUpdatePeriod" value="&setting.label.lblUpdate;" keyword="Update Interval"/>
+                                <menulist id="settingUpdatePeriod" >
+                                    <menupopup>
+                                        <menuitem label="&setting.update.global;" value="-2"/>
+                                        <menuitem label="&setting.update.startup;" value="-1"/>
+                                    <!-- the value is the hours after last update -->
+                                        <menuitem label="&setting.update.daily;" value="24"/>
+                                        <menuitem label="&setting.update.bidaily;" value="48"/>
+                                        <menuitem label="&setting.update.weekly;" value="168"/>
+                                        <menuitem label="&setting.update.monthly;" value="720"/>
+                                        <menuitem label="&setting.update.never;" value="0"/>
+                                    </menupopup>
+                                </menulist>
+                                </vbox>
+                                <hbox align="center">
+                                    <label control="settingxpath" value="&setting.label.lblSettingXPath;" keyword="Rule XPath"/>
+                                    <textbox id="settingxpath" flex="1"/>
+                                </hbox>
+                                <hbox align="center">
+                                    <label control="settingdesc" value="&setting.label.lblSettingDesc;" keyword="Repository Description"/>
+                                    <textbox multiline="true" id="settingdesc" rows="4" flex="1"/>
+                                </hbox>
+                                <hbox align="center">
+                                    <label control="rulecount" value="&label.value;" keyword="Rule Count"/>
+                                    <textbox  hidden="true" id="rulecount" flex="1" value="0" readonly="true"/>
+                                </hbox>
+                                <vbox flex="1"  id="idsPanel">
+                                    <hbox>
+                                        <checkbox id="ir" label="&checkbox.ir.label;" checked="true"  keyword="Include Recommended Rule"/>
+                                    </hbox>
+                                    <hbox align="center">
+                                        <vbox flex="1">
+                                            <label id="idsLabel" control="ids" value="&label.idsLabel.value;" keyword="Selected Rule IDs"/>
+                                            <textbox multiline="true" rows="4" id="ids" flex="1"/>
+                                        </vbox>
+                                    </hbox>
+                                </vbox>
+
+                            </vbox>
+                        </vbox>
+                    </deck>
+                </hbox>
+
+            </tabpanel>
+            <tabpanel id="general-setting">
+                <vbox flex="1">
+                    <hbox align="center">
+                        <label control="myname" value = "&autopager.status.myname;" keyword="My Name"/>
+                        <textbox id="myname" flex="1"/>
+                    </hbox>
+                    <hbox align="center" id="loading-hbox">
+                        <label control="loading" value = "&setting.label.loading;" keyword="Loading Stle"/>
+                        <textbox id="loading" flex="1"/>
+                    </hbox>
+                    <hbox align="center" id="pagebreak-hbox">
+                        <label control="pagebreak" value = "&setting.label.pagebreak;" keyword="Page Break Style"/>
+                        <textbox id="pagebreak" flex="1"/>
+                    </hbox>
+                    <hbox align="center" id="confirm-hbox">
+                        <label control="confirm" value = "&setting.label.confirmstyle;" keyword="Confirm Box Style"/>
+                        <textbox id="confirm" flex="1"/>
+                    </hbox>
+                    <!--
+                    <hbox align="center">
+                        <label control="timeout" value = "&setting.label.timeout;"/>
+                        <textbox id="timeout" flex="1"/>
+                    </hbox>
+                    -->
+                    <hbox align="center">
+                        <label control="chkCtrl" value="&setting.label.hotkeys;"  keyword="Enable hotkey"/>
+                        <checkbox id="chkCtrl" label="&setting.label.chkCtrl;" checked="true" />
+                        <checkbox id="chkAlt" label="&setting.label.chkAlt;" checked="false" />
+                        <checkbox id="chkShift" label="&setting.label.chkShift;" checked="false" />
+                        <label value="&setting.label.doubleclick;"/>
+                    </hbox>
+                    <vbox>
+                        <hbox align="center">
+                            <checkbox id="smartenable" label="&setting.label.smartenable;" check="false" flex="1" keyword="Smart Paging" style="color:red"/>
+                            <checkbox id="smartmatch" label="&setting.label.smartmatch;" check="true" flex="1" keyword="Smart Paging Exactly Match"/>
+                        </hbox>
+                        <hbox flex="1">
+                            <groupbox id="grpSmart" orient="vertical" flex="1">
+                                <caption label="&setting.label.grpSmart;"  keyword="Smart Paging"/>
+                                <vbox>
+                                    <hbox align="center">
+                                        <label control="smarttext" value = "&setting.label.smarttext;" flex="1" keyword="Smart Text"/>
+                                    </hbox>
+                                    <hbox align="center">
+                                        <textbox id="smarttext" flex="1"/>
+                                    </hbox>
+                                </vbox>
+                                <hbox align="center">
+                                    <label control="smartlinks" value = "&setting.label.smartlinks;" keyword="Smart Links"/>
+                                    <textbox id="smartlinks" flex="1"/>
+                                    <label control="smartlinksEnd" value = "&setting.label.smartlinksEnd;" keyword="Smart Links"/>
+                                </hbox>
+                                <hbox align="center">
+                                    <label control="smartMargin" value="&setting.label.margin;" keyword="Smart Paging Space"/>
+                                    <textbox id="smartMargin" flex="1"/>
+                                    <label control="smartMargin" value="&setting.label.marginEnd;" keyword="Smart Paging Space"/>
+                                </hbox>
+
+                            </groupbox>
+                        </hbox>
+                    </vbox>
+                    <vbox>
+                        <hbox flex="1">
+                            <groupbox id="grpDiscovery" orient="vertical" flex="1">
+                                <caption label="&setting.label.grpDiscovery;"  keyword="Discover Text"/>
+                                <vbox>
+                                    <hbox align="center">
+                                        <textbox id="discoverytext" flex="1"/>
+                                    </hbox>
+                                </vbox>
+
+                            </groupbox>
+                        </hbox>
+                    </vbox>
+                    <hbox align="center">
+                        <checkbox id="showStatusBar" label="&setting.label.showStatusBar;" check="true" flex="1" keyword="Show In Status Bar"/>
+                        <checkbox id="alwaysEnableJavaScript" label="&setting.label.allwaysEnableJavaScript;" check="false" flex="1" keyword="Always Enable Javascript"/>
+                    </hbox>
+                    <hbox align="center">
+                        <checkbox id="showPrompt" label="&setting.label.showPrompt;" check="true" flex="1" keyword="Show Prompt"/>
+                    </hbox>
+                    <hbox align="center">
+                        <label control="gdelaymsecs" value="&setting.label.delaymsecs;" keyword="Global Delay Milliseconds"/>
+                        <textbox id="gdelaymsecs" flex="1"/>
+                    </hbox>
+                </vbox>
+            </tabpanel>
+            <tabpanel id="update-setting">
+                <vbox flex="1">
+                    <hbox align="center">
+                        <label control="updatePeriod" value="&setting.label.lblUpdate;"  keyword="Global Update Interval"/>
+                        <menulist id="updatePeriod" flex="1" >
+                            <menupopup>
+                                <menuitem label="&setting.update.startup;" value="-1" selected="true"/>
+                                    <!-- the value is the hours after last update -->
+                                <menuitem label="&setting.update.daily;" value="24"/>
+                                <menuitem label="&setting.update.bidaily;" value="48"/>
+                                <menuitem label="&setting.update.weekly;" value="168"/>
+                                <menuitem label="&setting.update.monthly;" value="720"/>
+                                <menuitem label="&setting.update.once;" value="0"/>
+                            </menupopup>
+                        </menulist>
+                    </hbox>
+                    <tooltip  id="helptip"  flex="1">
+                        <image width="48" height="48" src="chrome://autopager/skin/help.jpg"
+      style="color: red;"
+      onclick=" tips.openHelpTip(this.parentNode);" class="text-link"/>
+                    </tooltip>
+                </vbox>
+            </tabpanel>
+            <tabpanel id="ignoresitetab"  flex="1">
+                <vbox flex="1">
+                    <hbox align="left">
+                        <label control="ignoresites" value="&setting.label.ignoresite;" keyword="Ignore Sites"/>
+                    </hbox>
+                    <hbox style="margin-bottom:.5em;" flex="1">
+                        <listbox id="ignoresites" flex="1" rows="3" ondblclick="editValueFromList(document.getElementById('ignoresites'))"/>
+                        <vbox>
+                            <button id="btnAddIgnore" label="&setting.button.add;" onclick="addIgnoreSiteToList(document.getElementById('ignoresites'))"/>
+                            <button id="btnDeleteIgnore" label="&setting.button.remove;" onclick="deleteValueFromList(document.getElementById('ignoresites'))"/>
+                            <button id="btnEditIgnore" label="&setting.button.edit;"  onclick="editValueFromList(document.getElementById('ignoresites'))"/>
+                        </vbox>
+                    </hbox>
+                </vbox>
+            </tabpanel>
+        </tabpanels>
+    </tabbox>
+    </vbox>
+    
+    <script type="text/javascript" src="chrome://autopager/content/autopager-namespace.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-bw-utils.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-strings.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-utils.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-pref.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/splitbrowse.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/apxmlhttp.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopagerize.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-lite.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-updatesites.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-rules.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-common-global.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-firefox.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autoConfig.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-json.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-xpath.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopagerTreeView.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-tips.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-description.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopagerUI.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-highlight.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-xpath.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-selector.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-paging.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-troubleshoting.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-end"></script>
+</dialog>

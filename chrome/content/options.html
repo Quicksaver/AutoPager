@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <title>&options.dialog.autopager-options.title;</title>
+        <link rel="stylesheet" href="options.css" />
+    <script type="text/javascript" src="chrome://autopager/content/autopager-namespace.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-bw-utils.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-shared.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-strings.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-utils.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-pref.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/splitbrowse.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/apxmlhttp.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopagerize.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-xpath.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-lite.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-json.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-updatesites.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-rules.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autoConfig.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-paging.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-toolbar.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-troubleshoting.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-sitesetting.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-description.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-related.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-common-global.js"></script>    
+    <script type="text/javascript" src="chrome://autopager/content/autopager-firefox.js"></script>    
+    <script type="text/javascript" src="chrome://autopager/content/autopager-content.js"></script>    
+    <script type="text/javascript" src="chrome://autopager/content/autopager-translate.js"></script>    
+    <script type="text/javascript" src="chrome://autopager/content/autopager-options.js"></script>    
+    <script type="text/javascript" src="chrome://autopager/content/autopager-end.js"></script>
+    <script type="text/javascript">
+    </script>
+    </head>
+    <body style="height:800px;overflow:auto">
+        <h1 class="icon"><a target="_blank" href="http://www.teesoft.info/content/view/68/1/" keyword="AutoPager Options">&options.dialog.autopager-options.title;</a></h1>
+
+
+        <div class="section">
+            <h2 keyword="General Options">&setting.label.general;</h2>            
+            <p>
+                <input type="checkbox"  class="feature" id="autopager-enabled"/><span keyword="Enable AutoPager">&setting.label.chkEnabled;</span>
+                <!--<span style="font-style:italic; color:red">Beta</span>-->
+            </p>
+            <p>
+                <input type="checkbox"  class="feature" id="autopager-lite"/><a target="_blank" href="http://autopager.teesoft.info/lite.html">&statusbar.menuitem.liteModel.label;</a>
+                <span style="font-style:italic; color:red" keyword="Beta">Beta</span>
+            </p>
+            <p>
+                <input type="checkbox"  class="feature" id="autopager-showicon"/><span keyword="Show In Toolbar">&setting.label.showToolbarIcon;</span>
+            </p>
+                        
+            <p>
+                <input type="checkbox"  class="feature" id="autopager-showprompt"/><a target="_blank" href="http://autopager.teesoft.info/prompt.html">&setting.label.showPrompt;</a>
+                <ul id="autopager-disable-on-default-div" style="display:none;">
+                    <br/>
+                    <input type="checkbox"  class="feature" id="autopager-disable-on-default"/><a target="_blank" href="http://autopager.teesoft.info/prompt.html">&statusbar.menuitem.disable-on-default.label;</a>
+                </ul>
+            </p>
+                        
+        </div>
+        <div class="section">
+            <h2 keyword="Rule Options">&statusbar.menuitem.autopager-showrules.label;</h2>
+            <p>
+                <a keyword="Update Setting Online" class="feature" id="autopager-update" href="#">&autopager.status.update;</a>
+            </p>
+
+            <p>
+                <a keyword="Search Rules" class="feature" id="autopager-search" href="#">&statusbar.menuitem.autopagerlite-discover.label;</a>
+                for URL:<input type="text" id="url1" size="100"/>
+            </p>
+
+            <div class="section">
+                <h2 keyword="Local Rules">&setting.label.localrules;</h2>
+                <p>
+                    <a keyword="Import Rules" class="feature" id="autopager-importrules" href="#">&setting.button.import;</a>
+                </p>
+                <p>
+                    <a keyword="Export Rules" class="feature" id="autopager-exportrules" href="#">&setting.button.export;</a>
+                </p>
+                <p>
+                    <a keyword="Clean Rules" class="feature" id="autopager-clearrules" href="#">&toolbarbutton.clearAllPath.tooltiptext;</a>
+                </p>
+            </div>
+            <div class="section">
+                <h2 keyword="Repositories">Repositories</h2>
+                <p>
+                    <div id="autopager-repositories"></div>            
+                </p>
+            </div>
+        </div>
+        <div class="section">
+            <h2 keyword="Report Issues">Report Issues</h2>
+            <table>
+                <tbody><tr>
+                        <td style="padding-right:10px">
+                            <a keyword="Report Issues On Site" class="feature" id="autopager-issue" href="#">&autopager.status.reportSite;</a> </td>
+                        <td>:<input type="text" id="url2"  size="100"/>
+                        </td></tr>
+                    <tr>
+                        <td style="padding-right:10px">
+                            <a keyword="Request Help On Site" class="feature" id="autopager-request" href="#">&autopager.status.requestHelp;</a>
+                        </td><td>:<input type="text" id="url3"  size="100"/>
+                        </td>
+                    </tr>
+                </tbody></table>
+        </div>
+        <div class="section">
+            <h2 keyword="Ignore Sites">&setting.label.ignoresite;</h2>
+            <textarea id="ignoresites" rows="5" cols="100"></textarea>
+            <input keyword="Save Ignore Sites" type="submit" id="saveignores"/>
+        </div>
+
+        <table>
+            <tbody><tr>
+                    <td style="padding-right:10px">
+                        <a href="http://www.teesoft.info/autopager/donate.html" target="_blank">
+                            <img src="http://www.paypal.com/en_US/i/btn/x-click-butcc-donate.gif" title="Donate to AutoPager!" alt="donate"></a>
+                    </td>
+                    <td style="font-style:italic; font-size:14px">
+                        Do you love AutoPager?  You can
+                        <a href="http://www.teesoft.info/autopager/donate.html"  target="_blank">
+                            make a donation</a> of any amount.
+                    </td>
+                </tr>
+            </tbody></table>
+    </body>
+</html>

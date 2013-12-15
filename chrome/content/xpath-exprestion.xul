@@ -1,0 +1,413 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+<?xml-stylesheet href="chrome://autopager/skin/autopager.css" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://autopager/locale/xpath.dtd" >
+
+<dialog id="xpath-expressions"
+      onload="init();"
+      ondialogaccept="return handleOkButton()" title="&xpath-exprestion.dialog.xpath-expressions.title;"
+      xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <script type="text/javascript" src="chrome://autopager/content/autopager-namespace.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/xpath-exprestion.js"></script>
+
+    <vbox flex="1">
+        <hbox>
+            <textbox flex="1" id="xpath"/>
+            <button id="reset" label="&xpath-exprestion.button.reset.label;" onclick="reset();"/>
+        </hbox>
+        <tabbox id="category" flex="1">
+            <tabs>
+                <tab id="location" label="&xpath-exprestion.tab.location.label;"/>
+                <tab id="nodeset" label="&xpath-exprestion.tab.nodeset.label;"/>
+                <tab id="string" label="&xpath-exprestion.tab.string.label;"/>
+                <tab id="boolean" label="&xpath-exprestion.tab.boolean.label;"/>
+                <tab id="number" label="&xpath-exprestion.tab.number.label;"/>
+            </tabs>
+            <tabpanels  flex="1">
+                <tabpanel id="t_location">
+                    <vbox flex="1">
+                        <tree id="" flex="1" class="bodyTable" rows="10"  onselect="displayDescription(event)">
+                            <treecols>
+                                <treecol id="function" label="&xpath-exprestion.treecol.function.label;" flex="1"/>
+                                <splitter class="tree-splitter"/>
+                                <treecol id="shortdescription" label="&xpath-exprestion.treecol.shortdescription.label;" flex="1"/>
+                                <splitter class="tree-splitter"/>
+                                <treecol id="description" label="&xpath-exprestion.treecol.description.label;" flex="2" hidden="true"/>
+                            </treecols>
+                            <treechildren ondblclick="appendExpr(event)">
+<treeitem>
+                                    <treerow>
+                                        <treecell id="f_ancestor" label="node-set ancestor::"/>
+                                        <treecell id="s_ancestor" label="&xpath-exprestion.treecell.s_ancestor.label;"/>
+                                        <treecell id="d_ancestor" label="&xpath-exprestion.treecell.d_ancestor.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_ancestor-or-self" label="node-set ancestor-or-self::"/>
+                                        <treecell id="s_ancestor-or-self" label="&xpath-exprestion.treecell.s_ancestor-or-self.label;"/>
+                                        <treecell id="d_ancestor-or-self" label="&xpath-exprestion.treecell.d_ancestor-or-self.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_attribute" label="attribute attribute::"/>
+                                        <treecell id="s_attribute" label="&xpath-exprestion.treecell.s_attribute.label;"/>
+                                        <treecell id="d_attribute" label="&xpath-exprestion.treecell.d_attribute.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_child" label="node-set child::"/>
+                                        <treecell id="s_child" label="&xpath-exprestion.treecell.s_child.label;"/>
+                                        <treecell id="d_child" label="&xpath-exprestion.treecell.d_child.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_descendant" label="node-set descendant::"/>
+                                        <treecell id="s_descendant" label="&xpath-exprestion.treecell.s_descendant.label;"/>
+                                        <treecell id="d_descendant" label="&xpath-exprestion.treecell.d_descendant.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_descendant-or-self" label="node-set descendant-or-self::"/>
+                                        <treecell id="s_descendant-or-self" label="&xpath-exprestion.treecell.s_descendant-or-self.label;"/>
+                                        <treecell id="d_descendant-or-self" label="&xpath-exprestion.treecell.d_descendant-or-self.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_following" label="node-set following::"/>
+                                        <treecell id="s_following" label="&xpath-exprestion.treecell.s_following.label;"/>
+                                        <treecell id="d_following" label="&xpath-exprestion.treecell.d_following.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_following-sibling" label="node-set following-sibling::"/>
+                                        <treecell id="s_following-sibling" label="&xpath-exprestion.treecell.s_following-sibling.label;"/>
+                                        <treecell id="d_following-sibling" label="&xpath-exprestion.treecell.d_following-sibling.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_namespace" label="namespace namespace::"/>
+                                        <treecell id="s_namespace" label="&xpath-exprestion.treecell.s_namespace.label;"/>
+                                        <treecell id="d_namespace" label="&xpath-exprestion.treecell.d_namespace.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_parent" label="node-set parent::"/>
+                                        <treecell id="s_parent" label="&xpath-exprestion.treecell.s_parent.label;"/>
+                                        <treecell id="d_parent" label="&xpath-exprestion.treecell.d_parent.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_preceding" label="node-set preceding::"/>
+                                        <treecell id="s_preceding" label="&xpath-exprestion.treecell.s_preceding.label;"/>
+                                        <treecell id="d_preceding" label="&xpath-exprestion.treecell.d_preceding.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_preceding-sibling" label="node-set preceding-sibling::"/>
+                                        <treecell id="s_preceding-sibling" label="&xpath-exprestion.treecell.s_preceding-sibling.label;"/>
+                                        <treecell id="d_preceding-sibling" label="&xpath-exprestion.treecell.d_preceding-sibling.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_self" label="node-set self::"/>
+                                        <treecell id="s_self" label="&xpath-exprestion.treecell.s_self.label;"/>
+                                        <treecell id="d_self" label="&xpath-exprestion.treecell.d_self.label;"/>
+                                    </treerow>
+                                </treeitem>
+                             </treechildren>
+                        </tree>
+                    </vbox>
+                </tabpanel>
+                <tabpanel id="t_nodeset">
+                    <vbox flex="1">
+                        <tree id="" flex="1" class="bodyTable" onselect="displayDescription(event)">
+                            <treecols>
+                                <treecol id="function" label="&xpath-exprestion.treecol.function.label;" flex="1"/>
+                                <splitter class="tree-splitter"/>
+                                <treecol id="description" label="&xpath-exprestion.treecol.description.label;" flex="2" hidden="true"/>
+                            </treecols>
+                            <treechildren ondblclick="appendExpr(event)">
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_last" label="number last()"/>
+                                        <treecell id="d_last" label="&xpath-exprestion.treecell.d_last.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_position" label="number position()"/>
+                                        <treecell id="d_position" label="&xpath-exprestion.treecell.d_position.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_count" label="number count( node-set )"/>
+                                        <treecell id="d_count" label="&xpath-exprestion.treecell.d_count.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_id" label="node-set id( object )"/>
+                                        <treecell id="d_id" label="&xpath-exprestion.treecell.d_id.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_id" label="node-set text()"/>
+                                        <treecell id="d_id" label="&xpath-exprestion.treecell.d_text.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_local-name_N" label="string local-name( node-set )"/>
+                                        <treecell id="d_local-name_N" label="&xpath-exprestion.treecell.d_local-name_N.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_local-name" label="string local-name()"/>
+                                        <treecell id="d_local-name" label="&xpath-exprestion.treecell.d_local-name.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_namespace-uri_N" label="string namespace-uri( node-set )"/>
+                                        <treecell id="d_namespace-uri_N" label="&xpath-exprestion.treecell.d_namespace-uri_N.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_namespace-uri" label="string namespace-uri()"/>
+                                        <treecell id="d_namespace-uri" label="&xpath-exprestion.treecell.d_namespace-uri.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_name_N" label="string name( node-set )"/>
+                                        <treecell id="d_name_N" label="&xpath-exprestion.treecell.d_name_N.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_name" label="string name()"/>
+                                        <treecell id="d_name" label="&xpath-exprestion.treecell.d_name.label;"/>
+                                    </treerow>
+                                </treeitem>
+                            </treechildren>
+                        </tree>
+                    </vbox>
+                </tabpanel>
+                <tabpanel id="t_string">
+                    <vbox flex="1">
+                        <tree id="" flex="1" class="bodyTable"  onselect="displayDescription(event)">
+                            <treecols>
+                                <treecol id="function" label="&xpath-exprestion.treecol.function.label;" flex="1"/>
+                                <splitter class="tree-splitter"/>
+                                <treecol id="description" label="&xpath-exprestion.treecol.description.label;" flex="2" hidden="true"/>
+                            </treecols>
+                            <treechildren ondblclick="appendExpr(event)">
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_string_O" label="string string( object )"/>
+                                        <treecell id="d_string_O" label="&xpath-exprestion.treecell.d_string_O.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_string" label="string string()"/>
+                                        <treecell id="d_string" label="&xpath-exprestion.treecell.d_string.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_concat" label="string concat( string, string, string* )"/>
+                                        <treecell id="d_concat" label="&xpath-exprestion.treecell.d_concat.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_starts-with" label="boolean starts-with( string, string )"/>
+                                        <treecell id="d_starts-with" label="&xpath-exprestion.treecell.d_starts-with.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_contains" label="boolean contains( string, string )"/>
+                                        <treecell id="d_contains" label="&xpath-exprestion.treecell.d_contains.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_substring-before" label="string substring-before( string, string )"/>
+                                        <treecell id="d_substring-before" label="&xpath-exprestion.treecell.d_substring-before.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_substring-after" label="string substring-after( string, string )"/>
+                                        <treecell id="d_substring-after" label="&xpath-exprestion.treecell.d_substring-after.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_substring_N" label="string substring( string, number, number )"/>
+                                        <treecell id="d_substring_N" label="&xpath-exprestion.treecell.d_substring_N.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_substring" label="string substring( string, number )"/>
+                                        <treecell id="d_substring" label="&xpath-exprestion.treecell.d_substring.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_string-length_S" label="number string-length( string )"/>
+                                        <treecell id="d_string-length_S" label="&xpath-exprestion.treecell.d_string-length_S.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_string-length" label="number string-length()"/>
+                                        <treecell id="d_string-length" label="&xpath-exprestion.treecell.d_string-length.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_normalize-space_S" label="string normalize-space( string )"/>
+                                        <treecell id="d_normalize-space_S" label="&xpath-exprestion.treecell.d_normalize-space_S.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_normalize-space" label="string normalize-space()"/>
+                                        <treecell id="d_normalize-space" label="&xpath-exprestion.treecell.d_normalize-space.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_translate" label="string translate( string, string, string )"/>
+                                        <treecell id="d_translate" label="&xpath-exprestion.treecell.d_translate.label;"/>
+                                    </treerow>
+                                </treeitem>
+                            </treechildren>
+                        </tree>
+                    </vbox>
+
+                </tabpanel>
+                <tabpanel id="t_boolean">
+                    <vbox flex="1">
+                        <tree id="" flex="1" class="bodyTable"  onselect="displayDescription(event)">
+                            <treecols>
+                                <treecol id="function" label="&xpath-exprestion.treecol.function.label;" flex="1"/>
+                                <splitter class="tree-splitter"/>
+                                <treecol id="description" label="&xpath-exprestion.treecol.description.label;" flex="2" hidden="true"/>
+                            </treecols>
+                            <treechildren ondblclick="appendExpr(event)">
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_boolean" label="boolean boolean( object )"/>
+                                        <treecell id="d_boolean" label="&xpath-exprestion.treecell.d_boolean.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_not" label="boolean not( boolean )"/>
+                                        <treecell id="d_not" label="&xpath-exprestion.treecell.d_not.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_true" label="boolean true()"/>
+                                        <treecell id="d_true" label="&xpath-exprestion.treecell.d_true.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_false" label="boolean false()"/>
+                                        <treecell id="d_false" label="&xpath-exprestion.treecell.d_false.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_lang" label="boolean lang( string )"/>
+                                        <treecell id="d_lang" label="&xpath-exprestion.treecell.d_lang.label;"/>
+                                    </treerow>
+                                </treeitem>
+                            </treechildren>
+                        </tree>
+                    </vbox>
+
+                </tabpanel>
+                <tabpanel id="t_number">
+                    <vbox flex="1">
+                        <tree id="" flex="1" class="bodyTable"  onselect="displayDescription(event)">
+                            <treecols>
+                                <treecol id="function" label="&xpath-exprestion.treecol.function.label;" flex="1"/>
+                                <splitter class="tree-splitter"/>
+                                <treecol id="description" label="&xpath-exprestion.treecol.description.label;" flex="2" hidden="true"/>
+                            </treecols>
+                            <treechildren ondblclick="appendExpr(event)">
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_number_O" label="number number( object )"/>
+                                        <treecell id="d_number_O" label="&xpath-exprestion.treecell.d_number_O.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_number" label="number number()"/>
+                                        <treecell id="d_number" label="&xpath-exprestion.treecell.d_number.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_sum" label="number sum( node-set )"/>
+                                        <treecell id="d_sum" label="&xpath-exprestion.treecell.d_sum.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_floor" label="number floor( number )"/>
+                                        <treecell id="d_floor" label="&xpath-exprestion.treecell.d_floor.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_ceiling" label="number ceiling( number )"/>
+                                        <treecell id="d_ceiling" label="&xpath-exprestion.treecell.d_ceiling.label;"/>
+                                    </treerow>
+                                </treeitem>
+                                <treeitem>
+                                    <treerow>
+                                        <treecell id="f_round" label="number round( number )"/>
+                                        <treecell id="d_round" label="&xpath-exprestion.treecell.d_round.label;"/>
+                                    </treerow>
+                                </treeitem>
+                            </treechildren>
+                        </tree>
+                    </vbox>
+                </tabpanel>
+            </tabpanels>
+        </tabbox>
+        <splitter/>
+        <vbox flex="1">
+            <description id="descriptionBox" class="boxIndent" flex="1">
+                 &xpath-exprestion.descriptionBox.text;
+            </description>
+        </vbox>
+    </vbox>
+</dialog>

@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+<?xml-stylesheet href="chrome://autopager/skin/autopager.css" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://autopager/locale/autopager.dtd" >
+
+<dialog id="autopager-manage-setting"
+      onload="autopagerOptionUI.init();"
+      buttons="help,extra1,accept,cancel"
+      ondialoghelp="return autopagerOptionUI.handleHelpButton()"
+      ondialogaccept="return autopagerOptionUI.handleOkButton()" title="&options.dialog.autopager-options.title;"
+      buttonlabelextra1="&options.dialog.autopager-options.buttonlabelextra1;"
+      ondialogextra1="return autopagerOptionUI.handleMoreOptionButton()"
+      xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <vbox flex="0">
+        <checkbox type="checkbox"  id="showToolbarIcon" prefV="hide-toolbar-icon" label="&setting.label.showToolbarIcon;" check="true" flex="1"/>
+        <checkbox type="checkbox"  id="showStatusBar" prefV="hide-status" label="&setting.label.showStatusBar;" check="true" flex="1"/>
+        <checkbox type="checkbox"  id="showToolbarIcon" prefV="hide-context-menu" label="&setting.label.showContextMenu;" check="true" flex="1"/>
+        <checkbox type="checkbox"  id="showPrompt" prefV="noprompt" label="&setting.label.showPrompt;" check="true" flex="1"/>
+        
+        <checkbox id="tweakSession" pref="tweaking-session" label="&options.checkbox.tweakSession.label;" checked="true"/>
+        <checkbox id="ignoreFormatVersionCheck" pref="ignore-format-version-check" label="&options.checkbox.ignoreFormatVersionCheck.label;" check="false"/>
+        <hbox align="center">
+            <label id="speedLabel" control="speed" value="&options.label.speedLabel.value;"/>
+            <menulist id="speed" flex="1" pref="minipages">
+                <menupopup>
+                    <menuitem label="&options.menuitem.label0;" value="0"/>
+                    <menuitem label="&options.menuitem.label1;" value="1"/>
+                    <menuitem label="&options.menuitem.label2;" value="2"/>
+                    <menuitem label="&options.menuitem.label3;" value="3"/>
+                </menupopup>
+            </menulist>
+        </hbox>
+
+        <hbox align="center">
+            <label control="updatePeriod" value="&setting.label.lblUpdate;"/>
+            <menulist id="updatePeriod" flex="1" pref="update">
+                <menupopup>
+                    <menuitem label="&setting.update.startup;" value="-1" selected="true"/>
+                                    <!-- the value is the hours after last update -->
+                    <menuitem label="&setting.update.daily;" value="24"/>
+                    <menuitem label="&setting.update.bidaily;" value="48"/>
+                    <menuitem label="&setting.update.weekly;" value="168"/>
+                    <menuitem label="&setting.update.monthly;" value="720"/>
+                    <menuitem label="&setting.update.once;" value="0"/>
+                </menupopup>
+            </menulist>
+        </hbox>
+    </vbox>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-namespace.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-bw-utils.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-strings.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-optionsUI.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-utils.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-pref.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/splitbrowse.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/apxmlhttp.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopagerize.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-updatesites.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-rules.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autoConfig.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-json.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-paging.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-common-global.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-firefox.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-end"></script>
+    
+    <script type="text/javascript">
+      if (autopagerBwUtil.isMobileVersion())
+      {
+        document.getElementById("autopager-manage-setting").setAttribute('buttons','help,accept,cancel')
+      }
+    </script>
+
+</dialog>

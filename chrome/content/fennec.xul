@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<!DOCTYPE overlay SYSTEM "chrome://autopager/locale/autopager.dtd">
+<?xml-stylesheet href="chrome://autopager/skin/autopager-split.css" type="text/css"?>
+
+<overlay id="autopageFennecStatus"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+         onload="autopagerFennecInit()">
+    <script type="text/javascript" src="chrome://autopager/content/autopager-namespace.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-shared.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-bw-utils.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-strings.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-utils.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-pref.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/splitbrowse.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/apxmlhttp.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopagerize.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-xpath.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-lite.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-json.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-updatesites.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-rules.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autoConfig.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-paging.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-toolbar.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-troubleshoting.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-sitesetting.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-description.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-related.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-common-global.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-fennec.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-fennec-popup.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-end.js"></script>
+    <script type="text/javascript">
+        function autopagerFennecInit()
+        {
+            autopagerPref.saveBoolPref("noprompt",true);
+            autopagerPref.saveBoolPref("disable-by-default",false);
+        }
+        //autopagerFennecInit();
+    </script>
+        <vbox id="browser-controls">
+            <toolbarbutton id="autopager-button-fennec"
+            class="button-control autopager-fennec-big autopager-status"
+            label="&autopager.toolbarLabel;"
+            tooltiptext="&autopager.tooltip;"
+            buttonstyle="pictures"
+            insertafter="tool-forward"
+            popupdisabled="autopager-toolbar-popup"
+            oncommand="AutoPagerPopup.toggle();"
+            apstatus="ap-enabled"
+            />
+        </vbox>
+        <hbox id="pageactions-container">
+            <pageaction id="autopager-pageaction-fennec"
+                  class="autopager-status"
+                  apstatus="ap-enabled"
+                  title="&autopager.status.disableOnSite;" 
+                  onclick="autopagerServer.disableOnSite();"
+                  hidden="true" />
+        </hbox>
+    <stack id="stack">
+       <arrowbox id="autopager-popup" class="arrowbox-dark" hidden="true" align="center" offset="12">
+            <label value="&autopager.label.value;"/>
+            <separator class="thin"/>
+            <vbox>
+                <setting pref="extensions.autopager.enabled" type="bool" title="&autopager.status.enabled;" onchange="AutoPagerPopup.hide();" ></setting>
+                <setting pref="extensions.autopager.work-in-lite-mode" type="bool" title="&statusbar.menuitem.liteModel.label;" onchange="AutoPagerPopup.hide();"/>
+                
+                <setting type="button">
+                    <button id="autopager-site-enable-popup" label="&autopager.status.enabled;" hidden="true" 
+        oncommand="autopagerServer.disableOnSite();AutoPagerPopup.hide();BrowserUI.hidePanel();"/>
+                </setting>
+                <setting type="button">
+                    <button image="chrome://autopager/skin/autopager.lite.png" label="&statusbar.menuitem.autopagerlite-discover.label;"
+        oncommand="autopagerServer.openRuleSelector();AutoPagerPopup.hide();BrowserUI.hidePanel();"/>
+                </setting>
+                <setting type="button">
+                    <button label="&autopager.status.update;"
+                        oncommand="AutoPagerNS.UpdateSites.updateOnline(true);AutoPagerPopup.hide();BrowserUI.hidePanel();"/>
+                </setting> 
+                <setting type="button">
+                    <button label="XPather Tester"
+                        oncommand="AutoPagerPopup.hide();BrowserUI.hidePanel();autopagerServer.autopager_open_xpather();"/>
+                </setting>                                 
+            </vbox>
+        </arrowbox>        
+ </stack>
+</overlay>

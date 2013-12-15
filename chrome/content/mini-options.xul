@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!DOCTYPE autopager SYSTEM "chrome://autopager/locale/autopager.dtd" >
+          
+<vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" onload="">
+    <script type="text/javascript" src="chrome://autopager/content/autopager-namespace.js"></script>
+    <script type="text/javascript" src="chrome://autopager/content/autopager-bw-utils.js"></script>
+    <setting pref="extensions.autopager.enabled" type="bool" title="&autopager.status.enabled;"></setting>
+    <setting pref="extensions.autopager.work-in-lite-mode" type="bool" title="&statusbar.menuitem.liteModel.label;"/>
+    <setting pref="extensions.autopager.with-lite-discovery" type="bool" title="&statusbar.menuitem.discover.label;"/>  
+    <setting type="button">
+        <button image="chrome://autopager/skin/autopager.lite.png" label="&statusbar.menuitem.autopagerlite-discover.label;"
+        oncommand="autopagerServer.openRuleSelector();BrowserUI.hidePanel();"/>
+    </setting>
+    <setting type="button">
+        <button label="&autopager.status.update;"
+        oncommand="AutoPagerNS.UpdateSites.updateOnline(true);BrowserUI.hidePanel();"/>
+    </setting>
+    <setting type="button">
+        <button label="&options.dialog.autopager-options.buttonlabelextra1;"
+        oncommand="autopagerBwUtil.autopagerOpenIntab('chrome://autopager/content/options.html','_blank');BrowserUI.hidePanel();"/>
+    </setting>
+  
+  <!--
+  disabled until fennec can handle dialog
+  <setting type="button">
+    <button label="&options.dialog.autopager-options.title;"
+        oncommand="autopagerBwUtil.autopagerOpenIntab('chrome://autopager/content/options.xul');BrowserUI.hidePanel();"/>
+  </setting>
+  -->
+    <script type="text/javascript">
+      if (!autopagerBwUtil.isMobileVersion())
+      {      
+          window.addEventListener("DOMContentLoaded", function(ev) {
+                var self = arguments.callee;
+                window.removeEventListener("DOMContentLoaded",self,false);
+                ev.originalTarget.defaultView.close();
+                //window.setTimeout(function(){
+                    var optionUrl = 'chrome://autopager/content/options.xul';
+                    var wm = Components.classes['@mozilla.org/appshell/window-mediator;1']
+                                .getService(Components.interfaces.nsIWindowMediator); 
+                    var windows = wm.getEnumerator(null);
+                    while (windows.hasMoreElements()) {
+                      var win = windows.getNext();
+                      if (win.document.documentURI == optionUrl) {
+                        win.focus();
+                        return;
+                      }
+                    }
+                    var w = wm.getMostRecentWindow('navigator:browser', true);
+                    var b = w.getBrowser();//w.getBrowser();
+                    var tabList = w.getBrowser().tabContainer.childNodes;
+                    var tabC = tabList.length
+                    
+                    for (var i=0; i&lt;tabC; i++)
+                    {
+                        var tab = tabList[i]
+                        try{
+                            if (tab.linkedBrowser.contentDocument.location.href==optionUrl)
+                            {
+                                b.selectedTab = tab;
+                                return;
+                            }
+                        }catch(e){}
+                    }
+                    var ioService = Components.classes["@mozilla.org/network/io-service;1"]
+                        .getService(Components.interfaces.nsIIOService);
+                    var ops = ioService.newURI("http://www.teesoft.info", null, null);
+                    var tab = b.addTab(optionUrl,ops);
+                    b.selectedTab = tab;
+                //},100);
+          },false);
+      }
+    </script>
+</vbox>
