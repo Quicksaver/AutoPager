@@ -298,15 +298,20 @@ var autopagerBwUtil =
     ,
     isInPrivateMode : function()
     {
-        try{
-            var pbs = Components.classes["@mozilla.org/privatebrowsing;1"]
-            .getService(Components.interfaces.nsIPrivateBrowsingService);
-            var inPrivateBrowsingMode = pbs.privateBrowsingEnabled;
-            return inPrivateBrowsingMode;
-        }catch(e)
-        {
-            return false;
-        }
+    	try{
+    	    Cu.import("resource://gre/modules/PrivateBrowsingUtils.jsm");
+    	    return PrivateBrowsingUtils.isWindowPrivate(window);
+    	} catch(ex) {
+	        try{
+	            var pbs = Components.classes["@mozilla.org/privatebrowsing;1"]
+	            .getService(Components.interfaces.nsIPrivateBrowsingService);
+	            var inPrivateBrowsingMode = pbs.privateBrowsingEnabled;
+	            return inPrivateBrowsingMode;
+	        }catch(e)
+	        {
+	            return false;
+	        }
+	}
     }
     ,
     apBrowserId : function()
