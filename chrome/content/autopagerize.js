@@ -39,7 +39,7 @@ var AutoPagerize= {
             newSite.urlPattern  = site["url"];
             newSite.guid  = ifo.resource_url;
             newSite.isRegex  = true;
-            if (!isNaN(site["remainHeight"] ))
+            if (typeof(site["remainHeight"]) == 'number')
                 newSite.margin  = site["remainHeight"] / 500;
             newSite.enabled  = true;
             newSite.enableJS  = false;
@@ -94,7 +94,7 @@ var AutoPagerize= {
             newSite.urlPattern  = site["url"];
             newSite.guid  = newSite.urlPattern;
             newSite.isRegex  = true;
-            if (!isNaN(site["remainHeight"] ))
+            if (typeof(site["remainHeight"]) == 'number')
                 newSite.margin  = site["remainHeight"] / 500;
             newSite.enabled  = true;
             newSite.enableJS  = false;
