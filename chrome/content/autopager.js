@@ -138,7 +138,7 @@ getDocForEvent : function (event){
                 doc = event.originalTarget;
             else if (autopagerMain.isValidDoc(event.target))
                 doc = event.target;
-            else if (autopagerUtils.isHTMLDocument(event.explicitOrigitnalTarget ))
+            else if (autopagerUtils.isHTMLDocument(event.explicitOriginalTarget ))
             {
                 doc = autopagerUtils.getTopDoc(event.explicitOriginalTarget)
             }
