@@ -1,8 +1,10 @@
 AutoPagerNS.apSplitbrowse = {
     //this is come from noscript DOMUtils
     domUtils: {
-        lookupMethod: Components.utils ? Components.utils.lookupMethod : Components.lookupMethod,
-
+    	lookupMethod: function(node, method) {
+    		return function() { return node[method]; };
+    	},
+    	
         findBrowser: function(chrome, win) {
             var gb = chrome.getBrowser();
             var browsers;
