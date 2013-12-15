@@ -32,8 +32,8 @@ function myPerformInstall(secondTry) {
   }
   
   var chromef = instToProfile ? getFolder("Profile", "extensions/autopager@mozilla.org/chrome") : getFolder("chrome");
-  err = addFile(APP_PACKAGE, APP_VERSION, "chrome/" + APP_JAR_FILE, chromef, null,true);
-  if(APP_PREFS_FILE && (err == SUCCESS) ) {
+  //err = addFile(APP_PACKAGE, APP_VERSION, "chrome/" + APP_JAR_FILE, chromef, null,true);
+  if(APP_PREFS_FILE /*&& (err == SUCCESS)*/ ) {
     const prefDirs=[
       getFolder("Profile","pref"),
       getFolder(getFolder(getFolder("Program"),"defaults"),"pref")
@@ -52,23 +52,23 @@ function myPerformInstall(secondTry) {
     }
     
   if(err == SUCCESS) {
-    var jar =  getFolder(chromef, APP_JAR_FILE);
+    //var jar =  getFolder(chromef, APP_JAR_FILE);
     
     const chromeFlag=instToProfile?PROFILE_CHROME:DELAYED_CHROME;
   
-    registerChrome(CONTENT | chromeFlag, jar, APP_CONTENT_FOLDER);//'jar, APP_CONTENT_FOLDER);
+    //registerChrome(CONTENT | chromeFlag, jar, APP_CONTENT_FOLDER);//'jar, APP_CONTENT_FOLDER);
     
     var localesCount=APP_LOCALES.length;
     if(localesCount>0) {
-      registerChrome(LOCALE | chromeFlag,  jar,"locale/"+APP_LOCALES[--localesCount]+"/");
+      //registerChrome(LOCALE | chromeFlag,  jar,"locale/"+APP_LOCALES[--localesCount]+"/");
       while(localesCount-- >0) {
-        registerChrome(LOCALE  | chromeFlag,  jar,"locale/"+APP_LOCALES[localesCount]+"/");
+        //registerChrome(LOCALE  | chromeFlag,  jar,"locale/"+APP_LOCALES[localesCount]+"/");
       }
     }
     performInstall();
     initInstall(APP_NAME, APP_PACKAGE, APP_VERSION);
         
-    registerChrome(SKIN | chromeFlag, jar ,"skin/");
+    //registerChrome(SKIN | chromeFlag, jar ,"skin/");
 
     err = performInstall();
     if(err == -239 && !secondTry) {
