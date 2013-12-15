@@ -229,10 +229,7 @@ AutoPagerNS.apSplitbrowse = {
         if (!aEntry)
             return null;
         aEntry = aEntry.QueryInterface(Components.interfaces.nsISHContainer);
-        //var newEntry = aEntry.clone();
         var newEntry = Components.classes['@mozilla.org/browser/session-history-entry;1'].createInstance(Components.interfaces.nsISHEntry);
-        newEntry = newEntry.QueryInterface(Components.interfaces.nsIHistoryEntry);
-        newEntry = newEntry.QueryInterface(Components.interfaces.nsISHContainer);
 
         newEntry.setURI(aEntry.URI);
         newEntry.setTitle(aEntry.title);
