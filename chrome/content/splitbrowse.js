@@ -253,6 +253,7 @@ AutoPagerNS.apSplitbrowse = {
         newEntry.cacheKey         = cacheKey;
 
         if (aEntry.childCount) {
+            newEntry = newEntry.QueryInterface(Components.interfaces.nsISHContainer); //AO
             for (var j = 0; j < aEntry.childCount; j++) {
                 var childEntry = this.cloneHistoryEntry(aEntry.GetChildAt(j));
                 if (childEntry)
