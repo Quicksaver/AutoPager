@@ -4,7 +4,7 @@
          xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <RDF:Description RDF:about="urn:mozilla:install-manifest"
                      em:name="AutoPager"
-                     em:version="0.8.0.8.1"
+                     em:version="0.8.0.8.3"
                      em:id="autopager@mozilla.org"
                      em:description="AutoPager is a Firefox/Mozilla/Chrome/Opera/Safari/Fennec extension to autoload the next page(s) when you scroll pages."
                      em:creator="Wind Li"
